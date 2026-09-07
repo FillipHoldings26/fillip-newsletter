@@ -16,10 +16,163 @@ const PUBLICATION_CONFIG = {
 
 const MONTHLY_GROUPS = [
 
+  // SEPTEMBER 2026
+  {
+    slug: 'september-2026',
+    isCurrent: true,
+    monthLabel: 'September 2026',
+    editionTag: 'Sports · Entertainment · IP · Capital',
+    publishedDate: '2026-09-07',
+    dateRange: 'August 31 – September 7, 2026',
+    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing and Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office.',
+    issues: [
+
+      // WEEK 1
+      {
+        slug: 'week-1-september-2026',
+        issueNumber: '1',
+        weekLabel: 'Week 1',
+        dateRange: 'August 31 – September 7, 2026',
+        publishedDate: '2026-09-07',
+        issueTitle: 'Week 1 — September 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing and Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office.',
+        shareText: 'Kroenke buys the Angels for a record $4B, Mexican investors join the Seahawks\' $9.612B ownership group, PE firms circle Serie A\'s media unit, and WBD\'s Coyote vs. Acme write-off backfires at the box office — Week 1 September · Fillip.',
+        coreSignal: 'Every deal this week points the same direction: rights holders are pulling distribution and ownership closer to themselves instead of renting it out. The NHL and Spurs moved local broadcasts onto direct-to-consumer platforms, Serie A is shopping outside capital to fund its own media unit, and Kroenke and the Seahawks\' new Mexican co-owners bought straight into franchise equity at record prices. Even in entertainment, Google is trying to license IP directly from studios rather than build around it, and WBD\'s attempt to write off Coyote vs. Acme backfired the moment fans forced it back into theaters.',
+        latamAngle: 'This week\'s clearest LatAm signal comes from the Seattle Seahawks\' record $9.612 billion sale, where Gonzalo Hevia Baillères and the Aramburuzabala family joined the ownership group as co-owners — not as sponsors or spectators, but as equity holders in the NFL\'s most expensive franchise transaction ever. It\'s a rare instance of Mexican private capital taking a direct stake inside a major U.S. sports league\'s ownership structure, at the same moment record valuations are resetting across American sports, as with Kroenke\'s $4 billion Angels purchase this same week. Mexican capital is no longer just buying media rights or sponsorship — it\'s buying into the ownership tables themselves.',
+        ecosystemNews: [
+          {
+            headline: 'TripleManía 34 Full Match Card Announced',
+            body: 'AAA unveiled the complete match card for TripleManía 34, spanning two nights: September 11 in Las Vegas (MGM Grand Garden Arena) and September 13 in Mexico City (Arena Ciudad de México). Night one headlines with Rey Mysterio vs. Omos, with the loser facing suspension or expulsion from AAA. Night two features the AAA Megachampionship between Dominik Mysterio and El Grande Americano, plus a 15-man Copa Bardahl.',
+            sourceName: 'Récord',
+            sourceUrl: 'https://www.record.com.mx/historia/carteleras-oficiales-triplemania-34-2026090606151500888'
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '6 Teams',
+            headline: 'NHL Adds Prime Video Local Streaming For Six Teams',
+            emailSummary: 'Prime Video will stream local broadcasts for six NHL teams — the <strong>Columbus Blue Jackets</strong>, <strong>Anaheim Ducks</strong>, <strong>Carolina Hurricanes</strong>, <strong>Minnesota Wild</strong>, <strong>St. Louis Blues</strong> and <strong>Dallas Stars</strong> — starting with the <strong>2026-27</strong> season. The multi-year deal adds to Prime Video\'s existing national Wednesday-night NHL package, which already runs through <strong>2037-38</strong> under a 12-year agreement with Rogers. Each team will announce its own local package separately.',
+            whyItMatters: 'The deal extends Amazon\'s NHL footprint from national broadcast windows into team-level local rights, a category traditionally held by regional sports networks.',
+            signalText: 'Prime Video will stream local broadcasts for six NHL teams starting in 2026-27.',
+            sourceName: 'The Hockey News',
+            sourceUrl: 'https://thehockeynews.com/news/latest-news/nhl-announces-prime-video-will-stream-local-broadcasts-for-six-teams-in-multi-year-partnership',
+            publishedDate: '2026-09-02'
+          },
+          {
+            order: 2,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '$120',
+            headline: 'Spurs Name DAZN Exclusive Streaming Home For Local Games',
+            emailSummary: 'The <strong>San Antonio Spurs</strong> named <strong>DAZN</strong> the exclusive streaming home for games not carried nationally, starting with the 2026-27 season. A monthly pass costs <strong>$19.99</strong> and a season pass <strong>$120</strong>, with discounts for season-ticket holders and fan-club members; an "Ultimate" tier adds more content for <strong>$24.99</strong> monthly or <strong>$140</strong> per season. The package also covers select San Antonio FC and Austin Spurs G League games, plus 22 games airing over-the-air locally.',
+            whyItMatters: 'The deal moves a major U.S. sports franchise\'s local rights onto a direct-to-consumer streaming platform instead of a traditional regional sports network.',
+            signalText: 'The San Antonio Spurs named DAZN their exclusive local streaming partner for 2026-27.',
+            sourceName: 'KSAT',
+            sourceUrl: 'https://www.ksat.com/sports/2026/09/03/san-antonio-spurs-announce-dazn-as-streaming-home-for-non-national-games/',
+            publishedDate: '2026-09-03'
+          },
+          {
+            order: 3,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$4B',
+            headline: 'Stan Kroenke To Buy Angels At Record $4 Billion',
+            emailSummary: '<strong>Stan Kroenke</strong>, through <strong>Kroenke Sports & Entertainment</strong>, agreed to buy a controlling interest in the <strong>Los Angeles Angels</strong> from longtime owner <strong>Arte Moreno</strong> at a <strong>$4 billion</strong> valuation — a record for an MLB franchise sale, surpassing the Padres\' <strong>$3.9 billion</strong> mark set earlier this year. The deal is expected to close in <strong>Q1 2027</strong> pending MLB approval. Kroenke already owns the Rams, Nuggets, Avalanche, Colorado Rapids and Arsenal.',
+            whyItMatters: 'The sale sets a new MLB valuation ceiling and hands one of the sport\'s most talent-rich but underperforming franchises to an owner with a track record of turning around the Rams.',
+            signalText: 'Stan Kroenke agreed to buy the Los Angeles Angels at a record $4 billion valuation.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/mlb/story/_/id/49795578/kroenke-buy-controlling-interest-angels-moreno',
+            publishedDate: '2026-09-01'
+          },
+          {
+            order: 4,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$9.612B',
+            headline: 'Mexican Businesspeople Join Ownership Group Of Seattle Seahawks',
+            emailSummary: '<strong>Gonzalo Hevia Baillères</strong> and the <strong>Aramburuzabala family</strong> became co-owners of the <strong>Seattle Seahawks</strong> as part of the team\'s record <strong>$9.612 billion</strong> sale, the highest price ever paid for an NFL franchise. The transaction closed on <strong>September 3</strong> after NFL owners approved it on <strong>August 26</strong>. The <strong>Khosla family</strong>, led by <strong>Vinod Khosla</strong>, remains the majority owner, alongside investors <strong>Mark Stevens</strong>, <strong>Penny Pritzker</strong> and <strong>Sixth Street</strong>.',
+            whyItMatters: 'The stake marks a rare instance of Mexican capital taking a direct ownership position inside an NFL franchise, in the league\'s most expensive sale ever.',
+            signalText: 'Mexican businesspeople became co-owners of the Seattle Seahawks in a record $9.612 billion sale.',
+            sourceName: 'Fox Sports México',
+            sourceUrl: 'https://www.foxsports.com.mx/2026/09/03/nfl-empresarios-mexicanos-son-nuevos-copropietarios-de-los-seattle-seahawks/',
+            publishedDate: '2026-09-03'
+          },
+          {
+            order: 5,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '€3–4B',
+            headline: 'Carlyle, Bain, Oaktree Ready Bids For Serie A Media Unit',
+            emailSummary: 'Private equity firms <strong>Carlyle</strong>, <strong>Bain Capital</strong>, <strong>Oaktree</strong> and Italian firm <strong>Nextalia</strong> are preparing bids for a minority stake in the company holding <strong>Serie A</strong>\'s international media, betting and sponsorship rights, Reuters reported. Binding bids for a <strong>10% to 20%</strong> stake were due <strong>September 4</strong>, with the unit valued at <strong>€3 billion to €4 billion</strong> on roughly <strong>€200 million</strong> in core earnings. <strong>JP Morgan</strong> is advising the process; any deal needs approval from at least 14 of Serie A\'s 20 clubs.',
+            whyItMatters: 'The sale would mirror recent private equity moves into Spanish and French league media rights, and tests whether Serie A\'s clubs can finally agree on outside capital after a 2021 attempt collapsed.',
+            signalText: 'Carlyle, Bain and Oaktree are preparing bids for a stake in Serie A\'s media unit.',
+            sourceName: 'Reuters',
+            sourceUrl: 'https://economictimes.indiatimes.com/news/international/business/private-equity-firms-carlyle-bain-oaktree-readying-bids-for-serie-a-international-media-unit-sources-say/articleshow/133723087.cms',
+            publishedDate: '2026-09-03'
+          },
+          {
+            order: 6,
+            tag: 'Sponsorship',
+            section: 'sports',
+            headline: 'Nike-London City Lionesses Deal Is Biggest In Women\'s Football',
+            emailSummary: '<strong>London City Lionesses</strong> owner <strong>Michele Kang</strong> said the club\'s new front-of-shirt deal with <strong>Nike</strong> is the largest in women\'s football, surpassing even some <strong>Premier League</strong> men\'s shirt deals. It also beats the roughly <strong>$4 million</strong> shirt deal held by the incoming NWSL Atlanta franchise, previously believed to be the largest in the women\'s game. Kang, who also owns Lyon and the Washington Spirit, took over London City in 2023 and has since signed <strong>Alexia Putellas</strong>, <strong>Mapi León</strong>, <strong>Mary Earps</strong> and <strong>Kadidiatou Diani</strong>.',
+            whyItMatters: 'The deal resets the ceiling for what a standalone women\'s football shirt sponsorship can command, independent of any tie to a men\'s team.',
+            signalText: 'Nike\'s shirt deal with London City Lionesses is the largest in women\'s football.',
+            sourceName: 'BBC Sport',
+            sourceUrl: 'https://www.bbc.com/sport/football/articles/cdj4lgdgnx0o',
+            publishedDate: '2026-09-03'
+          },
+          {
+            order: 7,
+            tag: 'Distribution',
+            section: 'entertainment',
+            headline: 'FOX Channels Launch On Izzi And Sky In Mexico',
+            emailSummary: '<strong>FOX</strong> launched its channels on Mexican pay-TV providers <strong>izzi</strong> (channels 502 and 540) and <strong>Sky</strong> (channels 1551 and 1565) starting <strong>August 31</strong>, expanding its distribution footprint in the country. The channels carry <strong>NFL</strong>, <strong>Liga MX</strong>, <strong>Liga MX Femenil</strong>, <strong>UEFA Champions League</strong>, <strong>MLB</strong> and <strong>Lucha Libre AAA</strong>, among other programming, alongside FOX\'s own original shows and its <strong>FOX One</strong> streaming platform.',
+            whyItMatters: 'The expansion fills a gap in Mexican pay-TV distribution left when Fox Sports México — a separate, financially struggling broadcaster — exited these same platforms just one day earlier.',
+            signalText: 'FOX launched its channels on Mexico\'s izzi and Sky pay-TV platforms.',
+            sourceName: 'Récord',
+            sourceUrl: 'https://www.record.com.mx/historia/fox-llega-a-izzi-y-sky-estos-son-los-canales-donde-podras-ver-nfl-liga-mx-y-champions-league-2026083115570535487',
+            publishedDate: '2026-08-31'
+          },
+          {
+            order: 8,
+            tag: 'IP Licensing',
+            section: 'entertainment',
+            accentText: '$40M/Character',
+            headline: 'Google Courts Hollywood Studios For AI IP Licensing',
+            emailSummary: '<strong>Google</strong> executives have approached major studios including <strong>Disney</strong>, <strong>Universal</strong> and <strong>Warner Bros. Discovery</strong> about licensing character IP for use in its AI models, though no agreements have been finalized. An AI company licensing a studio character could pay roughly <strong>$40 million per character</strong> on average. The outreach comes even as studios sue AI companies over copyright — Disney previously sent Google a cease-and-desist over unauthorized use of its material for AI training — and follows Google\'s <strong>$75 million</strong> investment in A24 and Netflix\'s <strong>$587 million</strong> acquisition of Ben Affleck\'s AI startup InterPositive.',
+            whyItMatters: 'The talks show studios and AI companies moving toward a licensing market for character IP even while locked in active copyright litigation over the same content.',
+            signalText: 'Google is licensing Hollywood character IP for AI models at roughly $40 million per character.',
+            sourceName: 'Yahoo Finance',
+            sourceUrl: 'https://finance.yahoo.com/technology/ai/articles/hollywood-studios-sued-over-ai-100000457.html',
+            publishedDate: '2026-08-31'
+          },
+          {
+            order: 9,
+            tag: 'Box Office',
+            section: 'entertainment',
+            accentText: '$22M+',
+            headline: 'Coyote Vs. Acme\'s Box Office Exposes WBD\'s Write-Off Plan',
+            emailSummary: '<strong>Coyote vs. Acme</strong> opened to <strong>$15.9 million</strong> at the domestic box office — beating Ridley Scott\'s <strong>The Dog Stars</strong> — and has since crossed <strong>$22 million</strong> worldwide. <strong>Warner Bros. Discovery</strong> had originally planned to shelve the finished film entirely as a tax write-off before <strong>Ketchup Entertainment</strong> acquired it and gave it a theatrical release instead.',
+            whyItMatters: 'The film\'s box office success after WBD tried to write it off undercuts the studio\'s tax-driven shelving strategy, following the same path as Batgirl before it.',
+            signalText: 'Coyote vs. Acme crossed $22 million worldwide after Warner Bros. Discovery nearly shelved it.',
+            sourceName: 'Inverse',
+            sourceUrl: 'https://www.inverse.com/entertainment/coyote-vs-acme-box-office',
+            publishedDate: '2026-09-03'
+          }
+        ]
+      }
+    ]
+  },
+
   // AUGUST 2026
   {
     slug: 'august-2026',
-    isCurrent: true,
+    isCurrent: false,
     monthLabel: 'August 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
     publishedDate: '2026-08-31',
