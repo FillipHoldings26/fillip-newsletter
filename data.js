@@ -1,7 +1,7 @@
 // ============================================================
 // data.js -- Publication config + all issue content
 // Fillip Newsletter — Static version
-// ============================================================
+// ===========================================================
 
 const PUBLICATION_CONFIG = {
   publicationName:  'Fillip Newsletter',
