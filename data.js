@@ -24,7 +24,7 @@ const MONTHLY_GROUPS = [
     editionTag: 'Sports · Entertainment · IP · Capital',
     publishedDate: '2026-09-07',
     dateRange: 'August 31 – September 7, 2026',
-    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing and Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office.',
+    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release.',
     issues: [
 
       // WEEK 1
@@ -36,8 +36,8 @@ const MONTHLY_GROUPS = [
         publishedDate: '2026-09-07',
         issueTitle: 'Week 1 — September 2026',
         editionTag: 'Sports · Entertainment · IP · Capital',
-        introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing and Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office.',
-        shareText: 'Kroenke buys the Angels for a record $4B, Mexican investors join the Seahawks\' $9.612B ownership group, PE firms circle Serie A\'s media unit, and WBD\'s Coyote vs. Acme write-off backfires at the box office — Week 1 September · Fillip.',
+        introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release.',
+        shareText: 'Kroenke buys the Angels for a record $4B, Mexican investors join the Seahawks\' $9.612B ownership group, PE firms circle Serie A\'s media unit, WBD\'s Coyote vs. Acme write-off backfires at the box office, and A24 sets an October release for Nathan Fielder\'s secret Elizabeth Holmes doc — Week 1 September · Fillip.',
         coreSignal: 'Every deal this week points the same direction: rights holders are pulling distribution and ownership closer to themselves instead of renting it out. The NHL and Spurs moved local broadcasts onto direct-to-consumer platforms, Serie A is shopping outside capital to fund its own media unit, and Kroenke and the Seahawks\' new Mexican co-owners bought straight into franchise equity at record prices. Even in entertainment, Google is trying to license IP directly from studios rather than build around it, and WBD\'s attempt to write off Coyote vs. Acme backfired the moment fans forced it back into theaters.',
         latamAngle: 'This week\'s clearest LatAm signal comes from the Seattle Seahawks\' record $9.612 billion sale, where Gonzalo Hevia Baillères and the Aramburuzabala family joined the ownership group as co-owners — not as sponsors or spectators, but as equity holders in the NFL\'s most expensive franchise transaction ever. It\'s a rare instance of Mexican private capital taking a direct stake inside a major U.S. sports league\'s ownership structure, at the same moment record valuations are resetting across American sports, as with Kroenke\'s $4 billion Angels purchase this same week. Mexican capital is no longer just buying media rights or sponsorship — it\'s buying into the ownership tables themselves.',
         ecosystemNews: [
@@ -163,6 +163,18 @@ const MONTHLY_GROUPS = [
             sourceName: 'Inverse',
             sourceUrl: 'https://www.inverse.com/entertainment/coyote-vs-acme-box-office',
             publishedDate: '2026-09-03'
+          },
+          {
+            order: 10,
+            tag: 'Distribution',
+            section: 'entertainment',
+            headline: 'A24 To Release Nathan Fielder\'s Elizabeth Holmes Documentary In October',
+            emailSummary: '<strong>A24</strong> will theatrically release <strong>"You Can See Everything,"</strong> a nearly three-hour documentary about convicted Theranos founder <strong>Elizabeth Holmes</strong>, in <strong>October</strong>. Co-directed by <strong>Nathan Fielder</strong> and <strong>Lance Oppenheim</strong>, the film was shot largely in secret over three years and premiered as a surprise selection at the <strong>Telluride Film Festival</strong>. Holmes was convicted in 2022 on four counts of investor fraud and sentenced to more than <strong>11 years</strong> in federal prison.',
+            whyItMatters: 'The deal gives A24 another high-profile awards-season documentary built around real-world notoriety, extending the studio\'s strategy of turning true-crime subjects into theatrical events rather than streaming content.',
+            signalText: 'A24 will theatrically release Nathan Fielder\'s Elizabeth Holmes documentary in October.',
+            sourceName: 'Los Angeles Times',
+            sourceUrl: 'https://www.latimes.com/entertainment-arts/movies/story/2026-09-07/nathan-fielder-elizabeth-holmes-doc-you-can-see-everything-surprises-telluride',
+            publishedDate: '2026-09-07'
           }
         ]
       }
