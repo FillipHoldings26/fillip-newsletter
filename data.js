@@ -44,8 +44,11 @@ const MONTHLY_GROUPS = [
           {
             headline: 'AAA\'s Triplemanía 34 Crowns New Mega And Reina De Reinas Champions',
             body: 'AAA\'s Triplemanía 34 spanned two nights — September 11 in Las Vegas and September 13 at Arena Ciudad de México. On Night 2, El Grande Americano defeated Dominik Mysterio in a chaotic no-rules match to capture the Megacampeonato, with Rey Mysterio counting the pinfall himself. La Catalina also dethroned Flammer that night, ending her 1,128-day reign as Reina de Reinas Champion. She\'ll defend the title against WWE\'s Roxanne Perez at Worlds Collide.',
-            sourceName: 'ESPN México',
-            sourceUrl: 'https://www.espn.com.mx/luchalibre/nota/_/id/17255134/triplemania-34-el-grande-americano-dominik-mysterio-megacampeon-aaa'
+            sources: [
+              { sourceName: 'ESPN México', sourceUrl: 'https://www.espn.com.mx/luchalibre/nota/_/id/17255134/triplemania-34-el-grande-americano-dominik-mysterio-megacampeon-aaa' },
+              { sourceName: 'OutKick', sourceUrl: 'https://www.foxnews.com/outkick-sports/la-catalina-ends-flammers-1128-day-reign-aaa-reina-de-reinas-champion-triplemania-34' },
+              { sourceName: 'WWE.com', sourceUrl: 'https://www.wwe.com/shows/aaa/triplemania-34/2026-09-11' }
+            ]
           }
         ],
         stories: [
