@@ -1,7 +1,7 @@
 // ============================================================
 // data.js -- Publication config + all issue content
 // Fillip Newsletter — Static version
-// ===========================================================
+// ============================================================
 
 const PUBLICATION_CONFIG = {
   publicationName:  'Fillip Newsletter',
@@ -22,10 +22,137 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'September 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-09-07',
-    dateRange: 'August 31 – September 7, 2026',
-    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release.',
+    publishedDate: '2026-09-14',
+    dateRange: 'August 31 – September 14, 2026',
+    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release. Week two brought LIV Golf\'s collapse into Chapter 11 bankruptcy after Saudi Arabia\'s PIF pulled its funding, a L Catterton-led consortium taking majority control of HYROX, Brazil\'s Globo restructuring as CazéTV eroded its World Cup audience, Prime Video eyeing the 2030 and 2034 World Cup rights, Julián Quiñones and Scarlett Camberos becoming the first Mexicans ever nominated for the Ballon d\'Or, and AAA\'s Triplemanía 34 crowning new Mega and Reina de Reinas champions.',
     issues: [
+
+      // WEEK 2
+      {
+        slug: 'week-2-september-2026',
+        issueNumber: '2',
+        weekLabel: 'Week 2',
+        dateRange: 'September 7 – 14, 2026',
+        publishedDate: '2026-09-14',
+        issueTitle: 'Week 2 — September 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'A week defined by ownership changing hands — LIV Golf collapsed into bankruptcy, HYROX changed owners, and CazéTV overtook Globo for Brazil\'s World Cup audience — while AAA delivered its biggest night of the year at Triplemanía 34.',
+        shareText: 'LIV Golf\'s bankruptcy, HYROX\'s new ownership group, Globo vs. CazéTV in Brazil, Prime Video eyeing the World Cup, and AAA\'s Triplemanía 34 — Week 2 September · Fillip.',
+        coreSignal: 'This week\'s throughline is capital rotating out of centralized, sovereign-backed or broadcast-incumbent models and into founder- and community-aligned ones. LIV Golf\'s bankruptcy ends a five-year experiment in buying a league into relevance; HYROX\'s new ownership hands control back to its founders alongside consumer-focused capital; Pukkelpop keeps its founder in charge despite Live Nation\'s ownership; and CazéTV, not Globo, is now capturing Brazil\'s World Cup audience. Even Prime Video\'s World Cup interest reflects streamers, not legacy broadcasters, setting the next rights cycle\'s price floor.',
+        latamAngle: 'Brazil is this week\'s clearest case study in how fast sports-media incumbency can erode. Globo — the country\'s dominant broadcaster for decades — restructured its Rights and Distribution leadership and lost three veteran directors just weeks after ceding exclusive World Cup rights to CazéTV, the YouTube-native streamer led by creator Casimiro Miguel. Globo\'s own numbers tell the story: its share of Brazil\'s paid-TV World Cup audience fell from 22% in 2022 to 15% in 2026, while CazéTV\'s share jumped from zero to 44%. Globo insists the reorg reflects corporate strategy, not competitive pressure — but a creator-led platform taking nearly half of pay-TV viewership from a legacy network is a genuine structural shift in Latin America\'s largest media market.',
+        ecosystemNews: [
+          {
+            headline: 'AAA\'s Triplemanía 34 Crowns New Mega And Reina De Reinas Champions',
+            body: 'AAA\'s Triplemanía 34 spanned two nights — September 11 in Las Vegas and September 13 at Arena Ciudad de México. On Night 2, El Grande Americano defeated Dominik Mysterio in a chaotic no-rules match to capture the Megacampeonato, with Rey Mysterio counting the pinfall himself. La Catalina also dethroned Flammer that night, ending her 1,128-day reign as Reina de Reinas Champion. She\'ll defend the title against WWE\'s Roxanne Perez at Worlds Collide.',
+            sourceName: 'ESPN México',
+            sourceUrl: 'https://www.espn.com.mx/luchalibre/nota/_/id/17255134/triplemania-34-el-grande-americano-dominik-mysterio-megacampeon-aaa'
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '$1.5–2B',
+            headline: 'Prime Video Eyes Bid For 2030, 2034 World Cup Rights',
+            emailSummary: '<strong>Prime Video</strong>\'s U.S. head <strong>Jay Marine</strong> said at Bloomberg\'s Power Players conference the streamer is "looking at" bidding for World Cup media rights, calling it "an incredible property." Media executives are budgeting <strong>$1.5 billion to $2 billion</strong> per tournament for combined English and Spanish-language rights to the <strong>2030</strong> (Spain, Portugal, Morocco) and <strong>2034</strong> tournaments, with FIFA planning to open formal bidding within the next several months.',
+            whyItMatters: 'Netflix, Disney, YouTube, Fox, ESPN and NBC are also circling the rights, signaling the next World Cup cycle could be as much a streaming war as a broadcast one.',
+            signalText: 'Media executives are budgeting $1.5 billion to $2 billion per World Cup tournament in rights.',
+            sourceName: 'Yahoo Sports',
+            sourceUrl: 'https://sports.yahoo.com/articles/prime-video-expresses-interest-world-153028410.html',
+            publishedDate: '2026-09-11'
+          },
+          {
+            order: 2,
+            tag: 'Bankruptcy',
+            section: 'sports',
+            accentText: '$5–8B',
+            headline: 'LIV Golf Files For Chapter 11 Bankruptcy Protection',
+            emailSummary: '<strong>LIV Golf</strong> filed for Chapter 11 bankruptcy in New Jersey after Saudi Arabia\'s <strong>Public Investment Fund</strong> halted funding in <strong>April 2026</strong> and governor <strong>Yasir Al-Rumayyan</strong> resigned from the league\'s board. The league ended its 2026 season early, laid off most staff, and left players including <strong>Jon Rahm</strong>, <strong>Bryson DeChambeau</strong>, <strong>Dustin Johnson</strong> and <strong>Cam Smith</strong> owed millions. PIF spent an estimated <strong>$5 billion to $8 billion</strong> on LIV since 2021.',
+            whyItMatters: 'The bankruptcy voids existing player contracts and opens the door to a 2027 relaunch under new ownership — a rare case of a sovereign-wealth-backed league failing outright.',
+            signalText: 'LIV Golf filed for Chapter 11 bankruptcy after Saudi Arabia\'s PIF withdrew funding.',
+            sourceName: 'OutKick',
+            sourceUrl: 'https://www.foxnews.com/outkick-sports/liv-golf-files-bankruptcy-saudi-fund-pulls-support-leaving-players-owed-millions-unpaid-money',
+            publishedDate: '2026-09-08'
+          },
+          {
+            order: 3,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '1.4M',
+            headline: 'L Catterton Consortium Buys Majority Stake In HYROX',
+            emailSummary: 'A consortium led by <strong>L Catterton</strong>, alongside HYROX founders <strong>Christian Toetzke</strong> and <strong>Moritz Fürste</strong> and Jeffrey Katzenberg\'s <strong>WndrCo</strong>, acquired <strong>Infront Sports & Media</strong>\'s majority stake in HYROX. Infront had been majority owner since October 2022. HYROX ran more than <strong>100 events</strong> across <strong>30+ countries</strong> in the 2025/26 season, drawing <strong>1.4 million</strong> participants and 1.5 million spectators. Financial terms were not disclosed.',
+            whyItMatters: 'Consumer-investment capital replacing a sports-media agency as HYROX\'s controlling owner signals the hybrid-fitness format is being repositioned for scale and an eventual Olympic push.',
+            signalText: 'A consortium led by L Catterton acquired Infront\'s majority stake in HYROX.',
+            sourceName: 'SportsPro',
+            sourceUrl: 'https://www.sportspro.com/announcements/spotlight-agency/consortium-led-by-l-catterton-in-partnership-with-hyrox-founders-acquires-infronts-majority-stake-in-hyrox/',
+            publishedDate: '2026-09-08'
+          },
+          {
+            order: 4,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '44%',
+            headline: 'Globo Restructures As CazéTV Erodes World Cup Share',
+            emailSummary: '<strong>Grupo Globo</strong> unified its Rights and Distribution departments under a single executive and lost three long-tenured directors, including 30- and 45-year veterans. President <strong>João Roberto Marinho</strong> denied the shake-up was a reaction to <strong>CazéTV</strong>, calling it a "new organizational structure aligned with corporate strategy." Globo\'s World Cup audience fell from <strong>98%</strong> open-TV / <strong>22%</strong> pay-TV in 2022 to <strong>82%</strong> / <strong>15%</strong> in 2026, while CazéTV — led by creator <strong>Casimiro Miguel</strong> — jumped from 0% to <strong>44%</strong> pay-TV share.',
+            whyItMatters: 'A YouTube-native streamer taking nearly half of pay-TV World Cup viewership from Brazil\'s dominant broadcaster is a concrete marker of how fast sports-media incumbency can erode in Latin America.',
+            signalText: 'CazéTV\'s share of Brazil\'s paid-TV World Cup audience rose from 0% to 44%.',
+            sourceName: 'Playbook',
+            sourceUrl: 'https://www.playbook.la/articulo/globo-reestructura-su-negocio-y-niega-que-sea-por-cazetv',
+            publishedDate: '2026-09-04'
+          },
+          {
+            order: 5,
+            tag: 'Recognition',
+            section: 'sports',
+            accentText: '33 Goals',
+            headline: 'Quiñones, Camberos Become First Mexicans Nominated For Ballon d\'Or',
+            emailSummary: '<strong>Julián Quiñones</strong>, top scorer at Saudi Arabia\'s <strong>Al Qadsiah</strong> with <strong>33 goals</strong> last season, was named among the 30 men\'s Ballon d\'Or nominees. <strong>Scarlett Camberos</strong> and <strong>Club América</strong> were also nominated, for women\'s player and best club respectively, after Camberos led América to the Clausura 2026, Concacaf W Champions Cup and Campeón de Campeonas titles. It is the first time a Mexican player and club have been nominated. France Football holds the ceremony <strong>October 26</strong> in London.',
+            whyItMatters: 'Individual and club recognition on football\'s biggest stage raises the international visibility — and commercial profile — of Mexican football for the first time.',
+            signalText: 'Julián Quiñones and Scarlett Camberos became the first Mexican man and woman nominated for the Ballon d\'Or.',
+            sourceName: 'La Jornada',
+            sourceUrl: 'https://www.jornada.com.mx/noticia/2026/09/08/deportes/mexicanos-julian-quinones-y-scarlett-cambero-entre-los-nominados-al-balon-de-oro',
+            publishedDate: '2026-09-08'
+          },
+          {
+            order: 6,
+            tag: 'Live Events',
+            section: 'entertainment',
+            accentText: '10 Years',
+            headline: 'Live Nation\'s Pukkelpop Deal Clears Belgian Antitrust Probe',
+            emailSummary: 'Belgium\'s Competition Authority closed an investigation into <strong>Live Nation</strong>\'s festival consolidation — it already runs <strong>Rock Werchter</strong> and <strong>Graspop Metal Meeting</strong> — without finding infringement, after a deal guaranteeing founder <strong>Chokri Mahassine</strong>\'s operational entity at least <strong>ten years</strong> of independent control over Pukkelpop\'s programming, bookings and ticket pricing, with a possible five-year extension. The probe, opened in <strong>November 2025</strong>, examined whether Live Nation\'s vertical integration across booking, venues and ticketing could inflate prices or limit rivals\' access to artists.',
+            whyItMatters: 'Regulators scrutinizing Live Nation\'s festival consolidation — even when clearing it — signals growing antitrust attention on live-event vertical integration beyond the U.S. DOJ case.',
+            signalText: 'Belgium\'s Competition Authority closed its Live Nation antitrust probe without finding infringement.',
+            sourceName: 'Antitrust Intelligence',
+            sourceUrl: 'https://antitrust-intelligence.com/ten-year-independence-for-pukkelpop-in-live-nation-deal/',
+            publishedDate: '2026-09-11'
+          },
+          {
+            order: 7,
+            tag: 'Content Launch',
+            section: 'entertainment',
+            headline: 'WWE Launches First Spanish-Language Podcast With Fanatics',
+            emailSummary: '<strong>WWE</strong> and <strong>Fanatics</strong> launched <strong>"WWE Ahora,"</strong> WWE\'s first-ever Spanish-language podcast, hosted by <strong>Andrea Bazarte</strong> and <strong>Eduardo Bates</strong>. Video episodes air weekly on the WWE Español YouTube channel, with audio versions coming to major podcast platforms. The debut episode released <strong>September 10</strong>, timed to AAA\'s Triplemanía 34 weekend, and covers both WWE and AAA storylines.',
+            whyItMatters: 'A dedicated Spanish-language show tying WWE content to its AAA partnership is a direct bet on deepening its Latin American and U.S. Hispanic fanbase through owned media.',
+            signalText: 'WWE and Fanatics launched WWE\'s first Spanish-language podcast, WWE Ahora.',
+            sourceName: 'PWMania',
+            sourceUrl: 'https://www.pwmania.com/wwe-launches-first-ever-spanish-language-podcast-wwe-ahora',
+            publishedDate: '2026-09-10'
+          },
+          {
+            order: 8,
+            tag: 'Brand Partnership',
+            section: 'entertainment',
+            headline: 'Sony And Hello Kitty Launch Limited Headphone Collection',
+            emailSummary: '<strong>Sony Electronics</strong> partnered with <strong>Sanrio</strong> on a limited-edition Hello Kitty collaboration across three headphone models — the <strong>WH-1000XM6</strong>, <strong>WH-CH730N</strong> and <strong>WH-CH530</strong> — sold exclusively through the Sony Store in select pink and black colorways. Each bundle includes a Hello Kitty carrying case and tote bag. Pre-orders open later this holiday season in limited quantities, with availability varying by market.',
+            whyItMatters: 'A premium electronics brand building an exclusive retail bundle around Hello Kitty shows Sanrio\'s licensing reach extending beyond apparel and toys into higher-margin consumer tech.',
+            signalText: 'Sony and Sanrio launched a limited-edition Hello Kitty headphone collection.',
+            sourceName: 'PR Newswire',
+            sourceUrl: 'https://www.prnewswire.com/news-releases/sony-electronics-and-hello-kitty-team-up-for-limited-edition-headphone-collection-302871117.html',
+            publishedDate: '2026-09-07'
+          }
+        ]
+      },
 
       // WEEK 1
       {
