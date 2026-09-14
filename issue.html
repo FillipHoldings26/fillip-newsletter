@@ -317,6 +317,7 @@
   transition: color 0.2s, border-color 0.2s;
 }
 .entry-source:hover { color: var(--lime); border-color: var(--lime); }
+.ecosystem-sources { display: flex; flex-direction: row; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.9rem; }
 .entry-date { font-size: 0.65rem; color: var(--sage); font-weight: 300; }
 
 /* ── EDITORIAL SECTION (latam angle) ────────────────────────── */
@@ -669,9 +670,18 @@
     if (!items || !items.length) return '';
     var itemsHtml = items.map(function (item, idx) {
       var numStr = String(idx + 1).padStart(2, '0');
-      var sourceHtml = (item.sourceUrl && item.sourceName)
-        ? '<a class="entry-source" href="' + esc(item.sourceUrl) + '" target="_blank" rel="noopener">' + esc(item.sourceName) + ' ↗</a>'
-        : '';
+      var sourceHtml;
+      if (item.sources && item.sources.length) {
+        sourceHtml = '<div class="ecosystem-sources">' + item.sources.map(function (src) {
+          return (src.sourceUrl && src.sourceName)
+            ? '<a class="entry-source" href="' + esc(src.sourceUrl) + '" target="_blank" rel="noopener">' + esc(src.sourceName) + ' ↗</a>'
+            : '';
+        }).join('') + '</div>';
+      } else {
+        sourceHtml = (item.sourceUrl && item.sourceName)
+          ? '<a class="entry-source" href="' + esc(item.sourceUrl) + '" target="_blank" rel="noopener">' + esc(item.sourceName) + ' ↗</a>'
+          : '';
+      }
       return '<div class="ecosystem-item" id="ecosystem-' + (idx + 1) + '">'
         + '<div class="ecosystem-item-num">' + numStr + '</div>'
         + '<div>'
