@@ -22,10 +22,135 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'September 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-09-14',
-    dateRange: 'August 31 – September 14, 2026',
-    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release. Week two brought LIV Golf\'s collapse into Chapter 11 bankruptcy after Saudi Arabia\'s PIF pulled its funding, a L Catterton-led consortium taking majority control of HYROX, Brazil\'s Globo restructuring as CazéTV eroded its World Cup audience, Prime Video eyeing the 2030 and 2034 World Cup rights, Julián Quiñones and Scarlett Camberos becoming the first Mexicans ever nominated for the Ballon d\'Or, and AAA\'s Triplemanía 34 crowning new Mega and Reina de Reinas champions.',
+    publishedDate: '2026-09-20',
+    dateRange: 'August 31 – September 20, 2026',
+    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release. Week two brought LIV Golf\'s collapse into Chapter 11 bankruptcy after Saudi Arabia\'s PIF pulled its funding, a L Catterton-led consortium taking majority control of HYROX, Brazil\'s Globo restructuring as CazéTV eroded its World Cup audience, Prime Video eyeing the 2030 and 2034 World Cup rights, Julián Quiñones and Scarlett Camberos becoming the first Mexicans ever nominated for the Ballon d\'Or, and AAA\'s Triplemanía 34 crowning new Mega and Reina de Reinas champions. Week three saw Clearlake Capital take full ownership of Chelsea at a $6.7 billion valuation, Apollo Sports Capital explore an NFL investment, Netflix signal interest in bidding for men\'s World Cup rights, a Braves minority investor push for a sale ahead of a looming MLB lockout, and Kylian Mbappé leave Nike for On, while Pusha T and Pharrell launched a Lavazza coffee brand, Mike Tyson\'s Netflix docuseries and comedy special were set for October and November release, Fever raised a record $250 million round, and Tycoon opened a new Hello Kitty Café in Mexico City as MLB leaned further into the same license.',
     issues: [
+
+      // WEEK 3
+      {
+        slug: 'week-3-september-2026',
+        issueNumber: '3',
+        weekLabel: 'Week 3',
+        dateRange: 'September 14–20, 2026',
+        publishedDate: '2026-09-20',
+        issueTitle: 'Week 3 — September 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Private capital kept circling major leagues — Clearlake took full control of Chelsea, Apollo eyed the NFL, and a Braves investor pushed for a sale — while Netflix widened its live-sports ambitions and pop culture kept finding new ways into the ballpark.',
+        shareText: 'Clearlake\'s full Chelsea takeover, Apollo circling the NFL, a Braves sale push, Netflix\'s World Cup interest, Mbappé\'s Nike exit, and Hello Kitty\'s MLB and Tycoon moment — Week 3 September · Fillip.',
+        coreSignal: 'This week\'s throughline is private capital treating major sports leagues as the last scarce, appreciating asset class — Clearlake bought Chelsea outright, Apollo is circling the NFL, and a Braves shareholder is urging a sale specifically because valuations may not climb forever. Media rights are following the same logic: Netflix\'s World Cup interest continues streamers\' takeover of live sports inventory. Meanwhile, pop culture licensing keeps proving its own return — Mbappé\'s brand switch, a Clipse-inspired coffee line, and Hello Kitty\'s simultaneous wins at MLB ballparks and Tycoon\'s Mexico City retail show IP travels wherever attention does.',
+        ecosystemNews: [
+          {
+            headline: 'Hello Kitty\'s Momentum Reaches Tycoon\'s New Café And MLB Ballparks',
+            body: 'Tycoon opened a new Hello Kitty Café in Mexico City\'s Colonia Roma (Cibeles) last week, extending its Sanrio retail footprint. The timing tracks a broader Hello Kitty resurgence: MLB\'s Toronto Blue Jays gave away limited-edition Hello Kitty bobbleheads to the first 15,000 fans at their September 12 Hello Kitty Day, part of a leaguewide pop-culture push where 56% of theme-night attendees last year were first-time ticket buyers.',
+            sources: [
+              { sourceName: 'The Japan Times', sourceUrl: 'https://www.japantimes.co.jp/sports/2026/09/20/baseball/mlb-teams-theme-nights/' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$6.7B',
+            headline: 'Clearlake Capital Takes Full Ownership Of Chelsea FC',
+            emailSummary: '<strong>Clearlake Capital</strong> acquired the remaining Chelsea stakes held by co-owners <strong>Todd Boehly</strong> and <strong>Mark Walter</strong>, taking full control of the club. The pair\'s stakes sold for <strong>£950 million</strong> ($1.3 billion), with the club now valued at <strong>£5 billion</strong> ($6.7 billion) including debt. Boehly stepped down as chairman following the transaction, while minority owner Hansjörg Wyss retains his 12.83% stake.',
+            whyItMatters: 'The deal ends the co-ownership structure that funded Chelsea\'s post-Abramovich rebuild, consolidating both decision-making and financial risk under a single private equity owner.',
+            signalText: 'Clearlake Capital bought out Boehly and Walter\'s stakes in Chelsea Football Club.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/soccer/story/_/id/49960706/chelsea-clarlake-capital-todd-boehly-mark-walter-ownership',
+            publishedDate: '2026-09-16'
+          },
+          {
+            order: 2,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '$2.6B',
+            headline: 'Apollo Sports Capital Explores Potential NFL Investment',
+            emailSummary: '<strong>Apollo Sports Capital</strong> is taking a serious look at investing in the NFL, despite not yet being one of the league\'s approved private equity partners. The firm already holds a <strong>$2.6 billion</strong> stake tied to the New York Yankees, along with investments in Wrexham AFC and Atlético Madrid. Apollo executives say the NFL\'s revenue scale makes it a strategic target as the league continues expanding globally.',
+            whyItMatters: 'NFL owners have kept private equity access more restrictive than other leagues; serious interest from a firm Apollo\'s size could pressure the league to widen its approved-investor pool.',
+            signalText: 'Apollo Sports Capital is considering an investment in an NFL team.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/nfl-private-equity-nfl-apollo/',
+            publishedDate: '2026-09-15'
+          },
+          {
+            order: 3,
+            tag: 'Media Rights',
+            section: 'sports',
+            headline: 'Netflix Signals Interest In Bidding For Men\'s World Cup Rights',
+            emailSummary: 'Netflix has told FIFA it is open to bidding for men\'s World Cup media rights in the U.S., according to Netflix chief content officer <strong>Bela Bajaria</strong>. The streamer already holds English- and Spanish-language rights to the Women\'s World Cup for <strong>2027</strong> and <strong>2031</strong>, and FIFA is expected to bundle both tournaments into one rights package. A men\'s World Cup exclusively on a streaming platform would be a first for the U.S. market.',
+            whyItMatters: 'If Netflix wins the bundled rights, it would end linear broadcasters\' decades-long hold on the U.S. World Cup audience and reset the price benchmark for the next rights cycle.',
+            signalText: 'Netflix signaled interest in bidding for FIFA\'s men\'s World Cup U.S. media rights.',
+            sourceName: 'SportsMediaWatch',
+            sourceUrl: 'https://www.sportsmediawatch.com/2026/09/netflix-signal-interest-mens-world-cup-rights/',
+            publishedDate: '2026-09-16'
+          },
+          {
+            order: 4,
+            tag: 'Valuation',
+            section: 'sports',
+            accentText: '$4B',
+            headline: 'Braves Minority Investor Urges Sale Amid Lockout Fears',
+            emailSummary: '<strong>Chris Colvin</strong>, founder of investment firm Breach and a minority shareholder in the Atlanta Braves, said the publicly traded team should be sold now while MLB valuations are near record highs. He cited the <strong>$3.9 billion</strong> sale of the San Diego Padres and the <strong>$4 billion</strong> sale of the Los Angeles Angels this month as comparables, plus an MLB lockout expected to begin in December. Colvin also flagged a new tax law that could cost the Braves more than <strong>$20 million</strong> annually starting next year.',
+            whyItMatters: 'The Braves and Blue Jays are MLB\'s only two publicly traded teams, so this rare public call for a sale exposes ownership economics — including a new tax hit to payroll — most clubs never have to disclose.',
+            signalText: 'A Braves minority investor called for the team to be sold.',
+            sourceName: 'Atlanta Business Chronicle',
+            sourceUrl: 'https://www.bizjournals.com/atlanta/news/2026/09/16/braves-minority-investor-urges-sale.html',
+            publishedDate: '2026-09-14'
+          },
+          {
+            order: 5,
+            tag: 'Sponsorship',
+            section: 'sports',
+            headline: 'Kylian Mbappé Leaves Nike, Signs With Swiss Brand On',
+            emailSummary: '<strong>Kylian Mbappé</strong> has ended his sponsorship with Nike to become a global ambassador for Swiss sportswear brand <strong>On</strong>, which is entering the football market. On appointed <strong>Thierry Henry</strong> as director of football alongside the signing. Mbappé will work directly with On\'s product development team, following Barcelona\'s Lamine Yamal in leaving Nike this year.',
+            whyItMatters: 'On is a niche running-shoe brand with no football history; landing the world\'s highest-profile player signals it\'s willing to spend heavily to buy instant credibility in a new category.',
+            signalText: 'Kylian Mbappé left Nike to become a global ambassador for On.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/soccer/story/_/id/49972427/kylian-mbappe-leaves-nike-signs-sponsor-on',
+            publishedDate: '2026-09-18'
+          },
+          {
+            order: 6,
+            tag: 'Brand Partnership',
+            section: 'entertainment',
+            headline: 'Pusha T And Pharrell Launch Coffee Brand With Lavazza',
+            emailSummary: 'Pusha T and Pharrell Williams partnered with Italian coffee roaster <strong>Lavazza</strong> to launch Grindin\' Coffee, named for the 2002 Clipse track "Grindin\'." The line includes dark and medium roast blends sold as whole bean or ground coffee. The packaging references the song that helped define early-2000s hip-hop production.',
+            whyItMatters: 'It\'s another example of legacy music IP being licensed directly into a consumer product line, letting an artist monetize catalog nostalgia outside of streaming and touring revenue.',
+            signalText: 'Pusha T and Pharrell launched a coffee brand with Lavazza.',
+            sourceName: 'Da Vinci Magazine',
+            sourceUrl: 'https://davincimagazine.com/pusha-t-pharrell-grindin-coffee-lavazza/',
+            publishedDate: '2026-09-14'
+          },
+          {
+            order: 7,
+            tag: 'Streaming Content',
+            section: 'entertainment',
+            headline: 'Mike Tyson Docuseries And Comedy Special Set For Netflix',
+            emailSummary: 'Netflix will release a four-part documentary titled <strong>"Tyson"</strong> on October 13, exploring Mike Tyson\'s rise, decline and cultural impact. A separate one-man comedy special, "Mike Tyson: Return of the Mike," filmed at Seminole Hard Rock Hotel & Casino, premieres November 3. Tyson\'s wife, Lakiha Spicer, directed the comedy special.',
+            whyItMatters: 'It\'s Netflix doubling down on a single athlete\'s story across two different formats in the same platform window, testing how far one name\'s IP can stretch across genres.',
+            signalText: 'Netflix will release a Mike Tyson docuseries and a comedy special.',
+            sourceName: 'The Ring',
+            sourceUrl: 'https://www.ringmagazine.com/news/mike-tyson-docuseries-plus-one-man-show-coming-to-netflix-5MavSzotyX6BFpZ0tQJl3X',
+            publishedDate: '2026-09-19'
+          },
+          {
+            order: 8,
+            tag: 'Live Events',
+            section: 'entertainment',
+            accentText: '$250M',
+            headline: 'Fever Raises Record $250M Round Led By EQT',
+            emailSummary: 'Live-entertainment platform Fever raised <strong>$250 million</strong> led by <strong>EQT</strong>, with Point72 Private Investments and Baillie Gifford also participating — the largest funding round ever for a live-entertainment tech company. Fever says it has tripled revenue over three years while staying EBITDA-positive across more than 55 countries. The company also announced a new partnership naming it an Official Supplier to Formula 1 through 2031.',
+            whyItMatters: 'The raise is a direct bet that in-person, AI-resistant experiences — not content — are where entertainment capital wants to be deployed next.',
+            signalText: 'Fever raised a $250 million funding round led by EQT.',
+            sourceName: 'Fever Newsroom',
+            sourceUrl: 'https://newsroom.feverup.com/en-US/271038-fever-raises-record-250m-led-by-eqt-in-a-bet-on-what-ai-can-t-replace-live-experiences/',
+            publishedDate: '2026-09-17'
+          }
+        ]
+      },
 
       // WEEK 2
       {
