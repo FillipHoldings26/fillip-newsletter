@@ -22,10 +22,139 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'September 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-09-20',
-    dateRange: 'August 31 – September 20, 2026',
-    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release. Week two brought LIV Golf\'s collapse into Chapter 11 bankruptcy after Saudi Arabia\'s PIF pulled its funding, a L Catterton-led consortium taking majority control of HYROX, Brazil\'s Globo restructuring as CazéTV eroded its World Cup audience, Prime Video eyeing the 2030 and 2034 World Cup rights, Julián Quiñones and Scarlett Camberos becoming the first Mexicans ever nominated for the Ballon d\'Or, and AAA\'s Triplemanía 34 crowning new Mega and Reina de Reinas champions. Week three saw Clearlake Capital take full ownership of Chelsea at a $6.7 billion valuation, Apollo Sports Capital explore an NFL investment, Netflix signal interest in bidding for men\'s World Cup rights, a Braves minority investor push for a sale ahead of a looming MLB lockout, and Kylian Mbappé leave Nike for On, while Pusha T and Pharrell launched a Lavazza coffee brand, Mike Tyson\'s Netflix docuseries and comedy special were set for October and November release, Fever raised a record $250 million round, and Tycoon opened a new Hello Kitty Café in Mexico City as MLB leaned further into the same license.',
+    publishedDate: '2026-09-27',
+    dateRange: 'August 31 – September 27, 2026',
+    introLine: 'Week one of September: Stan Kroenke agreed to buy the Angels at a record $4 billion valuation, Mexican investors Gonzalo Hevia Baillères and the Aramburuzabala family joined the Seattle Seahawks\' record $9.612 billion ownership group, and Carlyle, Bain and Oaktree lined up bids for a stake in Serie A\'s international media unit, while Google courted Hollywood studios for AI IP licensing, Warner Bros. Discovery\'s attempt to shelve Coyote vs. Acme backfired at the box office, and A24 unveiled Nathan Fielder\'s secret Elizabeth Holmes documentary for an October release. Week two brought LIV Golf\'s collapse into Chapter 11 bankruptcy after Saudi Arabia\'s PIF pulled its funding, a L Catterton-led consortium taking majority control of HYROX, Brazil\'s Globo restructuring as CazéTV eroded its World Cup audience, Prime Video eyeing the 2030 and 2034 World Cup rights, Julián Quiñones and Scarlett Camberos becoming the first Mexicans ever nominated for the Ballon d\'Or, and AAA\'s Triplemanía 34 crowning new Mega and Reina de Reinas champions. Week three saw Clearlake Capital take full ownership of Chelsea at a $6.7 billion valuation, Apollo Sports Capital explore an NFL investment, Netflix signal interest in bidding for men\'s World Cup rights, a Braves minority investor push for a sale ahead of a looming MLB lockout, and Kylian Mbappé leave Nike for On, while Pusha T and Pharrell launched a Lavazza coffee brand, Mike Tyson\'s Netflix docuseries and comedy special were set for October and November release, Fever raised a record $250 million round, and Tycoon opened a new Hello Kitty Café in Mexico City as MLB leaned further into the same license. Week four brought a Manchester City guilty verdict on the majority of its 115 Premier League charges, New York\'s $4.6 billion suit against Polymarket, Paramount\'s finalized $111 billion Warner Bros. Discovery settlement, RedBird Capital\'s acquisition of Puck, Coco Gauff\'s ownership stake in World Team Tennis, Apple\'s new Battersea Power Station music venue, YouTube\'s extended Coachella deal through 2030, a record $6.5 million Kobe Bryant-LeBron James card sale, and WWE x AAA x NXT\'s sold-out Worlds Collide in Chicago.',
     issues: [
+
+      // WEEK 4
+      {
+        slug: 'week-4-september-2026',
+        issueNumber: '4',
+        weekLabel: 'Week 4',
+        dateRange: 'September 21–27, 2026',
+        publishedDate: '2026-09-27',
+        issueTitle: 'Week 4 — September 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Regulatory rulings dominated the week — Manchester City was found guilty on the majority of its 115 Premier League charges and New York sued Polymarket for $4.6 billion — while Paramount closed its Warner Bros. Discovery settlement, RedBird bought into Puck, and Coco Gauff became a player-owner in World Team Tennis.',
+        shareText: 'Man City\'s guilty verdict, New York\'s $4.6B suit against Polymarket, Paramount\'s $111B WBD settlement, RedBird\'s Puck acquisition, Coco Gauff\'s WTT ownership stake, and a record $6.5M Kobe/LeBron card sale — Week 4 September · Fillip.',
+        coreSignal: 'This week\'s throughline is regulators and record prices arriving at the same time. Manchester City\'s guilty verdict and New York\'s suit against Polymarket both show sports-adjacent industries facing overdue reckonings for rules they\'d been bending. Meanwhile, capital kept flowing toward scarcity: Paramount closed its Warner Bros. Discovery settlement, RedBird bought into Puck, and a Kobe/LeBron card fetched a record $6.5 million — proof that whatever the asset, from media companies to memorabilia, buyers keep paying up. Even Coco Gauff\'s new ownership stake in WTT reflects athletes wanting equity, not just endorsement checks.',
+        ecosystemNews: [
+          {
+            headline: 'WWE x AAA x NXT\'s Worlds Collide Sells Out Chicago-Area Arena',
+            body: 'WWE, AAA, and NXT joined forces for Worlds Collide at Allstate Arena in Rosemont, Illinois, selling out the arena for the trilateral crossover show. It\'s the latest expansion of the WWE-AAA partnership this year, following AAA\'s own Triplemanía 34 in September and building on the promotion\'s growing presence on U.S. soil.',
+            sources: [
+              { sourceName: 'Cultaholic', sourceUrl: 'https://cultaholic.com/posts/wwe-worlds-collide-2026-results' },
+              { sourceName: 'Wikipedia', sourceUrl: 'https://en.wikipedia.org/wiki/Worlds_Collide_(2026)' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Ownership',
+            section: 'sports',
+            headline: 'Coco Gauff Joins WTT Florida Flamingos As Player-Owner',
+            emailSummary: 'Coco Gauff has joined the Florida Flamingos Racquet Club as both a competing player and an ownership stake holder in World Team Tennis\' relaunched league. She\'ll play the team\'s home matches on <strong>December 14–15</strong> at Amerant Bank Arena, facing Victoria Mboko and Jessica Pegula in projected lineups. WTT, originally founded by <strong>Billie Jean King</strong> in 1974, relaunches this December under new ownership with a reworked eight-player match format.',
+            whyItMatters: 'It\'s a rare case of a top active athlete taking direct equity in the team she plays for, rather than just a sponsorship or ambassador role.',
+            signalText: 'Coco Gauff became a player and owner of World Team Tennis\' Florida Flamingos.',
+            sourceName: 'PR Newswire',
+            sourceUrl: 'https://www.prnewswire.com/news-releases/coco-gauff-joins-world-team-tennis-florida-flamingos-as-player-owner-302888255.html',
+            publishedDate: '2026-09-24'
+          },
+          {
+            order: 2,
+            tag: 'Regulatory',
+            section: 'sports',
+            accentText: '$4.6B',
+            headline: 'New York Sues Polymarket For $4.6 Billion Over Gambling',
+            emailSummary: 'New York Attorney General <strong>Letitia James</strong> sued Polymarket, seeking at least <strong>$4.6 billion</strong> in damages for allegedly offering unlicensed gambling in the state. The suit challenges Polymarket\'s policy of allowing users as young as 18 to bet, versus New York\'s 21-plus gambling age minimum. Polymarket countersued in federal court hours later, and New York has separately sued rival Kalshi for at least $36 billion.',
+            whyItMatters: 'Prediction markets are now facing the same state-by-state legal gauntlet as early sports betting did, with damages sought in the billions before any of these platforms have settled their legal status.',
+            signalText: 'New York sued Polymarket seeking at least $4.6 billion in damages.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/new-york-pulls-polymarket-into-legal-battle-with-4-6b-suit/',
+            publishedDate: '2026-09-24'
+          },
+          {
+            order: 3,
+            tag: 'Regulatory',
+            section: 'sports',
+            accentText: '115 Charges',
+            headline: 'Manchester City Found Guilty On Majority Of Financial Charges',
+            emailSummary: 'An independent Premier League panel found <strong>Manchester City</strong> guilty of the majority of the <strong>115 financial rule breaches</strong> they were charged with, covering seasons up to 2017-18. City deny wrongdoing and plan to appeal; the panel\'s punishment — which could include a points deduction, large fines, or even expulsion from the league — will be released before any appeal concludes. Rival Premier League clubs have already sought legal advice on potential compensation claims.',
+            whyItMatters: 'A guilty verdict on this scale threatens results and titles City won during the period in question, and opens the door to unprecedented compensation claims from rival clubs.',
+            signalText: 'Manchester City was found guilty of the majority of 115 Premier League financial charges.',
+            sourceName: 'Bloomberg',
+            sourceUrl: 'https://www.bloomberg.com/news/articles/2026-09-25/manchester-city-found-guilty-of-nearly-all-115-charges',
+            publishedDate: '2026-09-25'
+          },
+          {
+            order: 4,
+            tag: 'Memorabilia',
+            section: 'sports',
+            accentText: '$6.5M',
+            headline: 'Kobe Bryant-LeBron James Card Sells For Record $6.5M',
+            emailSummary: 'A 2007 Exquisite Collection Dual Logoman Autograph card featuring <strong>Kobe Bryant</strong> and <strong>LeBron James</strong> sold for <strong>$6,501,840</strong> at an Alt auction, the highest price ever paid for a card pairing the two players. The one-of-one card had been held in a private collection for nearly two decades before being submitted for authentication last month. It surpassed the previous Bryant/James Logoman record of $1.16 million, set just 15 months earlier.',
+            whyItMatters: 'Record-setting six- and seven-figure card sales keep resetting the ceiling for sports memorabilia as an asset class, independent of anything happening on the court.',
+            signalText: 'A Kobe Bryant-LeBron James autograph card sold for a record $6.5 million.',
+            sourceName: 'Sports Illustrated',
+            sourceUrl: 'https://www.si.com/collectibles/one-of-a-kind-kobe-lebron-dual-logoman-autograph-card-sets-new-sales-record',
+            publishedDate: '2026-09-26'
+          },
+          {
+            order: 5,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$111B',
+            headline: 'Paramount Finalizes $111B Warner Bros. Discovery Settlement',
+            emailSummary: 'Paramount Skydance reached a settlement with <strong>12 state attorneys general</strong>, led by California\'s <strong>Rob Bonta</strong>, clearing a path for its <strong>$111 billion</strong> acquisition of Warner Bros. Discovery. Terms include no cable network sales, independent editorial boards for CNN and CBS News, financial penalties if the combined company fails to release 30 movies a year, and a potential $1.5 billion California production commitment. The deal also carries potential divestment of a 49% Miramax stake.',
+            whyItMatters: 'The settlement removes the last major regulatory obstacle to one of the largest media mergers ever, while extracting real editorial and production commitments state regulators can enforce.',
+            signalText: 'Paramount settled with 12 state attorneys general over its $111 billion Warner Bros. Discovery deal.',
+            sourceName: 'The Ankler',
+            sourceUrl: 'https://theankler.com/paramount-settlement-whats-at-stake/',
+            publishedDate: '2026-09-21'
+          },
+          {
+            order: 6,
+            tag: 'Live Events',
+            section: 'entertainment',
+            accentText: '600 Seats',
+            headline: 'Apple Opens New Music Venue At Battersea Power Station',
+            emailSummary: 'Apple opened <strong>Apple Music Hall</strong>, a <strong>600-capacity</strong> live venue at London\'s Battersea Power Station, built to double as a full production facility. The venue includes a <strong>48-speaker spatial sound system</strong>, a reconfigurable 38-foot stage, and hardwiring for 16-plus cameras feeding a dedicated broadcast control room. Performances will be livestreamed globally, letting artists leave a show with a finished Spatial Audio recording, broadcast-ready mix, and multicamera video from a single set.',
+            whyItMatters: 'Apple is building owned physical infrastructure for its music business instead of just licensing content, giving it a direct hand in how premium live performances get produced and distributed.',
+            signalText: 'Apple opened a 600-capacity live music venue at London\'s Battersea Power Station.',
+            sourceName: 'Apple Newsroom',
+            sourceUrl: 'https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/',
+            publishedDate: '2026-09-21'
+          },
+          {
+            order: 7,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$250M',
+            headline: 'RedBird Capital Acquires Majority Stake In Puck',
+            emailSummary: '<strong>RedBird Capital Partners</strong>, led by <strong>Gerry Cardinale</strong>, agreed to acquire a majority stake in media upstart Puck at an approximately <strong>$250 million</strong> valuation, with the deal expected to close within a month pending regulatory approval. Existing investors Standard Investments and TPG are exiting, while RIT Capital remains a minority investor alongside RedBird. Cardinale also sits on Paramount\'s board as a co-control owner, a dynamic Puck\'s leadership says won\'t affect its editorial independence.',
+            whyItMatters: 'RedBird now holds stakes in both Paramount and one of the media trade outlets that covers Paramount, a conflict Puck\'s leadership has to actively manage to protect its credibility.',
+            signalText: 'RedBird Capital agreed to acquire a majority stake in Puck at a $250 million valuation.',
+            sourceName: 'Variety',
+            sourceUrl: 'https://variety.com/2026/biz/news/redbird-acquires-puck-250-million-valuation-1236874335/',
+            publishedDate: '2026-09-24'
+          },
+          {
+            order: 8,
+            tag: 'Media Rights',
+            section: 'entertainment',
+            accentText: 'Through 2030',
+            headline: 'YouTube Extends Exclusive Coachella Livestream Deal Through 2030',
+            emailSummary: 'YouTube and Goldenvoice renewed their exclusive global livestream partnership for Coachella through <strong>2030</strong>, extending an arrangement that will mark <strong>15 years</strong> of streaming the festival by April 2027. The 2026 edition set a new record for the most viewers watching at one time in the history of Coachella on YouTube. Past milestone moments under the deal include Beyoncé\'s "Homecoming" set and BLACKPINK becoming the first Asian act to headline.',
+            whyItMatters: 'Locking in the exclusive livestream rights through 2030 keeps YouTube as festivals\' default global distribution partner, a position competitors have been trying to challenge as live-event streaming grows.',
+            signalText: 'YouTube and Goldenvoice extended their exclusive Coachella livestream partnership through 2030.',
+            sourceName: 'YouTube Blog',
+            sourceUrl: 'https://blog.youtube/news-and-events/made-on-youtube-coachella-exclusively-stream-youtube-2030/',
+            publishedDate: '2026-09-23'
+          }
+        ]
+      },
 
       // WEEK 3
       {
