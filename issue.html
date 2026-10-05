@@ -633,9 +633,18 @@
         + '</div>'
       : '';
 
-    var sourceHtml = (s.sourceUrl && s.sourceName)
-      ? '<a class="entry-source" href="' + esc(s.sourceUrl) + '" target="_blank" rel="noopener">' + esc(s.sourceName) + ' ↗</a>'
-      : '';
+    var sourceHtml;
+    if (s.sources && s.sources.length) {
+      sourceHtml = '<div class="ecosystem-sources">' + s.sources.map(function (src) {
+        return (src.sourceUrl && src.sourceName)
+          ? '<a class="entry-source" href="' + esc(src.sourceUrl) + '" target="_blank" rel="noopener">' + esc(src.sourceName) + ' ↗</a>'
+          : '';
+      }).join('') + '</div>';
+    } else {
+      sourceHtml = (s.sourceUrl && s.sourceName)
+        ? '<a class="entry-source" href="' + esc(s.sourceUrl) + '" target="_blank" rel="noopener">' + esc(s.sourceName) + ' ↗</a>'
+        : '';
+    }
 
     return '<article class="signal-entry" id="signal-' + s.order + '">'
       + '<div class="entry-num-col"><span class="entry-num">' + numStr + '</span></div>'
