@@ -16,10 +16,304 @@ const PUBLICATION_CONFIG = {
 
 const MONTHLY_GROUPS = [
 
+  // OCTOBER 2026
+  {
+    slug: 'october-2026',
+    isCurrent: true,
+    monthLabel: 'October 2026',
+    editionTag: 'Sports · Entertainment · IP · Capital',
+    publishedDate: '2026-10-04',
+    dateRange: 'September 28 – October 4, 2026',
+    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato.',
+    issues: [
+
+      // WEEK 1
+      {
+        slug: 'week-1-october-2026',
+        issueNumber: '1',
+        weekLabel: 'Week 1',
+        dateRange: 'September 28 – October 4, 2026',
+        publishedDate: '2026-10-04',
+        issueTitle: 'Week 1 — October 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'A week where financial pressure tested both ends of the industry — Fanatics and the NCAA won legal breathing room, Brazil and Nike absorbed real hits, and collectors kept paying record prices for anything bearing Michael Jordan\'s name.',
+        shareText: 'Enrollment is open for the 2026 Hello Kitty & Friends Fun Run CDMX, NHL valuations climb, Fanatics beats three lawsuits, Brazil bans betting and rattles Flutter, Jordan memorabilia sets back-to-back records, the Protect College Sports Act clears the Senate, and Paramount-WBD closes as Paramount Skydance — Week 1 October · Fillip.',
+        coreSignal: 'This week\'s throughline is incumbents using their size to absorb shocks that would sink smaller players. Fanatics and the NCAA both used legal and legislative leverage to lock in protection from the antitrust challenges that have dogged them for years, while Yankee Stadium\'s lockout reserves and Mattel\'s takeover buzz show how balance sheets — not just brands — now determine who survives disruption. Meanwhile, scarcity keeps repricing upward regardless of the macro picture: NHL franchises, Barcelona\'s stadium seats, and Michael Jordan\'s old jersey and Ferrari all changed hands at record or near-record prices in the same seven days.',
+        ecosystemNews: [
+          {
+            headline: 'Enrollment Is Open For The 2026 Hello Kitty & Friends Fun Run CDMX',
+            body: 'Registration is now open for the 2026 Hello Kitty & Friends Fun Run in Mexico City, Tycoon\'s Sanrio-branded road race offering 3K, 5K, and 10K distances. It\'s the clearest expression yet of Tycoon\'s Hello Kitty push doubling as a live-experience business, not just retail — arriving the same month as the new Café in Colonia Roma. Runners can register now through the link below.',
+            sources: [
+              { sourceName: 'Register Here — Fhinix', sourceUrl: 'https://fhinix.com/hello-kitty-and-friends-fun-run-cdmx-2026.html' }
+            ]
+          },
+          {
+            headline: 'AAA Tapes TV Show In León, Guanajuato',
+            body: 'AAA taped a TV show at the Domo de la Feria in León, Guanajuato, drawing more than 4,000 fans. Dominik Mysterio and Omos defeated Rey Mysterio and El Grande Americano in the main event, while La Parka retained the AAA Latin American Championship over Mr. Iguana. Los Perros del Mal interfered mid-match, setting up a new trios bout: La Parka and Mr. Iguana teaming with the returning Niño Hamburguesa against the villains.',
+            sources: [
+              { sourceName: 'Ringside News', sourceUrl: 'https://www.ringsidenews.com/aaa-fox-results-stream-highlights-key-moments-october-3-2026/' }
+            ]
+          },
+          {
+            headline: 'Expo Kitty México Announces December Stop In Querétaro',
+            body: 'La Expo Kitty México — an independent Sanrio fan convention unaffiliated with Tycoon — will land in Querétaro this December. It\'s a reminder of how much runway Hello Kitty still has across Mexico, arriving the same stretch Tycoon has been expanding its own licensed footprint, including the new Hello Kitty Café that opened in Mexico City\'s Colonia Roma.',
+            sources: [
+              { sourceName: 'El Sol de León / Diario de Querétaro', sourceUrl: 'https://oem.com.mx/diariodequeretaro/tendencias/atencion-fans-del-universo-kawaii-la-expo-kitty-mexico-llega-a-queretaro-este-diciembre-32425807' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$3B',
+            headline: 'NHL Valuations Climb As Islanders, MLSE Deals Close',
+            emailSummary: 'The <strong>New York Islanders</strong> agreed to sell roughly 15% of the franchise to a group of investors at a <strong>$3 billion</strong> valuation, pending NHL approval — up from a $1.75 billion valuation just three years ago. Separately, <strong>Rogers Communications</strong> completed its purchase of the remaining 25% of <strong>Maple Leaf Sports & Entertainment</strong> from Kilmer Sports for <strong>C$4.35 billion</strong>, giving Rogers full ownership of the Maple Leafs, Raptors, Toronto FC and Scotiabank Arena. Sportico\'s NHL valuations have more than doubled since 2022, from a $1.01 billion league average to $2.1 billion last year.',
+            whyItMatters: 'Two separate NHL ownership transactions landing the same week, both at valuations that keep climbing year over year, confirms hockey franchises are repricing as fast as any other major U.S. league\'s.',
+            signalText: 'The Islanders sold a 15% stake at a $3 billion valuation.',
+            sources: [
+              { sourceName: 'Sportico', sourceUrl: 'https://www.sportico.com/business/team-sales/2026/new-york-islanders-nhl-stake-billion-1234945887/' },
+              { sourceName: 'Yahoo Finance', sourceUrl: 'https://finance.yahoo.com/technology/articles/rogers-communications-inc-announced-today-125847702.html' }
+            ],
+            publishedDate: '2026-10-02'
+          },
+          {
+            order: 2,
+            tag: 'Legal',
+            section: 'sports',
+            accentText: '3 Lawsuits',
+            headline: 'Fanatics Beats Three Antitrust Lawsuits In Federal Court',
+            emailSummary: 'Federal judges in the Southern District of New York dismissed three separate antitrust lawsuits against <strong>Fanatics</strong> in a single day. Judge <strong>Laura Taylor Swain</strong> tossed a trading-card monopoly claim covering MLB, NBA and NFL cards, ruling the plaintiffs failed to show they were actually harmed. Judge <strong>Andrew Carter Jr.</strong> separately dismissed two merchandise-distribution suits, including one from wholesaler Casey\'s Distributing, finding no evidence consumers paid higher prices as a result of Fanatics\' exclusive licensing deals.',
+            whyItMatters: 'The rulings establish real legal precedent that leagues can grant exclusive licensing deals — like Fanatics\' deals with the NFL, NBA, MLB and others — without that exclusivity itself being an antitrust violation.',
+            signalText: 'Federal judges dismissed three separate antitrust lawsuits against Fanatics in one day.',
+            sources: [
+              { sourceName: 'Sportico', sourceUrl: 'https://www.sportico.com/law/analysis/2026/fanatics-legal-wins-antitrust-monopoly-lawsuits-1234946281/' },
+              { sourceName: 'The Athletic', sourceUrl: 'https://www.nytimes.com/athletic/7647024/2026/09/30/fanatics-antitrust-lawsuits-topps-trading-cards/' }
+            ],
+            publishedDate: '2026-09-30'
+          },
+          {
+            order: 3,
+            tag: 'Regulatory',
+            section: 'sports',
+            accentText: '$70M',
+            headline: 'Brazil Bans Sports Betting, Flutter Stock Takes Hit',
+            emailSummary: 'Brazilian President <strong>Luiz Inácio Lula da Silva</strong> moved to ban sports betting and online casino gaming less than two years after legalizing the industry, citing public health concerns backed by 75% public support. The ban threatens to cut <strong>Flutter Entertainment</strong>\'s 2026 revenue by about <strong>$70 million</strong> if its Brazil business can\'t operate for the rest of the year, compounding a separate <strong>$250 million</strong> hit from India\'s own betting crackdown. Flutter shares fell nearly 8% on the news and are down more than 60% year-to-date; longtime CEO <strong>Peter Jackson</strong> is stepping down this month.',
+            whyItMatters: 'Two of Flutter\'s highest-conviction international growth markets have both reversed course in the same year, undercutting the company\'s diversification strategy just as domestic prediction markets erode FanDuel\'s core U.S. business.',
+            signalText: 'Brazil banned sports betting, threatening a $70 million hit to Flutter\'s 2026 revenue.',
+            sources: [
+              { sourceName: 'Sportico', sourceUrl: 'https://club.sportico.com/p/brazil-betting-ban-analysis-congress-college-law' },
+              { sourceName: 'Sportico (Flutter)', sourceUrl: 'https://www.sportico.com/business/sports-betting/2026/flutter-brazil-india-ban-stock-fanduel-1234945940/' }
+            ],
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 4,
+            tag: 'Memorabilia',
+            section: 'sports',
+            accentText: '$12.26M',
+            headline: 'Michael Jordan Memorabilia Sets Records At Joopiter Auctions',
+            emailSummary: 'A Michael Jordan game-worn jersey from Game 3 of the 1998 NBA Finals sold for <strong>$12.26 million</strong> through Pharrell Williams\' auction house <strong>Joopiter</strong>, a record for a game-used NBA jersey. One day later, a 1997 Ferrari 550 Maranello Jordan once drove sold through the same platform for <strong>$2.7 million</strong> — four times its pre-sale high estimate. Both items came from seller <strong>Rob Gough</strong>, who also holds the record for the most expensive publicly known sports trading card sale.',
+            whyItMatters: 'Back-to-back record sales through a single auction house show collectors are now treating entire categories of Jordan memorabilia — not just cards — as a rapidly appreciating asset class.',
+            signalText: 'A Michael Jordan jersey sold for $12.26 million and his Ferrari for $2.7 million.',
+            sources: [
+              { sourceName: 'Sportico', sourceUrl: 'https://www.sportico.com/business/commerce/2026/michael-jordan-jersey-record-sale-last-dance-1234946172/' },
+              { sourceName: 'The Athletic', sourceUrl: 'https://www.nytimes.com/athletic/7647403/2026/09/30/michael-jordan-ferrari-sale/' }
+            ],
+            publishedDate: '2026-09-30'
+          },
+          {
+            order: 5,
+            tag: 'Regulatory',
+            section: 'sports',
+            accentText: '77-22',
+            headline: 'Senate Passes Protect College Sports Act In 77-22 Vote',
+            emailSummary: 'The Senate passed the <strong>Protect College Sports Act</strong> 77-22, granting the NCAA a long-sought federal antitrust exemption and creating a uniform national standard for paying and governing college athletes. The bill shields the NCAA, conferences, schools and the College Sports Commission from federal lawsuits over compensation, transfer and recruitment rules, and raises the athlete revenue-sharing cap to <strong>$48.8 million</strong>. It now heads to a Republican-controlled House with a narrow six-week window to act before the current Congress adjourns.',
+            whyItMatters: 'A federal antitrust shield would let the NCAA and conferences enforce pay and eligibility rules without the wave of state-law challenges that have reshaped college sports since 2021.',
+            signalText: 'The Senate passed the Protect College Sports Act, giving the NCAA an antitrust exemption.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/leagues/college-sports/2026/protect-college-sports-act-senate-passes-antitrust-1234945916/',
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 6,
+            tag: 'Attendance',
+            section: 'sports',
+            accentText: '71.75M',
+            headline: 'MLB Attendance Extends Growth Streak To Four Seasons',
+            emailSummary: 'MLB drew <strong>71,752,722</strong> fans across the 2026 regular season, topping 70 million for the third straight year and extending its attendance growth streak to four seasons, averaging <strong>29,601</strong> fans per game. The <strong>Tampa Bay Rays</strong> posted the biggest year-over-year gain, up 79.9% after returning to Tropicana Field following Hurricane Milton damage to their temporary home. The <strong>Los Angeles Dodgers</strong> remained MLB\'s attendance leader, drawing more than 4 million fans to Dodger Stadium for a second straight season.',
+            whyItMatters: 'Four straight seasons of rising attendance, plus early audience gains for new media partners NBC and Netflix, gives MLB a strong revenue footing heading into contentious 2027 labor negotiations.',
+            signalText: 'MLB drew 71.75 million fans in 2026, its fourth straight season of growth.',
+            sourceName: 'Sports Business Journal',
+            sourceUrl: 'https://www.sportsbusinessjournal.com/Articles/2026/09/28/mlb-attendance-extends-growth-streak-to-four-seasons/',
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 7,
+            tag: 'Attendance',
+            section: 'sports',
+            accentText: '1.2M',
+            headline: 'US Open Claims Record Attendance, Withholds Exact Numbers',
+            emailSummary: 'The USTA announced a record <strong>1.2 million</strong> fans attended the 2026 US Open, driven partly by over 300,000 who attended the largely free Fan Week. Unlike in prior years, the USTA published only rounded estimates and declined to share exact main-draw attendance figures or explain the change, making it impossible to confirm whether the tournament actually broke last year\'s 905,255 main-draw record. The organization also omitted its usual Honey Deuce cocktail sales figures, which totaled <strong>$17 million</strong> in revenue the year before.',
+            whyItMatters: 'Withholding the exact figures it has always disclosed raises the question of whether the US Open\'s own numbers are moving in a direction the USTA would rather not headline.',
+            signalText: 'The USTA reported 1.2 million US Open attendees but withheld exact figures.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/leagues/tennis/2026/us-open-2026-attendance-record-honey-deuce-1234946159/',
+            publishedDate: '2026-09-29'
+          },
+          {
+            order: 8,
+            tag: 'Finance',
+            section: 'sports',
+            accentText: '$120M',
+            headline: 'Yankee Stadium Holds $120M Reserve For 2027 Lockout',
+            emailSummary: 'With MLB\'s collective bargaining agreement expiring December 1 and a work stoppage widely expected, Yankee Stadium\'s holding company has nearly <strong>$120 million</strong> stashed across two reserve funds to cover debt service if the 2027 season is lost. The stadium carries roughly <strong>$1.2 billion</strong> in municipal bonds, with $76 million in net debt service payments this year; Fitch Ratings upgraded the debt from BBB+ to A- in May, citing those reserves. The Yankees carry 18 months of coverage, well above the roughly one-year cushion typical for newer stadium financings.',
+            whyItMatters: 'Stadium debt structures built around a potential lockout show teams are now underwriting labor risk directly into their real estate financing, not just their rosters.',
+            signalText: 'Yankee Stadium has nearly $120 million reserved to cover debt if 2027 is a lockout.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/business/real-estate/2026/yankee-stadium-reserves-debt-service-pilot-bonds-1234946190/',
+            publishedDate: '2026-09-30'
+          },
+          {
+            order: 9,
+            tag: 'League Expansion',
+            section: 'sports',
+            accentText: '2029-30',
+            headline: 'NBA Expansion In Las Vegas Could Slip To 2029-30',
+            emailSummary: 'A Las Vegas NBA expansion franchise could debut in the <strong>2029-30</strong> season rather than the originally targeted 2028-29, as the league and three competing ownership groups work through where to build a new arena. The groups include Walmart heirs <strong>Nancy and Bill Laurie</strong>, Golden Knights owner <strong>Bill Foley</strong> with Jerry Colangelo, and a group led by <strong>Steve Apostolopoulos</strong>. Whoever wins the franchise faces an estimated <strong>$11-12 billion</strong> total outlay once arena construction and the expansion fee are combined.',
+            whyItMatters: 'A year-long delay signals the arena, not the ownership bidding war, is now the binding constraint on the NBA\'s first expansion since 2004.',
+            signalText: 'An NBA Las Vegas expansion team could debut in 2029-30 instead of 2028-29.',
+            sourceName: 'Yahoo Sports (via The Athletic)',
+            sourceUrl: 'https://sports.yahoo.com/articles/nba-expansion-franchise-las-vegas-174455351.html',
+            publishedDate: '2026-10-02'
+          },
+          {
+            order: 10,
+            tag: 'Real Estate',
+            section: 'sports',
+            accentText: 'NWSL',
+            headline: 'Denver Summit FC Breaks Ground On Its Own Stadium',
+            emailSummary: 'Denver Summit FC broke ground on its own stadium at Santa Fe Yards, becoming only the second NWSL club with a purpose-built home for female athletes. Club president <strong>Jen Millet</strong>, previously an executive with the Golden State Warriors and Bay FC, says the project is funded with private capital, with public money going only toward land and roughly four acres of surrounding parkland. The club spent hundreds of hours with six adjacent neighborhoods to reach a community benefits agreement before construction began.',
+            whyItMatters: 'Owning the building instead of renting it means Denver Summit controls its own real estate, revenue and calendar — the same independence NFL and NBA owners have taken for granted for decades.',
+            signalText: 'Denver Summit FC broke ground on its own privately funded NWSL stadium.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/leagues/soccer/2026/why-denver-summit-building-own-stadium-nwsl-1234946236/',
+            publishedDate: '2026-10-01'
+          },
+          {
+            order: 11,
+            tag: 'Media Rights',
+            section: 'sports',
+            headline: 'Infront Signs 8-Year Commercial Rights Deal With WTT',
+            emailSummary: 'Swiss sports agency <strong>Infront</strong> signed an eight-year global marketing and commercial rights deal with the <strong>International Table Tennis Federation</strong> and <strong>World Table Tennis</strong> (WTT) — a different organization than Coco Gauff\'s World TeamTennis — running through 2034. Infront becomes WTT\'s lead commercial development agency across the WTT Finals, Grand Smashes and WTT Champions events, though ITTF World Championships rights stay with IMG until that deal expires. Financial terms were not disclosed.',
+            whyItMatters: 'An eight-year commitment from a major sports marketing agency signals real confidence that table tennis can be packaged and sold commercially at a bigger scale than it has been historically.',
+            signalText: 'Infront signed an eight-year global commercial rights deal with World Table Tennis.',
+            sourceName: 'SportCal',
+            sourceUrl: 'https://www.sportcal.com/news/infront-agrees-eight-year-commercial-rights-deal-with-ittf-wtt/',
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 12,
+            tag: 'Real Estate',
+            section: 'sports',
+            accentText: '€700M',
+            headline: 'Barcelona Launches €700M VIP Seat License Scheme',
+            emailSummary: 'FC Barcelona launched a premium seat-licensing program modeled on U.S. sports venues, selling <strong>2,000</strong> VIP seats at Camp Nou for <strong>€200,000-€210,000</strong> each across 15-to-30-year terms, through partner <strong>Legends Global</strong>. The club projects the scheme will generate <strong>€700 million</strong> ($796 million) in committed revenue, adding to the €380 million already raised from an earlier 5,000-seat hospitality program. The seat licenses are part of financing the club\'s broader <strong>€1.8 billion</strong> Espai Barça renovation.',
+            whyItMatters: 'Barcelona importing the American personal-seat-license model shows European clubs increasingly treating stadium seats themselves as a long-duration financial instrument, not just a ticket.',
+            signalText: 'Barcelona launched a VIP seat license scheme projected to generate €700 million.',
+            sourceName: 'SportCal',
+            sourceUrl: 'https://www.sportcal.com/news/barcelona-look-to-raise-e700m-with-new-vip-seat-license-scheme/',
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 13,
+            tag: 'League Expansion',
+            section: 'sports',
+            accentText: '$100M',
+            headline: 'Atlanta Reveals Name, Colors For New NWSL Franchise',
+            emailSummary: '<strong>Atlanta City FC</strong>, owned by Falcons owner <strong>Arthur Blank</strong>\'s AMB Sports and Entertainment, unveiled its name, crest and four-color identity ahead of its 2028 NWSL debut at Mercedes-Benz Stadium. The club broke ground on a <strong>$100 million</strong> training facility in Marietta, positioned as an economic catalyst for the Franklin Gateway corridor. Sponsor <strong>Aflac</strong> is already attached to the franchise ahead of its first match.',
+            whyItMatters: 'Committing $100 million to a dedicated training facility two years before a single match is played shows ownership treating the NWSL franchise as permanent infrastructure, not an experiment.',
+            signalText: 'Atlanta City FC unveiled its name and colors ahead of its 2028 NWSL debut.',
+            sourceName: 'Atlanta News First',
+            sourceUrl: 'https://www.atlantanewsfirst.com/2026/09/28/meet-atlanta-city-fc-new-national-womens-soccer-league-club-reveals-official-team-name-colors-branding/',
+            publishedDate: '2026-09-28'
+          },
+          {
+            order: 14,
+            tag: 'League Expansion',
+            section: 'sports',
+            accentText: '4.1M Players',
+            headline: 'TMRW Sports Adds Executives For NFL Flag Football League',
+            emailSummary: '<strong>TMRW Sports</strong> hired four new executives — spanning marketing, partnerships, strategy and technology — to build out its professional flag football league developed in partnership with the <strong>NFL</strong>. The league, led by president <strong>Brendan Donohue</strong>, plans to launch before the 2028 LA Olympics with both women\'s and men\'s competition from a purpose-built stadium. Roughly <strong>4.1 million</strong> youth now play flag football in the U.S., up more than 50% since 2020.',
+            whyItMatters: 'Building out a full executive team years ahead of launch signals TMRW and the NFL see flag football\'s Olympic debut as the moment to professionalize the sport commercially, not just competitively.',
+            signalText: 'TMRW Sports hired four executives to build its NFL-backed flag football league.',
+            sourceName: 'TMRW Sports',
+            sourceUrl: 'https://tmrwsportsgroup.com/articles/2026/10/tmrw-sports-expands-leadership-team-for-new-professional-flag-football-league',
+            publishedDate: '2026-10-02'
+          },
+          {
+            order: 15,
+            tag: 'Corporate',
+            section: 'sports',
+            accentText: '-26% China',
+            headline: 'Nike Deepens Restructuring As China Sales Slide 26%',
+            emailSummary: 'Nike announced more job cuts and a restructuring to three geographic regions under CEO <strong>Elliott Hill</strong>, after China sales fell <strong>26%</strong> on a constant-currency basis and the company projected a steep full-year revenue decline. The plan is expected to deliver <strong>$2.5 billion</strong> in savings through fiscal 2031, while Nike pulls online sales rights from major Chinese retail partners starting in January. The news comes weeks after French star <strong>Kylian Mbappé</strong> ended his two-decade Nike partnership to join rival <strong>On</strong>.',
+            whyItMatters: 'Nine straight quarters of China decline, plus a marquee athlete defection to a smaller rival, show Nike\'s turnaround under Hill still hasn\'t found its footing nearly two years in.',
+            signalText: 'Nike announced more job cuts after a 26% sales decline in China.',
+            sourceName: 'Reuters',
+            sourceUrl: 'https://www.reuters.com/business/retail-consumer/nike-quarterly-sales-miss-estimates-china-weakness-competition-weigh-2026-10-01/',
+            publishedDate: '2026-10-01'
+          },
+          {
+            order: 16,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$20/Share',
+            headline: 'Mattel Changes CEO Amid Authentic Brands Takeover Buzz',
+            emailSummary: 'Mattel named <strong>Roger Lynch</strong>, formerly CEO of Condé Nast, as its new chairman and CEO, succeeding <strong>Ynon Kreiz</strong>, who is leaving to co-run the newly merged <strong>Paramount Skydance</strong>. A day later, reports surfaced that <strong>Authentic Brands Group</strong> had discussed a takeover bid valuing Mattel above <strong>$6 billion</strong>, or at least $20/share, sending shares up 19%. Authentic Brands\' interest centers on licensing Mattel\'s toy IP, particularly Hot Wheels, into film and gaming partnerships.',
+            whyItMatters: 'A same-week CEO exit and takeover approach leaves Mattel negotiating its independence from a position of real uncertainty, with its outgoing chief already headed to a direct Hollywood rival in scale.',
+            signalText: 'Mattel named a new CEO as Authentic Brands explored a takeover above $6 billion.',
+            sources: [
+              { sourceName: 'The Hollywood Reporter', sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/mattel-new-ceo-roger-lynch-conde-nast-exit-1236716965/' },
+              { sourceName: 'Seeking Alpha', sourceUrl: 'https://seekingalpha.com/article/4951502-mattel-stock-ma-buzz-ceo-change-create-substantial-uncertainty' }
+            ],
+            publishedDate: '2026-10-01'
+          },
+          {
+            order: 17,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$110B',
+            headline: 'Paramount-WBD Merger Closes, Combined Company Is Paramount Skydance',
+            emailSummary: 'Paramount\'s <strong>$110 billion</strong> acquisition of Warner Bros. Discovery has closed, with the combined company now operating as <strong>Paramount Skydance (PSKY)</strong> — confirmed this week as outgoing Mattel CEO Ynon Kreiz departed to become its co-CEO. A federal judge had approved the settlement resolving the 12-state antitrust suit, requiring film-release thresholds and an independent film fund but no asset divestitures. The deal carries a <strong>$79 billion</strong> net debt load against projected synergies of $6 billion.',
+            whyItMatters: 'The merger\'s actual close — not just the settlement that cleared it — starts the clock on whether a company this large and this leveraged can deliver the synergies it promised regulators.',
+            signalText: 'Paramount\'s $110 billion Warner Bros. Discovery merger closed, forming Paramount Skydance.',
+            sourceName: 'SportsMediaWatch',
+            sourceUrl: 'https://www.sportsmediawatch.com/2026/09/paramount-wbd-merger-anticipated-tuesday-close-consent-decree/',
+            publishedDate: '2026-10-01'
+          },
+          {
+            order: 18,
+            tag: 'Live Events',
+            section: 'entertainment',
+            headline: 'Live Nation Backs New Creator Economy Firm Creator Nation',
+            emailSummary: '<strong>Live Nation</strong> is funding <strong>Creator Nation</strong>, a new management and services firm for online creators, led by <strong>Alexis</strong> and <strong>Scott Fisher</strong>. The firm plans to acquire and grow creator-management businesses while offering à la carte support across content, brand partnerships and live events — areas Live Nation is positioned to support directly. CEO <strong>Michael Rapino</strong> says the goal is helping creators build businesses that extend offscreen into real, in-person events.',
+            whyItMatters: 'The largest live-entertainment company is betting creators are the next pipeline of touring talent, giving it an early ownership stake in how that talent gets managed before it ever needs a venue.',
+            signalText: 'Live Nation is funding a new creator-management firm called Creator Nation.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/live-nation-backing-management-creator-nation-1236714891/',
+            publishedDate: '2026-10-01'
+          }
+        ]
+      }
+    ]
+  },
+
   // SEPTEMBER 2026
   {
     slug: 'september-2026',
-    isCurrent: true,
+    isCurrent: false,
     monthLabel: 'September 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
     publishedDate: '2026-09-27',
