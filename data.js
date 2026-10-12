@@ -22,10 +22,296 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'October 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-10-04',
-    dateRange: 'September 28 – October 4, 2026',
-    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato.',
+    publishedDate: '2026-10-11',
+    dateRange: 'September 28 – October 11, 2026',
+    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX.',
     issues: [
+
+      // WEEK 2
+      {
+        slug: 'week-2-october-2026',
+        issueNumber: '2',
+        weekLabel: 'Week 2',
+        dateRange: 'October 5–11, 2026',
+        publishedDate: '2026-10-11',
+        issueTitle: 'Week 2 — October 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'LIV Golf took a $300 million lifeline the same week Jon Rahm walked away, the WNBA and its Valkyries both broke financial records, and Hollywood kept doubling down on its biggest bets — RedBird added $4 billion to Paramount-Skydance and Prime Video locked up the Emmys for six years.',
+        shareText: 'LIV Golf\'s $300M lifeline and Jon Rahm\'s exit, WNBA/Valkyries records, NBA valuations and its Europe push, RedBird\'s extra $4B in Paramount-Skydance, and Prime Video\'s exclusive Emmys deal — plus Hello Kitty\'s CDMX Fun Run and AAA\'s Héroes Inmortales — Week 2 October · Fillip.',
+        coreSignal: 'This week\'s throughline is capital arriving right behind proof of demand. The WNBA and the Valkyries didn\'t get record attendance and revenue by accident — they followed years of rising interest, the same pattern behind Crystal Palace\'s doubled valuation and the NBA\'s continued Europe push. LIV Golf\'s $300 million lifeline shows even a bankrupt league can draw fresh credit once it restructures around player ownership, though Jon Rahm\'s exit proves money alone doesn\'t buy back trust. And in media, RedBird\'s extra $4 billion and Prime Video\'s six-year Emmys lock-in both bet that scale now beats flexibility.',
+        ecosystemNews: [
+          {
+            headline: 'Hello Kitty & Friends Fun Run CDMX Races This Week',
+            body: 'The 2026 Hello Kitty & Friends Fun Run takes place in Mexico City this week, Tycoon\'s Sanrio-branded 3K, 5K, and 10K race. If you haven\'t enrolled yet, check the link below for last-minute details — and look out for recap coverage once runners cross the finish line.',
+            sources: [
+              { sourceName: 'Fhinix', sourceUrl: 'https://fhinix.com/hello-kitty-and-friends-fun-run-cdmx-2026.html' }
+            ]
+          },
+          {
+            headline: 'AAA\'s Héroes Inmortales Returns To CDMX On October 24',
+            body: 'Lucha Libre AAA announced its next Premium Live Event, Héroes Inmortales, will take place in Mexico City on October 24. Tickets are on sale now, continuing AAA\'s packed fall schedule after last month\'s Triplemanía 34 and its recent TV taping in León, Guanajuato.',
+            sources: [
+              { sourceName: 'Get Tickets — Boletomovil', sourceUrl: 'https://boletomovil.com/evento/lucha-libre-aaa-heroes-inmortales-2026-10-24' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Finance',
+            section: 'sports',
+            accentText: '$300M',
+            headline: 'LIV Golf Gets $300M Lifeline As Jon Rahm Exits',
+            emailSummary: '<strong>BC Partners Credit</strong> committed up to <strong>$300 million</strong> in financing to help LIV Golf emerge from Chapter 11 bankruptcy under a new player-owned, team-focused structure ahead of the 2027 season. Days later, <strong>Jon Rahm</strong> — owed roughly $150 million on his original contract — rejected the proposed "LIV 2.0" terms and is finalizing his exit from the league by October 15. LIV\'s bankruptcy filing had already listed Rahm, Bryson DeChambeau, Dustin Johnson and Cameron Smith as creditors owed millions.',
+            whyItMatters: 'A financial lifeline arriving the same week a marquee founding player walks away shows LIV\'s restructuring can buy the league solvency, but not necessarily the talent it built its brand around.',
+            signalText: 'BC Partners Credit committed up to $300 million to LIV Golf\'s restructuring.',
+            sources: [
+              { sourceName: 'Reuters', sourceUrl: 'https://www.reuters.com/sports/golf/liv-golf-bags-bc-partners-credit-funding-support-restructuring-2026-10-05/' },
+              { sourceName: 'Sky Sports', sourceUrl: 'https://www.skysports.com/golf/news/13596245/jon-rahm-set-to-end-liv-golf-involvement-over-unacceptable-terms-for-proposed-relaunch' }
+            ],
+            publishedDate: '2026-10-08'
+          },
+          {
+            order: 2,
+            tag: 'Attendance',
+            section: 'sports',
+            accentText: '3.79M',
+            headline: 'WNBA Attendance Hits Record As Valkyries Cross $100M',
+            emailSummary: 'The WNBA drew a league-record <strong>3.79 million</strong> fans in 2026, up 20% year-over-year, partly fueled by 25 games relocated to larger arenas that averaged a 40% attendance lift. The <strong>Golden State Valkyries</strong>, in just their second season, became the first WNBA team — and first women\'s pro sports team anywhere — to exceed <strong>$100 million</strong> in annual revenue, a figure CNBC\'s $1 billion franchise valuation already reflected. The Valkyries sold out all 22 home games and currently lead their semifinal series against the Las Vegas Aces.',
+            whyItMatters: 'A $100 million-revenue franchise in just its second year of existence, inside a league posting record attendance, is hard evidence the WNBA\'s growth is translating directly into franchise economics, not just ratings.',
+            signalText: 'The Golden State Valkyries became the first WNBA team to exceed $100 million in revenue.',
+            sources: [
+              { sourceName: 'Sports Business Journal', sourceUrl: 'https://www.sportsbusinessjournal.com/Articles/2026/10/06/wnba-hits-record-attendance-mark-for-2026-season/' },
+              { sourceName: 'Reuters', sourceUrl: 'https://www.reuters.com/sports/valkyries-first-wnba-franchise-hit-100m-annual-revenue--flm-2026-10-08/' }
+            ],
+            publishedDate: '2026-10-08'
+          },
+          {
+            order: 3,
+            tag: 'Valuation',
+            section: 'sports',
+            accentText: '$14.5B',
+            headline: 'NBA Valuations Climb As League Commits To Europe',
+            emailSummary: 'Sportico\'s 2026 NBA valuations put the <strong>Golden State Warriors</strong> on top at <strong>$14.5 billion</strong>, with the champion <strong>New York Knicks</strong> jumping 30% to pass the Lakers for second place; only three franchises now exceed $12 billion. Separately, the NBA and <strong>FIBA</strong> confirmed their push to launch an independent European league will continue after EuroLeague team owners rejected a merger proposal at a Lake Como meeting. The NBA is targeting a 16-team European league as soon as 2027.',
+            whyItMatters: 'The league is pursuing continental expansion in Europe at the same moment its existing franchises keep repricing upward at home — growth and valuation are compounding on top of each other, not trading off.',
+            signalText: 'The Golden State Warriors topped Sportico\'s 2026 NBA valuations at $14.5 billion.',
+            sources: [
+              { sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague' },
+              { sourceName: 'Bleacher Report', sourceUrl: 'https://bleacherreport.com/articles/25508555-warriors-knicks-lakers-top-sporticos-2026-list-nbas-most-valuable-teams' }
+            ],
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 4,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '£900M',
+            headline: 'Crystal Palace Hires Raine Group To Seek Investment',
+            emailSummary: 'Crystal Palace hired <strong>Raine Group</strong> to find outside investment — not a full sale — valuing the club at roughly <strong>£900 million</strong> ($1.19 billion), more than double the £190 million implied when Woody Johnson bought a 43% stake from John Textor in 2025. The club needs fresh capital for a planned expansion of <strong>Selhurst Park</strong>. Chair <strong>Steve Parish</strong> is working with Raine, the same advisory firm that has handled recent deals for Liverpool and other top-flight clubs.',
+            whyItMatters: 'A valuation more than doubling in under a year, for a club not even seeking full control, shows how aggressively Premier League club prices are repricing even outside the biggest-name franchises.',
+            signalText: 'Crystal Palace is seeking outside investment at a roughly £900 million valuation.',
+            sourceName: 'SportCal',
+            sourceUrl: 'https://www.sportcal.com/news/crystal-palace-seeking-outside-investment-once-again-turn-to-raine-group/',
+            publishedDate: '2026-10-06'
+          },
+          {
+            order: 5,
+            tag: 'Media Rights',
+            section: 'sports',
+            headline: 'Netflix Hires IMG To Produce 2027 Women\'s World Cup',
+            emailSummary: 'Netflix hired <strong>IMG</strong> as production partner for its coverage of the <strong>2027 FIFA Women\'s World Cup</strong> in Brazil, marking the streamer\'s first live soccer broadcast in North America. Netflix holds exclusive U.S. and Canadian rights for both the 2027 and 2031 tournaments, covering all 64 matches plus more than 100 hours of studio programming. The tournament runs <strong>June 24 to July 25, 2027</strong>.',
+            whyItMatters: 'Netflix building out full production infrastructure, not just licensing a broadcast feed, signals it intends live soccer to become a recurring, owned part of its programming rather than a one-off experiment.',
+            signalText: 'Netflix hired IMG to produce its coverage of the 2027 Women\'s World Cup.',
+            sourceName: 'SportCal',
+            sourceUrl: 'https://www.sportcal.com/news/netflix-hires-img-as-production-partner-for-2027-womens-world-cup/',
+            publishedDate: '2026-10-06'
+          },
+          {
+            order: 6,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '$24M',
+            headline: 'Golf Media Company Pro Shop Raises $24M Series B',
+            emailSummary: 'Golf media company <strong>Pro Shop</strong>, founded by Joe Purzycki and Chad Mumm in 2023, raised a <strong>$24 million</strong> Series B led by Atlanta Falcons owner <strong>Arthur Blank</strong>\'s family office, with Causeway Partners, Ares Capital, PGA of America and Powerhouse Capital also participating. The company — which produced Netflix\'s <strong>Happy Gilmore 2</strong> and <strong>Full Swing</strong>, and has <strong>The Skins Game</strong> on Prime Video — plans to expand its franchises into live, in-person events. Pro Shop previously raised $20 million in 2024 when it acquired the PGA Tour\'s digital brand Skratch.',
+            whyItMatters: 'Co-founder Mumm\'s point that golf content was "impossible to get made" a decade ago, now drawing a sports-owner-led Series B, shows how far golf has moved from a niche broadcast product into a mainstream media bet.',
+            signalText: 'Golf media company Pro Shop raised a $24 million Series B round.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/golf-media-company-pro-shop-raises-series-b-1236720861/',
+            publishedDate: '2026-10-05'
+          },
+          {
+            order: 7,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '+20%',
+            headline: 'Premier League Viewership Jumps 20% Among Young Americans',
+            emailSummary: 'Premier League viewership among 18-to-34-year-old Americans is up <strong>20%</strong> this season, according to Nielsen Sports data, with the U.S.-co-hosted 2026 World Cup credited as the catalyst. NBC and USA Network are drawing an average of <strong>500,000</strong> viewers per Premier League game, a 3% rise, while MLS interest among 16-to-34-year-olds jumped 23%. Tottenham\'s home loss to Newcastle on August 29 was the season\'s most-watched U.S. match, drawing just over <strong>1 million</strong> viewers.',
+            whyItMatters: 'The World Cup\'s halo effect is showing up as durable viewership gains across both the Premier League and MLS, not just a short-term bump during the tournament itself.',
+            signalText: 'Premier League viewership among young Americans rose 20% this season.',
+            sourceName: 'Reuters',
+            sourceUrl: 'https://www.reuters.com/sports/soccer/premier-league-viewership-up-20-among-young-americans-nielsen-sports-data-shows-2026-10-05/',
+            publishedDate: '2026-10-05'
+          },
+          {
+            order: 8,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '$4M',
+            headline: 'Agentiq Raises $4M For Fan-To-Athlete Investment Platform',
+            emailSummary: '<strong>Agentiq Sports</strong>, led by CEO <strong>Zach Kurtz</strong>, raised a <strong>$4 million</strong> round led by defy.vc to launch a platform letting fans directly invest in professional athletes\' careers through SEC-qualified securities offerings. The platform launched with five athletes, including Diamondbacks closer Justin Martinez, and maintains a pipeline of more than <strong>200</strong> professional athletes across MLB, NFL and other leagues. Co-investors include a group led by the owner of two major European football clubs.',
+            whyItMatters: 'Opening athlete investment to retail fans — not just private equity — could meaningfully widen the pool of capital athletes can draw on outside endorsement deals and team contracts.',
+            signalText: 'Agentiq raised $4 million to launch a fan-to-athlete investment platform.',
+            sourceName: 'PR Newswire',
+            sourceUrl: 'https://www.prnewswire.com/news-releases/agentiq-raises-4-million-to-launch-fan-to-athlete-investment-platform-302898371.html',
+            publishedDate: '2026-10-07'
+          },
+          {
+            order: 9,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '55 Markets',
+            headline: 'Disney+ Will Simulcast Super Bowl LXI In 55 Markets',
+            emailSummary: 'ESPN announced <strong>Super Bowl LXI</strong> will stream on <strong>Disney+</strong> in English and Spanish across <strong>55</strong> international markets, alongside its existing ABC and ESPN broadcasts. Two regular-season Monday Night Football games, including a Week 7 Cowboys-Eagles matchup, will also stream on Disney+. Disney holds NFL rights valued at <strong>$2.7 billion</strong> annually under a 10-year deal with opt-out rights after 2030.',
+            whyItMatters: 'Disney CEO Josh D\'Amaro framed this as "a fan engagement and ecosystem play" rather than a ratings play — using the NFL\'s biggest game to pull international audiences directly into Disney+ subscriptions.',
+            signalText: 'Disney+ will simulcast Super Bowl LXI across 55 international markets.',
+            sourceName: 'SportsMediaWatch',
+            sourceUrl: 'https://www.sportsmediawatch.com/2026/10/disney-plus-super-bowl-lxi-simulcast-espn-abc/',
+            publishedDate: '2026-10-07'
+          },
+          {
+            order: 10,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '$15M',
+            headline: 'Hyrox Founders Invest In Rival Fitness Startup Xenom',
+            emailSummary: 'Hyrox co-founders <strong>Christian Toetzke</strong> and <strong>Moritz Fürste</strong> are investing in and joining the board of <strong>Xenom</strong>, a rival competitive-fitness event company that raised <strong>$15 million</strong> in seed funding from Jeffrey Katzenberg\'s Wndr. Xenom, founded by Keith Barlow and launched in Dallas this June, positions itself as a strength-focused alternative targeting CrossFitters and hardcore athletes. Hyrox itself was valued in the hundreds of millions when L Catterton acquired a majority stake last month.',
+            whyItMatters: 'Hyrox\'s own founders backing a direct competitor suggests they see the hybrid-fitness-competition category as big enough for multiple winners, rather than a zero-sum fight for the same athletes.',
+            signalText: 'Hyrox\'s founders are investing in rival fitness competition company Xenom.',
+            sourceName: 'AthleTech News',
+            sourceUrl: 'https://athletechnews.com/hyrox-founders-invest-in-xenom-fitness-competitions-strike-partnership/',
+            publishedDate: '2026-10-07'
+          },
+          {
+            order: 11,
+            tag: 'M&A',
+            section: 'sports',
+            accentText: '$170M',
+            headline: 'Sportradar Sells Atrium Sports Division For $170M',
+            emailSummary: '<strong>Sportradar</strong> is selling its <strong>Atrium Sports</strong> division to Teamwork Innovations for <strong>$170 million</strong>, with the deal expected to close in Q4 2026. Sportradar acquired the unit, originally called Synergy Sports, in early 2021. CEO <strong>Carsten Koerl</strong> said the sale lets the company refocus on its core betting, gaming and media business while retaining key video-production and computer-vision technology.',
+            whyItMatters: 'Divesting a data/video unit it built up over five years to sharpen focus on betting and media shows Sportradar treating sports-tech verticals as tradable assets, not permanent fixtures of the business.',
+            signalText: 'Sportradar sold its Atrium Sports division to Teamwork Innovations for $170 million.',
+            sourceName: 'SportCal',
+            sourceUrl: 'https://www.sportcal.com/news/sportradar-sells-off-atrium-sports-for-170m/',
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 12,
+            tag: 'League Expansion',
+            section: 'sports',
+            accentText: '20 Teams',
+            headline: 'NWSL Opens Data Room For Teams 19 And 20',
+            emailSummary: 'NWSL commissioner <strong>Jessica Berman</strong> said the league is opening its financial data room for two more expansion franchises, teams 19 and 20, with no fixed deadline for awarding them. The league\'s most recent expansion fees — paid by Atlanta and Columbus, joining in 2028 — were <strong>$165 million</strong> and <strong>$205 million</strong> respectively. Sixteen clubs compete in the current 2026 season, after Boston Legacy and Denver Summit joined as the 15th and 16th members.',
+            whyItMatters: 'Expansion fees more than doubling in a few short cycles, with the league explicitly comparing itself to 30-plus-team U.S. leagues as its long-term blueprint, signals the NWSL now sees itself as a major league, not an emerging one.',
+            signalText: 'The NWSL is opening its data room for two more expansion franchises.',
+            sourceName: 'Reuters',
+            sourceUrl: 'https://www.reuters.com/sports/soccer/nwsl-looking-expand-least-20-teams--flm-2026-10-08/',
+            publishedDate: '2026-10-08'
+          },
+          {
+            order: 13,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '$300M+',
+            headline: 'UK Padel Investment Boom Shows Early Signs Of Cracking',
+            emailSummary: 'UK padel investment has topped <strong>$300 million</strong> in recent years, drawing backers from rapper Stormzy to Andy Murray, as courts grew from 69 to <strong>1,825</strong> in six years. But the first insolvencies have arrived: operator Social Sports Society entered administration, and Padel XO, founded by ex-rugby international Max Evans, went into liquidation this year. Sweden\'s own padel boom saw roughly 90 related companies go insolvent in 2023, and Chile closed more than 80 clubs in 2024 — precedents the UK market is now being compared against.',
+            whyItMatters: 'Two other countries\' padel booms have already ended in waves of insolvencies, so the UK\'s first failed operators are an early test of whether its market can avoid the same oversupply cycle.',
+            signalText: 'UK padel investment has topped $300 million as the first operators went insolvent.',
+            sourceName: 'El Economista',
+            sourceUrl: 'https://www.eleconomista.es/actualidad/noticias/14019973/10/26/reino-unido-experimenta-una-burbuja-del-padel-con-sintomas-de-estar-a-punto-de-estallar-una-frenetica-inversion-de-300-millones-que-empieza-a-mostrar-grietas.html',
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 14,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '£800M',
+            headline: 'Everton\'s Friedkin Group Explores Sale After Two Years',
+            emailSummary: '<strong>The Friedkin Group</strong> is exploring a sale of <strong>Everton</strong>, less than two years after buying the club from Farhad Moshiri for about £400 million. An asking price around <strong>£800 million</strong>, including roughly £380 million in long-term debt, would mark a strong return; investment bank <strong>Moelis & Company</strong> is handling the process. TFG is also preparing to launch an NHL franchise in Houston worth an estimated $3.5 billion, and owns Roma and Cannes among other multi-club holdings.',
+            whyItMatters: 'A potential sale this quickly after stabilizing the club\'s finances and securing stadium funding suggests TFG is treating Everton as a turnaround trade rather than a long-term holding, with its NHL ambitions competing for capital.',
+            signalText: 'The Friedkin Group is exploring a sale of Everton at around £800 million.',
+            sourceName: 'The Guardian',
+            sourceUrl: 'https://www.theguardian.com/football/2026/oct/09/everton-owner-friedkin-group-exploring-sale-club',
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 15,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$6B',
+            headline: 'RedBird Adds $4B To Paramount Bet As Debt Questions Mount',
+            emailSummary: '<strong>RedBird Capital</strong>, led by <strong>Gerry Cardinale</strong>, invested an additional <strong>$4 billion</strong> into the Paramount-Warner Bros. Discovery merger, bringing its total stake in the Ellison family\'s media holdings to <strong>$6 billion</strong>. The investment landed the same week <strong>Skydance</strong> co-CEOs David Ellison and Ynon Kreiz moved to reassure investors that the company\'s roughly <strong>$80 billion</strong> in debt is manageable, targeting lower leverage by 2029. RedBird and the Ellison family are now the sole holders of Paramount\'s Class A voting shares, giving them full control of the combined company.',
+            whyItMatters: 'The same week its largest backer doubled down with another $4 billion, Skydance\'s own leadership had to publicly defend the debt load underpinning the deal — a split signal about how confident the market actually is.',
+            signalText: 'RedBird Capital invested another $4 billion in the Paramount-Warner Bros. Discovery merger.',
+            sources: [
+              { sourceName: 'Yahoo Finance', sourceUrl: 'https://ca.finance.yahoo.com/news/skydance-co-ceos-insist-massive-001841913.html' },
+              { sourceName: 'The Hollywood Reporter', sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/redbird-invests-4-billion-paramount-warner-bros-takeover-1236723414/' }
+            ],
+            publishedDate: '2026-10-06'
+          },
+          {
+            order: 16,
+            tag: 'Media Rights',
+            section: 'entertainment',
+            accentText: '6 Years',
+            headline: 'Prime Video Wins Exclusive Global Emmy Streaming Rights',
+            emailSummary: 'The Television Academy signed a <strong>six-year</strong> deal making <strong>Prime Video</strong> the exclusive global streaming home of the Emmy Awards starting in 2027, ending its decades-long rotation among ABC, CBS, Fox and NBC. The ceremony will remain free to watch in more than <strong>240</strong> countries and territories without a Prime Video subscription, airing live each September. The deal also expands the Emmys brand into year-round programming beyond the single awards telecast.',
+            whyItMatters: 'Amazon locking down a single, long-term home for the Emmys — rather than the networks rotating it annually — gives Prime Video a recurring marquee entertainment-industry event to build programming and marketing around every year.',
+            signalText: 'Prime Video signed a six-year deal for exclusive global Emmy Awards streaming rights.',
+            sourceName: 'Television Academy',
+            sourceUrl: 'https://www.televisionacademy.com/features/news/awards-news/261006-emmy-prime-video-announcement-release',
+            publishedDate: '2026-10-06'
+          },
+          {
+            order: 17,
+            tag: 'Media Rights',
+            section: 'entertainment',
+            accentText: '$250M',
+            headline: 'Spotify Extends Joe Rogan Deal At Est. $250M',
+            emailSummary: 'Spotify signed a multiyear extension with <strong>"The Joe Rogan Experience,"</strong> estimated at roughly <strong>$250 million</strong>, close to the value of previous renegotiations. Spotify keeps advertising distribution and platform licensing, while the show\'s content can now also appear on additional streaming platforms — a shift from full exclusivity. The podcast holds more than <strong>18 million</strong> followers on Spotify and continues to top global podcast rankings.',
+            whyItMatters: 'Loosening exclusivity on its highest-profile show suggests Spotify now values keeping Rogan\'s content inside its ad and licensing business more than locking listeners onto its own app exclusively.',
+            signalText: 'Spotify extended its Joe Rogan deal in a contract estimated at $250 million.',
+            sourceName: 'Plataforma Media',
+            sourceUrl: 'https://www.plataformamedia.com/en/2026/10/09/spotify-secures-multiyear-extension-joe-rogan-experience/',
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 18,
+            tag: 'Memorabilia',
+            section: 'entertainment',
+            accentText: '$1M+',
+            headline: 'Darth Vader\'s Empire Strikes Back Lightsaber Heads To Auction',
+            emailSummary: 'A lightsaber prop used by Darth Vader in <strong>1980\'s The Empire Strikes Back</strong> and Return of the Jedi goes to auction November 12 through <strong>Heritage Auctions</strong>, with an estimate starting at <strong>$1 million</strong>. A previous Vader lightsaber from the same film sold for $3.6 million last year, and a Luke Skywalker lightsaber fetched $3.75 million in July. The same sale includes dozens of other lightsaber props, including ones from Obi-Wan Kenobi and Anakin Skywalker in Revenge of the Sith, estimated at just $10,000 each.',
+            whyItMatters: 'The wide gap between prop estimates for the original trilogy versus the prequels shows collector demand is still anchored almost entirely to the first Star Wars films, not the franchise as a whole.',
+            signalText: 'A Darth Vader lightsaber prop from The Empire Strikes Back is going to auction.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/movies/movie-news/darth-vader-empire-strikes-back-lightsaber-auction-1236726269/',
+            publishedDate: '2026-10-09'
+          },
+          {
+            order: 19,
+            tag: 'Brand Partnership',
+            section: 'entertainment',
+            accentText: '$50M+',
+            headline: 'Ferrero Doubles Down On Super Bowl With Two Brands',
+            emailSummary: '<strong>Ferrero</strong> will air ads for both <strong>Nutella</strong> and <strong>Kinder Bueno</strong> during Super Bowl LXI in 2027, part of a sports-marketing spend topping <strong>$50 million</strong>. Kinder Bueno\'s 2025 Super Bowl debut drove a <strong>140%</strong> year-over-year sales volume increase, while Nutella\'s own Amazon sales rose 20.2% following a recent marketing push. A 30-second Super Bowl spot currently runs $8-10 million or more.',
+            whyItMatters: 'Running two brands in the same Super Bowl, after one already proved a 140% sales lift, shows Ferrero treating the game less as a single ad buy and more as a repeatable playbook across its portfolio.',
+            signalText: 'Ferrero will advertise both Nutella and Kinder Bueno during Super Bowl LXI.',
+            sourceName: 'Merca20',
+            sourceUrl: 'https://www.merca20.com/ferrero-tendran-doble-presencia-en-la-super-bowl-2027-con-anuncios-de-nutella-y-kinder-bueno/',
+            publishedDate: '2026-10-07'
+          }
+        ]
+      },
 
       // WEEK 1
       {
