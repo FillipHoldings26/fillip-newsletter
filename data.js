@@ -22,10 +22,289 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'October 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-10-11',
-    dateRange: 'September 28 – October 11, 2026',
-    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX.',
+    publishedDate: '2026-10-18',
+    dateRange: 'September 28 – October 18, 2026',
+    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX. Week three brought court approval for LIV Golf\'s restructuring as Jon Rahm walked away with nothing more, Las Vegas NBA expansion bids near $12 billion alongside a record $14 million Jordan jersey, a WNBA Finals ticket surge, F1\'s 10-year Rwanda deal, record $65.8 billion global sports media rights, and the ATP\'s $350 million player-pay plan, while Netflix and Universal Music cut staff, Getty Images moved to go private through bankruptcy, and the Kings Cup México finals and AAA\'s Héroes Inmortales were both set for October 24.',
     issues: [
+
+      // WEEK 3
+      {
+        slug: 'week-3-october-2026',
+        issueNumber: '3',
+        weekLabel: 'Week 3',
+        dateRange: 'October 12–18, 2026',
+        publishedDate: '2026-10-18',
+        issueTitle: 'Week 3 — October 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Golf, college sports and tennis all rewrote their economics this week — LIV restructured around player equity, the SEC standardized athlete contracts and the ATP put $350 million on the table — while anything scarce kept repricing upward, from a $12 billion Las Vegas NBA bid to a $14 million Jordan jersey.',
+        shareText: 'LIV\'s restructuring and Rahm\'s walk-away, a WNBA Finals ticket surge, NBA Las Vegas bids near $12B and a $14M Jordan jersey, F1 to Rwanda, record $65.8B sports media rights, Netflix and UMG cuts, Getty goes private — plus the Kings Cup México finals and AAA\'s Héroes Inmortales card — Week 3 October · Fillip.',
+        coreSignal: 'This week split cleanly between assets that are scarce and businesses that are stretched. Anything in fixed supply kept repricing: a Las Vegas NBA slot near $12 billion, a $14 million Jordan jersey, WNBA Finals tickets up sixfold, global media rights at a record $65.8 billion. Anything carrying heavy fixed costs got restructured: LIV traded guarantees for player equity, Getty went private through bankruptcy, Netflix and UMG cut staff, and England\'s regulator found 94% of clubs losing money. Capital is not leaving sports and entertainment — it is concentrating on what cannot be replicated.',
+        latamAngle: 'Mexico showed up this week as one of the first stops for U.S.-built sports properties going international. Banana Ball, which now fills MLB and NFL stadiums and reports a 5 million-person ticket waitlist, picked Monterrey and Tijuana, alongside Winnipeg and Toronto, as its first markets outside the United States. In Los Angeles, Mexico is one of six national teams invited to Grand Slam of Flag, the CAA- and SMAC-backed women\'s tournament carrying a record $500,000 prize pool in the run-up to flag football\'s Olympic debut. Neither is a capital deal, but both put Mexico among the very first markets these properties chose to build in beyond the U.S.',
+        ecosystemNews: [
+          {
+            headline: 'Kings Cup México 2026 Finals Set For October 24',
+            body: 'The Kings Cup México 2026 finals are set. Atlético Parceros and Chamos will meet for the men\'s title, while Peluche Caligari face Club América in the women\'s final. Both finals will be played on Saturday, October 24, and tickets are on sale now through Fanki — check the link below to secure your seats.',
+            sources: [
+              { sourceName: 'Get Tickets — Fanki', sourceUrl: 'https://fanki.co/mex/publications/kla-final-cmb-241026-general' }
+            ]
+          },
+          {
+            headline: 'AAA Unveils Full Héroes Inmortales Card For October 24',
+            body: 'Lucha Libre AAA revealed the full lineup for Héroes Inmortales on Saturday, October 24. El Grande Americano defends the AAA Mega Championship against Dominik Mysterio, Rey Fénix puts the Cruiserweight title on the line against Mini Vikingo, La Catalina defends the Reina de Reinas title against Flammer and La Hiedra, and Marisela Peña will be inducted into the AAA Hall of Fame.',
+            sources: [
+              { sourceName: 'Fightful', sourceUrl: 'https://www.fightful.com/wrestling/full-lineup-announced-for-aaa-heroes-inmortales/' },
+              { sourceName: 'Get Tickets — Boletomovil', sourceUrl: 'https://boletomovil.com/evento/lucha-libre-aaa-heroes-inmortales-2026-10-24' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Restructuring',
+            section: 'sports',
+            accentText: '52.5%',
+            headline: 'LIV Golf Restructuring Advances As Rahm Forfeits Remaining Payments',
+            emailSummary: 'A New Jersey bankruptcy judge approved LIV Golf\'s restructuring support agreement with <strong>BC Partners</strong>, which includes <strong>$300 million</strong> in financing and would give players <strong>52.5%</strong> of the equity, investors 45% and management 2.5%. LIV expects to choose between winding down and launching "LIV 2.0" by the end of October, with an <strong>October 25</strong> deadline for players to commit. A day later, <strong>Jon Rahm</strong>\'s separation agreement showed he will leave with no further money, releasing LIV from all claims, including <strong>$7.47 million</strong> in unpaid dues, and forfeiting his 25% stake in Legion XIII.',
+            whyItMatters: 'LIV\'s survival now depends on players trading guaranteed contracts for equity, and its most prominent signing chose a complete economic walk-away over that deal.',
+            signalText: 'A bankruptcy judge approved LIV Golf\'s $300 million restructuring agreement with BC Partners.',
+            sources: [
+              { sourceName: 'Golf.com', sourceUrl: 'https://golf.com/news/liv-golf-bankruptcy-hearing-timeline-concerns/' },
+              { sourceName: 'Front Office Sports', sourceUrl: 'https://frontofficesports.com/article/jon-rahms-liv-settlement-forfeits-all-remaining-payments/' }
+            ],
+            publishedDate: '2026-10-15'
+          },
+          {
+            order: 2,
+            tag: 'Live Events',
+            section: 'sports',
+            accentText: '$214',
+            headline: 'WNBA Finals Move To Bigger Arena As Ticket Prices Surge',
+            emailSummary: 'The <strong>Atlanta Dream</strong> moved Games 3 and 4 of the WNBA Finals against the <strong>Golden State Valkyries</strong> from the 3,500-seat Gateway Center to <strong>State Farm Arena</strong>, which seats more than 17,000, after Valkyries owner Joe Lacob pressed the league to make the change. Get-in prices for Game 1 at Chase Center reached <strong>$214</strong>, compared with $34 for last year\'s Game 1. A potential Game 7 is listing at <strong>$416</strong>, and TicketData says the series could become the most expensive Finals ever.',
+            whyItMatters: 'Moving a Finals into a building nearly five times larger and still seeing get-in prices rise more than sixfold year-over-year shows WNBA demand has outgrown the venues some franchises play in.',
+            signalText: 'Get-in prices for WNBA Finals Game 1 reached $214, up from $34 last year.',
+            sources: [
+              { sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/wnba/story/_/id/50174735/wnba-finals-games-3-4-held-atlanta-state-farm-arena' },
+              { sourceName: 'Front Office Sports', sourceUrl: 'https://frontofficesports.com/article/wnba-finals-ticket-prices-soar-above-last-years-levels/' }
+            ],
+            publishedDate: '2026-10-15'
+          },
+          {
+            order: 3,
+            tag: 'Expansion',
+            section: 'sports',
+            accentText: '$12B',
+            headline: 'NBA Las Vegas Bids Near $12B As Jordan Jersey Hits $14M',
+            emailSummary: 'Silver Lake co-CEO <strong>Egon Durban</strong> has joined the <strong>Walton-Laurie</strong> ownership group bidding for an NBA expansion team in <strong>Las Vegas</strong>, according to SBJ sources, with bids around <strong>$9 billion</strong> plus roughly $3 billion arena proposals bringing the total to about <strong>$12 billion</strong>. The Lasry-Apostolopoulos and Foley-Colangelo groups remain the other frontrunners, and a league decision is likely this month. Separately, Michael Jordan\'s game-worn jersey from Game 2 of the 1998 NBA Finals sold privately for <strong>$14 million</strong>, the highest price ever paid for basketball memorabilia.',
+            whyItMatters: 'An expansion slot is being priced close to the Lakers\' $12.5 billion valuation while a third 1998 Finals Jordan jersey clears $10 million, showing NBA scarcity repricing from franchises all the way down to collectibles.',
+            signalText: 'Las Vegas NBA expansion bids total about $12 billion including arena proposals.',
+            sources: [
+              { sourceName: 'Sports Business Journal', sourceUrl: 'https://www.sportsbusinessjournal.com/Articles/2026/10/14/sources-durban-part-of-walton-lauries-las-vegas-nba-expansion-bid/' },
+              { sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million' }
+            ],
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 4,
+            tag: 'College Sports',
+            section: 'sports',
+            accentText: '$21.6M',
+            headline: 'SEC Standardizes NIL Contracts As MGM Buys Into Players Era',
+            emailSummary: 'SEC presidents voted to adopt uniform <strong>NIL and revenue-share contracts</strong>, effective immediately, making the SEC the second power conference after the Big Ten to standardize athlete deals. Schools can share up to <strong>$21.6 million</strong> directly with athletes this academic year, and players received nearly $1.8 billion in revenue-share payments in 2025-26. Separately, <strong>MGM Resorts</strong> made a minority equity investment in <strong>Players Era</strong>, the college event operator that has grown from a 12-game men\'s basketball event in 2024 into a 50-game, multi-sport property.',
+            whyItMatters: 'Conferences are writing standard employment-style contracts while casino operators buy equity in the events, as college sports increasingly runs like a professional business on both the labor and inventory side.',
+            signalText: 'The SEC adopted standardized NIL and revenue-share contracts for its athletes.',
+            sources: [
+              { sourceName: 'CBS Sports', sourceUrl: 'https://www.cbssports.com/college-football/news/sec-standardized-nil-contracts-self-governance/' },
+              { sourceName: 'MGM Resorts', sourceUrl: 'https://newsroom.mgmresorts.com/press-releases?item=123019' }
+            ],
+            publishedDate: '2026-10-13'
+          },
+          {
+            order: 5,
+            tag: 'Hosting Rights',
+            section: 'sports',
+            accentText: '10 Years',
+            headline: 'Formula 1 Signs 10-Year Deal To Race In Rwanda',
+            emailSummary: 'Formula 1 signed a <strong>10-year</strong> agreement to host the Formula 1 African Grand Prix, presented by Visit Rwanda, at a new purpose-built circuit in <strong>Bugesera</strong>, about 40 km south of Kigali. The race is expected to join the calendar in the early 2030s once the FIA Grade 1 track is complete. F1 last raced in Africa at Kyalami in <strong>1993</strong>, and the sport counts more than 100 million fans on the continent.',
+            whyItMatters: 'A decade-long commitment made before the circuit even exists shows F1 is willing to lock in new markets years in advance to reach Africa\'s young fanbase, where almost 60% of fans in key Sub-Saharan markets are under 35.',
+            signalText: 'Formula 1 signed a 10-year agreement to race in Rwanda.',
+            sourceName: 'Formula 1',
+            sourceUrl: 'https://www.formula1.com/en/latest/article/formula-1-returns-to-africa-with-10-year-agreement-to-race-in-rwanda.13xs9VMK7cGFiBd2IplyES',
+            publishedDate: '2026-10-13'
+          },
+          {
+            order: 6,
+            tag: 'Ownership',
+            section: 'sports',
+            headline: '1936 Takes Minority Stake In Trackhouse\'s MotoGP Team',
+            emailSummary: 'Sports and entertainment investment platform <strong>1936</strong> made a significant minority investment in the <strong>Superfile Trackhouse MotoGP</strong> team, joining founder and CEO <strong>Justin Marks</strong> and <strong>Avenue Sports Fund</strong> as shareholders. No financial terms were given. The shareholder group plans to invest in the team\'s competition, brand, storytelling and commercial growth.',
+            whyItMatters: 'Institutional sports investors buying MotoGP team equity, not just sponsorship, signals they see the series\' teams as franchise assets with room to appreciate in what 1936 calls the "early innings" of its commercial opportunity.',
+            signalText: '1936 made a minority investment in the Trackhouse MotoGP team.',
+            sourceName: 'GPOne',
+            sourceUrl: 'https://www.gpone.com/en/2026/10/14/motogp/trackhouse-racing-welcomes-a-new-minority-shareholder-1936.html',
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 7,
+            tag: 'Governance',
+            section: 'sports',
+            accentText: '94%',
+            headline: 'English Football Regulator Finds Most Clubs Near Financial Disaster',
+            emailSummary: 'The <strong>Independent Football Regulator</strong>\'s landmark State of the Game report found <strong>94%</strong> of clubs in the top five English leagues lost money in 2025-26, and more than 60% of EFL and National League clubs are technically insolvent. Some <strong>66%</strong> of clubs could not survive more than 90 days without new owner funding. Transfer financing has grown more than 14-fold since 2020-21, with about <strong>£1.2 billion</strong> of future transfer income already monetised.',
+            whyItMatters: 'The regulator has the power to impose a funding settlement between the Premier League and EFL if the leagues can\'t agree, and this report builds the case for using it.',
+            signalText: 'England\'s football regulator found 94% of clubs in the top five leagues lost money.',
+            sourceName: 'BBC Sport',
+            sourceUrl: 'https://www.bbc.com/sport/football/articles/c6vgx70pzq1jo',
+            publishedDate: '2026-10-13'
+          },
+          {
+            order: 8,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '$65.8B',
+            headline: 'Global Sports Media Rights Hit Record $65.8B In 2026',
+            emailSummary: 'Global sports media rights reached a record <strong>$65.82 billion</strong> in 2026, up 15% from 2025, according to SportBusiness\'s Global Media Report, with the FIFA World Cup and Winter Olympics credited for the jump. The United States accounts for <strong>53.9%</strong> of global value, up from 46% in 2022, while the NFL and NBA together make up roughly 30%. SportBusiness forecasts a decline of about $3.6 billion to <strong>$62.2 billion</strong> in 2027.',
+            whyItMatters: 'With more than half of global value concentrated in the U.S. and a 2027 dip already forecast, the record shows how much of the market\'s headline growth rests on a few leagues and on the event calendar.',
+            signalText: 'Global sports media rights reached a record $65.82 billion in 2026.',
+            sourceName: 'The Sports Encounter',
+            sourceUrl: 'https://thesportsencounter.com/2026/10/14/global-sports-media-rights-2026-record-65-billion-2027-forecast/',
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 9,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '200K',
+            headline: 'LPGA Media Rights Hinge On PGA Tour And NFL Talks',
+            emailSummary: 'The LPGA\'s media deals with <strong>Golf Channel, NBC and CBS</strong> are tied to the PGA Tour\'s <strong>$700 million</strong> annual contracts, which run through 2030 but could go to market early, while the NFL is expected to begin opting out of its deals after 2029. LPGA broadcasts averaged <strong>200,000</strong> viewers through September, up from 150,000 in 2025. Commissioner <strong>Craig Kessler</strong> called the tour "one of the most undervalued, discounted growth stocks in the sports market today."',
+            whyItMatters: 'The LPGA\'s next payday depends less on its own growing audience than on when the PGA Tour and NFL renegotiate, leaving its rights value tied to other leagues\' calendars.',
+            signalText: 'LPGA broadcasts averaged 200,000 viewers through September 2026, up from 150,000.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/lpgas-media-rights-deals-depend-on-pga-nfl-negotiations/',
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 10,
+            tag: 'M&A',
+            section: 'sports',
+            headline: 'Irish Experience Group FUEL Acquires Sports Agency 53Six',
+            emailSummary: 'Dublin-based experience and entertainment group <strong>FUEL</strong> acquired <strong>53Six</strong>, a Dublin- and London-based sports marketing agency whose clients include <strong>Arsenal, Juventus, UEFA</strong> and the Jacksonville Jaguars. Financial terms were not disclosed. 53Six will keep its brand and its co-founders, CEO Tom Fox and COO Marcus McDonnell, inside FUEL, which has delivered more than <strong>650</strong> experiences across 55 cities.',
+            whyItMatters: 'An experiential agency buying a sports marketing specialist reflects brands increasingly wanting live events and sports fandom sold as one package rather than through separate agencies.',
+            signalText: 'FUEL acquired sports marketing agency 53Six for undisclosed terms.',
+            sourceName: 'SportsPro',
+            sourceUrl: 'https://www.sportspro.com/announcements/spotlight-agency/fuel-expands-global-footprint-with-acquisition-of-sports-marking-agency-53six/',
+            publishedDate: '2026-10-12'
+          },
+          {
+            order: 11,
+            tag: 'Live Events',
+            section: 'sports',
+            accentText: '79 Stadiums',
+            headline: 'Banana Ball Goes International With Games In Mexico, Canada',
+            emailSummary: 'Banana Ball will take its teams abroad for the first time, with games in <strong>Monterrey</strong> and <strong>Tijuana</strong> in Mexico and in Winnipeg and Toronto in Canada. Its 2027 schedule spans <strong>79 stadiums</strong> in 74 cities, including 23 MLB and 10 NFL-level venues, plus a documentary made with Disney and a new two-field "Banana Ball 360" format at Notre Dame Stadium. Founder <strong>Jesse Cole</strong> said the ticket waitlist has reached <strong>5 million</strong>.',
+            whyItMatters: 'With a 5 million-person waitlist and a schedule built around MLB and NFL stadiums, Banana Ball is scaling as a touring entertainment property, and Mexico and Canada are its first tests outside the U.S.',
+            signalText: 'Banana Ball will play games in Monterrey, Tijuana, Winnipeg and Toronto.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/mlb/story/_/id/50191780/banana-ball-international-mexico-canada',
+            publishedDate: '2026-10-15'
+          },
+          {
+            order: 12,
+            tag: 'Player Economics',
+            section: 'sports',
+            accentText: '$350M',
+            headline: 'ATP Targets $350M Player Pay As Six Kings Slam Postponed',
+            emailSummary: 'ATP chairman <strong>Andrea Gaudenzi</strong> outlined plans to lift total player compensation to a projected <strong>$350 million</strong> from 2028, raising the bonus pool from $21.5 million to <strong>$50 million</strong> and adding $30 million a year for pensions covering 300 players, with a final package targeted for the tour\'s year-end meetings in Turin. Separately, the <strong>Six Kings Slam</strong> exhibition in Riyadh, featuring Carlos Alcaraz, Novak Djokovic and Alexander Zverev, was postponed to <strong>December 27–30</strong> after Houthi attacks on the Saudi capital.',
+            whyItMatters: 'The ATP is moving to pay more players more money as Saudi Arabia becomes a bigger part of the tennis calendar, from a new Masters 1000 event to Riyadh Season exhibitions, and this week showed that exposure carries geopolitical risk.',
+            signalText: 'The ATP proposed raising total player compensation to a projected $350 million from 2028.',
+            sources: [
+              { sourceName: 'Reuters', sourceUrl: 'https://www.reuters.com/sports/tennis/atp-eyes-350-million-player-compensation-welfare-boost-by-2028-2026-10-15/' },
+              { sourceName: 'BBC Sport', sourceUrl: 'https://www.bbc.com/sport/tennis/articles/c59vzgnj9p2wo' }
+            ],
+            publishedDate: '2026-10-15'
+          },
+          {
+            order: 13,
+            tag: 'Women\'s Sports',
+            section: 'sports',
+            accentText: '$500K',
+            headline: 'CAA-Backed Grand Slam Of Flag Debuts Super Bowl Week',
+            emailSummary: 'A consortium led by <strong>SMAC Entertainment</strong>, <strong>CAA</strong> and <strong>EverWonder Studio</strong> will launch <strong>Grand Slam of Flag</strong>, a women\'s international flag football tournament in Los Angeles in the week before the 2027 Super Bowl. Six national teams, USA, Canada, Mexico, Great Britain, Spain and China, are invited to compete for a <strong>$500,000</strong> prize pool, the largest ever in women\'s flag football. Commissioner Sam Rapoport and co-founder Michael Strahan plan further events ahead of the sport\'s Olympic debut.',
+            whyItMatters: 'A talent agency and event operators are building a commercial property around women\'s flag football before its Olympic debut in Los Angeles, betting the sport\'s value rises once it reaches the Games.',
+            signalText: 'Grand Slam of Flag offers a $500,000 prize pool, the largest in women\'s flag football.',
+            sourceName: 'IFAF',
+            sourceUrl: 'https://www.americanfootball.sport/2026/10/13/new-la-stage-for-womens-flag-football-stars/',
+            publishedDate: '2026-10-13'
+          },
+          {
+            order: 14,
+            tag: 'Restructuring',
+            section: 'entertainment',
+            accentText: '~1,000 Jobs',
+            headline: 'Netflix And Universal Music Cut Jobs In Restructuring Push',
+            emailSummary: '<strong>Netflix</strong> will lay off roughly <strong>1,000</strong> employees, about 6% of its workforce, mainly in product, tech, legal and HR, according to a memo from co-CEOs Ted Sarandos and Greg Peters obtained by CNBC, ahead of its October 20 earnings. The same week, <strong>Universal Music Group</strong> began layoffs tied to its <strong>$270 million</strong> cost-savings plan, with Def Jam CEO <strong>Tunji Balogun</strong> and Republic Records chairman Jim Roppo among the senior executives departing.',
+            whyItMatters: 'Two category leaders cutting staff while insisting their businesses are strong shows entertainment\'s biggest players prioritizing margin discipline over headcount growth.',
+            signalText: 'Netflix will lay off roughly 1,000 employees, about 6% of its workforce.',
+            sources: [
+              { sourceName: 'CNBC', sourceUrl: 'https://www.cnbc.com/2026/10/14/netflix-layoffs.html' },
+              { sourceName: 'The Hollywood Reporter', sourceUrl: 'https://www.hollywoodreporter.com/music/music-industry-news/umg-restructuring-def-jam-republic-execs-leave-1236729933/' }
+            ],
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 15,
+            tag: 'Restructuring',
+            section: 'entertainment',
+            accentText: '$533M',
+            headline: 'Getty Images To File For Bankruptcy And Go Private',
+            emailSummary: '<strong>Getty Images</strong> plans a prepackaged Chapter 11 filing and will go private, with affiliates of <strong>Koch Equity Development</strong> pledging up to <strong>$533 million</strong> of new equity alongside the Getty family. The restructuring follows the collapse of its <strong>$3.7 billion</strong> merger with Shutterstock in June, a deal Getty spent more than $100 million pursuing. The company says operations will not be affected, there will be no layoffs, and it expects to emerge by year-end.',
+            whyItMatters: 'With its iStock business facing "declining agency demand and disruption" as AI image tools spread, Getty is going private to lean on what AI can\'t generate: real photography of real events, a unit it projects will reach $400 million by 2029.',
+            signalText: 'Getty Images will file for Chapter 11 bankruptcy and go private.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/getty-images-to-file-for-bankruptcy-go-private-1236727902/',
+            publishedDate: '2026-10-12'
+          },
+          {
+            order: 16,
+            tag: 'Content Partnership',
+            section: 'entertainment',
+            accentText: '580M Views',
+            headline: 'TikTok Partners With MADE BY US STUDIOS On Micro-Series',
+            emailSummary: 'TikTok and <strong>MADE BY US STUDIOS</strong>, the creator-focused studio of management company MADE BY ALL, will co-produce a slate of creator-led vertical micro-series for <strong>TikTok and PineDrama</strong>. The first two titles, unveiled at MIPCOM Cannes, are <strong>Player</strong>, starring creator Hannah Stocking (29.7 million TikTok followers), and <strong>The Knock</strong>, executive produced by Spooky Pictures with Moby\'s Little Walnut Productions. The deal follows Screen Time, made with Issa Rae\'s HOORAE, which has drawn nearly <strong>580 million</strong> views since April.',
+            whyItMatters: 'After Screen Time became its top-performing show ever, TikTok is turning micro-series into a repeatable slate, using creators\' built-in audiences as the distribution engine for scripted content.',
+            signalText: 'TikTok will co-produce creator-led micro-series with MADE BY US STUDIOS.',
+            sourceName: 'TikTok Newsroom',
+            sourceUrl: 'https://newsroom.tiktok.com/tiktok-and-made-by-us-studios-enter-partnership-to-co-produce-creator-led-micro-series?lang=en',
+            publishedDate: '2026-10-14'
+          },
+          {
+            order: 17,
+            tag: 'Live Events',
+            section: 'entertainment',
+            accentText: '3 Years',
+            headline: 'X Games Names Fever Official Ticketing Platform In Multi-Year Deal',
+            emailSummary: '<strong>X Games</strong> named <strong>Fever</strong> its Official Ticketing Platform under a <strong>three-year</strong> partnership starting in 2026, covering online and onsite sales for applicable events in the U.S. and select international markets. The deal also brings in Fever\'s <strong>Secret Media Network</strong> to reach audiences beyond core action sports. Initial events include the X Games Draft, <strong>Aspen</strong> in January 2027 and <strong>Calgary</strong> in February 2027, as X Games expands the MoonPay X Games League into a global multi-event property.',
+            whyItMatters: 'Pairing ticketing with Fever\'s own media network gives X Games a partner that both sells tickets and finds the buyers, as it turns a single-event brand into a multi-city league.',
+            signalText: 'X Games named Fever its official ticketing platform in a three-year partnership.',
+            sourceName: 'X Games',
+            sourceUrl: 'https://www.xgames.com/news/x-games-names-fever-as-official-ticketing-platform-in-multi-year-partnership/',
+            publishedDate: '2026-10-12'
+          },
+          {
+            order: 18,
+            tag: 'Sports IP',
+            section: 'entertainment',
+            headline: 'Michael Jackson And Muhammad Ali Stories Head To Streaming',
+            emailSummary: '<strong>Spectacle: Michael Jackson at the Super Bowl</strong>, a documentary on Jackson\'s 1993 halftime show featuring never-before-seen footage, will debut on <strong>Hulu and ESPN</strong> in February 2027, produced by <strong>Skydance Sports</strong>, Optimum Productions and NFL Films. Separately, <strong>Prime Video</strong> released the trailer for <strong>The Greatest</strong>, the first TV series about Muhammad Ali authorized by his family, produced by Michael B. Jordan and premiering <strong>November 4</strong> with eight episodes.',
+            whyItMatters: 'Official access is becoming the selling point for icon-driven sports content: the Ali series is the first his family has authorized, and the Jackson film is built on never-before-seen footage from his own team.',
+            signalText: 'Hulu and ESPN will premiere a Michael Jackson Super Bowl documentary in February 2027.',
+            sources: [
+              { sourceName: 'Variety', sourceUrl: 'https://variety.com/2026/tv/news/michael-jackson-super-bowl-documentary-hulu-espn-1236910198/' },
+              { sourceName: 'Hobby Consolas', sourceUrl: 'https://www.hobbyconsolas.com/hobbycine/prime-video-lanza-trailer-mas-grande-serie-biografica-muhammad-ali-con-jaalen-best_7048842_0.html' }
+            ],
+            publishedDate: '2026-10-14'
+          }
+        ]
+      },
 
       // WEEK 2
       {
