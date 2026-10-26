@@ -22,10 +22,297 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'October 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-10-18',
-    dateRange: 'September 28 – October 18, 2026',
-    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX. Week three brought court approval for LIV Golf\'s restructuring as Jon Rahm walked away with nothing more, Las Vegas NBA expansion bids near $12 billion alongside a record $14 million Jordan jersey, a WNBA Finals ticket surge, F1\'s 10-year Rwanda deal, record $65.8 billion global sports media rights, and the ATP\'s $350 million player-pay plan, while Netflix and Universal Music cut staff, Getty Images moved to go private through bankruptcy, and the Kings Cup México finals and AAA\'s Héroes Inmortales were both set for October 24.',
+    publishedDate: '2026-10-25',
+    dateRange: 'September 28 – October 25, 2026',
+    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX. Week three brought court approval for LIV Golf\'s restructuring as Jon Rahm walked away with nothing more, Las Vegas NBA expansion bids near $12 billion alongside a record $14 million Jordan jersey, a WNBA Finals ticket surge, F1\'s 10-year Rwanda deal, record $65.8 billion global sports media rights, and the ATP\'s $350 million player-pay plan, while Netflix and Universal Music cut staff, Getty Images moved to go private through bankruptcy, and the Kings Cup México finals and AAA\'s Héroes Inmortales were both set for October 24. Week four brought Arctos into the Falcons as the NFL partnered with General Atlantic and opened talks with Blackstone and Apollo, Apollo\'s path to 16% of the Yankees as Hal Steinbrenner ruled out a sale, a KKR founder-backed group buying 42% of Valencia at €1.25 billion, FIFA\'s tender for 2030 World Cup U.S. rights, the first Women\'s Club World Cup set for the U.S. in 2028, a Ticketmaster deal opening NFL resale to rivals, Hearst refusing to sell its ESPN stake, rising NFL viewership and a smooth Paris game, the Dakar Rally leaving Saudi Arabia, a Jaguars fan memorial, robot athletes and a $15 million International Dance League round, while Netflix, Peacock and Spotify posted strong third quarters, Elon Musk put $1 billion into Skydance as Bose bought Skullcandy, Spotify launched paid podcast memberships, Goldman Sachs forecast music revenue nearly doubling by 2035, the Elizabeth Holmes documentary became a box office hit, Justin Bieber\'s SKYLRK opened in Seoul, Atlético Parceros and Peluche Caligari won the Kings and Queens Cup México, and every AAA champion retained on night one of Héroes Inmortales.',
     issues: [
+
+      // WEEK 4
+      {
+        slug: 'week-4-october-2026',
+        issueNumber: '4',
+        weekLabel: 'Week 4',
+        dateRange: 'October 19–25, 2026',
+        publishedDate: '2026-10-25',
+        issueTitle: 'Week 4 — October 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Institutional money kept buying in without taking over — the NFL let Arctos into the Falcons and opened talks with Blackstone and Apollo, Apollo built toward 16% of the Yankees and a KKR founder-backed group took 42% of Valencia — while Netflix, Peacock and Spotify posted profitable quarters and FIFA put the 2030 World Cup\'s U.S. rights up for bid.',
+        shareText: 'The NFL opens to Arctos, General Atlantic and Blackstone, Apollo\'s path to 16% of the Yankees, Valencia at €1.25B, FIFA\'s 2030 U.S. rights tender, the first Women\'s Club World Cup, Dakar leaves Saudi Arabia, strong Q3s for Netflix, Peacock and Spotify, Musk\'s $1B into Skydance — plus the Kings Cup México champions and AAA\'s Héroes Inmortales — Week 4 October · Fillip.',
+        coreSignal: 'This was a week of capital entering through the minority door. Arctos took 7.5% of the Falcons, Apollo built toward 16% of the Yankees, a KKR founder-backed group bought 42% of Valencia, and Elon Musk wrote a $1 billion check into Skydance — and in every case the controlling owner stayed put. Steinbrenner said he isn\'t selling, Hearst said it isn\'t selling ESPN, and Meriton kept its Valencia majority. Owners want institutional money for stadiums, succession and debt; they just don\'t want to hand over the keys.',
+        ecosystemNews: [
+          {
+            headline: 'Atlético Parceros And Peluche Caligari Win Kings And Queens Cup México',
+            body: 'The Kings Cup México 2026 has its champions. Atlético Parceros, co-presided by James Rodríguez and Pelicanger, beat Los Chamos 6–4 at El Domo UIC in Mexico City, with Marlon Ramírez scoring seven goals across six matches. In the Queens Cup, Peluche Caligari beat América Femenil 6–4 to claim a historic title for the club\'s women\'s side.',
+            sources: [
+              { sourceName: 'Récord', sourceUrl: 'https://www.record.com.mx/historia/atletico-parceros-conquista-la-kings-cup-y-peluche-caligari-reina-en-la-queens-cup-2026102502371072692' }
+            ]
+          },
+          {
+            headline: 'Every Champion Retains On Night One Of AAA Héroes Inmortales',
+            body: 'Night one of Lucha Libre AAA\'s Héroes Inmortales saw every champion who put a title on the line walk out with it. Los Perros del Mal kept the World Trios titles against La Parka, Mr. Iguana and Niño Hamburguesa, La Catalina retained the Reina de Reinas title against Flammer and La Hiedra, and El Grande Americano held the Mega Championship against Dominik Mysterio with help from Rey Mysterio.',
+            sources: [
+              { sourceName: 'Dos Dos Solo Dos', sourceUrl: 'https://dosdossolodos.com/2026/10/25/resultados-aaa-heroes-inmortales-2026-noche-1/' }
+            ]
+          }
+        ],
+        stories: [
+          {
+            order: 1,
+            tag: 'Private Equity',
+            section: 'sports',
+            accentText: '7.5%',
+            headline: 'NFL Opens Wider To Institutional Capital As Arctos Joins Falcons',
+            emailSummary: 'NFL owners approved <strong>Arctos</strong> buying <strong>7.5%</strong> of the Atlanta Falcons, with a further 2.5% subject to a later vote; a previous report put a 10% stake at a <strong>$10.6 billion</strong> valuation. At the same October meeting, clubs approved a global strategic partnership between <strong>General Atlantic</strong> and <strong>32 Equity</strong>, the league\'s investment arm, to pursue growth investments across the sports industry. Separately, <strong>Blackstone</strong> and an <strong>Apollo</strong> unit are in early talks with the NFL about becoming approved investors eligible to buy minority team stakes.',
+            whyItMatters: 'The NFL is widening the pool of institutional money it lets in at both team and league level, as owners use private capital to fund stadium projects and estate planning.',
+            signalText: 'NFL owners approved Arctos buying a 7.5% stake in the Atlanta Falcons.',
+            sources: [
+              { sourceName: 'NBC Sports', sourceUrl: 'https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/owners-approve-arctos-purchasing-a-limited-stake-in-the-falcons' },
+              { sourceName: 'General Atlantic', sourceUrl: 'https://www.generalatlantic.com/media-article/general-atlantic-and-nfls-32-equity-announce-global-strategic-partnership/' },
+              { sourceName: 'Yahoo Finance', sourceUrl: 'https://finance.yahoo.com/media-advertising/articles/nfl-weighs-letting-blackstone-apollo-193653287.html' }
+            ],
+            publishedDate: '2026-10-20'
+          },
+          {
+            order: 2,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$2.6B',
+            headline: 'Steinbrenner Says Apollo\'s $2.6B Yankees Deal Is Not A Sale',
+            emailSummary: 'Yankees owner <strong>Hal Steinbrenner</strong> said the team\'s <strong>$2.6 billion</strong> investment from <strong>Apollo Global Management</strong> is "not a precursor to fully selling the team." A league source said the deal gives Apollo an <strong>8%</strong> stake plus another 8% in preferred stock that converts in four years, bringing it to <strong>16%</strong>. Apollo Sports Capital CEO <strong>Al Tylis</strong> joined the Yankee Global Enterprises board, and the New York Post has reported the deal values the team at well over <strong>$12 billion</strong>.',
+            whyItMatters: 'MLB raised its private equity ownership cap to 20% this year, and the Yankees used that room to lock in long-term financing and plan their succession without giving up control.',
+            signalText: 'Apollo will own up to 16% of the Yankees through its $2.6 billion investment.',
+            sourceName: 'RealGM',
+            sourceUrl: 'https://baseball.realgm.com/wiretap/61467/Hal-Steinbrenner-Rules-Out-Selling-Yankees-After-$26B-Apollo-Deal',
+            publishedDate: '2026-10-21'
+          },
+          {
+            order: 3,
+            tag: 'Valuation',
+            section: 'sports',
+            accentText: '€1.25B',
+            headline: 'KKR Founder-Backed Group Buys 42% Of Valencia At €1.25B',
+            emailSummary: '<strong>Pitchwise Holdings</strong>, a consortium of family offices and institutional investors backed by KKR co-founders <strong>George Roberts</strong> and <strong>Henry Kravis</strong> and led by sports executives <strong>Ann Rodríguez</strong> and <strong>Corey Woolfolk</strong>, agreed to buy a <strong>42%</strong> stake in Valencia CF from majority owner Meriton Holdings. The deal gives the club an enterprise value of <strong>€1.25 billion</strong> ($1.4 billion), and the group will inject <strong>€100 million</strong> of fresh capital. Meriton keeps its majority and Kiat Lim stays on as chairman.',
+            whyItMatters: 'A large minority stake paired with €100 million of new capital lets Valencia bring in U.S. institutional money without changing who controls the club.',
+            signalText: 'A KKR founder-backed group agreed to buy 42% of Valencia at a €1.25 billion valuation.',
+            sourceName: 'Reuters',
+            sourceUrl: 'https://es-us.noticias.yahoo.com/deportes/valencia-cf-anuncia-grupo-respaldado-125913800.html',
+            publishedDate: '2026-10-23'
+          },
+          {
+            order: 4,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '$1.5B–$2B',
+            headline: 'FIFA Opens Bidding For 2030 World Cup U.S. Media Rights',
+            emailSummary: 'FIFA launched its tender for the <strong>2030</strong> men\'s World Cup U.S. media rights, with an option to add <strong>2034</strong>, and wants bids by <strong>November 19</strong> and a partner chosen before year-end. YouTube, Netflix, Amazon and Disney have shown interest, and some executives expect <strong>$1.5 billion to $2 billion</strong>, compared with the <strong>$425 million</strong> Fox paid for 2026. Unlike in Spain, where <strong>Netflix</strong> already holds the 2030 rights and a free-to-air broadcaster shows at least one game a day, FIFA wants the U.S. English- and Spanish-language rights sold together for the first time, to a single partner or a joint streamer-broadcaster bid. If a streamer wins, FIFA will guarantee some free matches through sublicensing or a free tier.',
+            whyItMatters: 'Bundling English and Spanish rights ends the Fox-Telemundo split and lets one bidder, possibly a streamer, own the entire U.S. World Cup audience, even with European and Saudi time zones working against primetime.',
+            signalText: 'FIFA launched its tender for the 2030 men\'s World Cup U.S. media rights.',
+            sourceName: 'CNBC',
+            sourceUrl: 'https://www.cnbc.com/2026/10/22/fifa-launches-tender-of-us-world-cup-media-rights-for-2030.html',
+            publishedDate: '2026-10-22'
+          },
+          {
+            order: 5,
+            tag: 'Women\'s Sports',
+            section: 'sports',
+            accentText: '19 Teams',
+            headline: 'U.S. To Host First Women\'s Club World Cup In 2028',
+            emailSummary: 'FIFA confirmed the United States will host the inaugural <strong>Women\'s Club World Cup</strong> from <strong>January 5–30, 2028</strong>, a <strong>19-team</strong> tournament designed to echo the revamped men\'s Club World Cup and played every four years. <strong>Arsenal, Barcelona, Gotham, Club América, Corinthians, Naegohyang</strong> and Wuhan Jiangda have qualified, with 12 more clubs to be determined. FIFA chief women\'s football officer <strong>Sarai Bareman</strong> cited the U.S. hosting record, interest in women\'s football and elite infrastructure.',
+            whyItMatters: 'FIFA is adding a second mid-season women\'s club competition anchored in the U.S. market, even after the Women\'s Super League called the scheduling potentially "catastrophic."',
+            signalText: 'The United States will host the first Women\'s Club World Cup in January 2028.',
+            sourceName: 'BBC Sport',
+            sourceUrl: 'https://www.bbc.com/sport/football/articles/c6n9r7wgp9q0o',
+            publishedDate: '2026-10-22'
+          },
+          {
+            order: 6,
+            tag: 'Ticketing',
+            section: 'sports',
+            accentText: '32 Teams',
+            headline: 'NFL Keeps Ticketmaster On Top While Opening Resale To Rivals',
+            emailSummary: 'NFL owners approved a new multiyear deal keeping <strong>Ticketmaster</strong> as the league\'s exclusive top-tier secondary partner and operator of the NFL Ticket Exchange. Under the model, called <strong>"Ticketing 3.0,"</strong> other authorized marketplaces will get access to season-ticket resale inventory from all <strong>32 teams</strong>, previously exclusive to Ticketmaster, and fans can list tickets once across several platforms. <strong>SeatGeek</strong> reportedly reached an agreement in principle for a new "gold" partner tier, and the NFL expects substantially more fee revenue than under the old deal.',
+            whyItMatters: 'By trading exclusivity for wider distribution, the league expects to earn more from resale fees, or as the NFL put it, "more value through less exclusivity."',
+            signalText: 'The NFL opened season-ticket resale from all 32 teams to Ticketmaster\'s competitors.',
+            sourceName: 'TicketNews',
+            sourceUrl: 'https://www.ticketnews.com/2026/10/ticketmaster-nfl-resale-competitors-access/',
+            publishedDate: '2026-10-21'
+          },
+          {
+            order: 7,
+            tag: 'Media Ownership',
+            section: 'sports',
+            accentText: '18%',
+            headline: 'Hearst Has "No Interest" In Selling Its ESPN Stake',
+            emailSummary: 'Hearst president and CEO <strong>Steven Swartz</strong> said at an Axios conference that the company has "no interest in selling" its roughly <strong>18%</strong> stake in <strong>ESPN</strong>. Hearst bought 20% for about <strong>$170 million</strong> in 1990, and the stake was diluted when the NFL took 10% earlier this year. Based on the implied value of the NFL Media deal, ESPN is worth roughly $30 billion, putting Hearst\'s position at about <strong>$5.4 billion</strong>.',
+            whyItMatters: 'Hearst is holding its ESPN position even as its own cable networks decline, a sign it expects more upside now that the NFL is a part-owner.',
+            signalText: 'Hearst\'s CEO said the company has no interest in selling its ESPN stake.',
+            sourceName: 'Awful Announcing',
+            sourceUrl: 'https://awfulannouncing.com/espn/hearst-ceo-no-interest-selling-minority-stake.html',
+            publishedDate: '2026-10-23'
+          },
+          {
+            order: 8,
+            tag: 'Viewership',
+            section: 'sports',
+            accentText: '17.0M',
+            headline: 'NFL Viewership Runs Ahead Of Last Season Through Week 6',
+            emailSummary: 'NFL Week 6 averaged <strong>17.0 million</strong> viewers, up 7% year-over-year and the highest Week 6 on record. Through six weeks, regular-season windows average <strong>18.5 million</strong>, up 2%, behind only 2015 and 2010 in the people-meter era. CBS\'s late doubleheader led the week with <strong>26.37 million</strong> viewers, and Amazon\'s Seahawks-Broncos <strong>Thursday Night Football</strong> drew 16.27 million, its largest Week 6 audience ever.',
+            whyItMatters: 'Audiences are rising across broadcast networks and streaming alike, strengthening the NFL\'s case that its rights keep gaining value with every partner.',
+            signalText: 'NFL Week 6 viewership averaged 17.0 million, up 7% year-over-year.',
+            sourceName: 'Sports Media Watch',
+            sourceUrl: 'https://www.sportsmediawatch.com/2026/10/nfl-viewership-increase-week-6-ratings-recap',
+            publishedDate: '2026-10-22'
+          },
+          {
+            order: 9,
+            tag: 'International Games',
+            section: 'sports',
+            accentText: '78,488',
+            headline: 'NFL\'s First Paris Game Goes Ahead Despite Nationwide Protests',
+            emailSummary: 'The <strong>Pittsburgh Steelers</strong> beat the <strong>New Orleans Saints</strong> 16–10 before an announced crowd of <strong>78,488</strong> at Stade de France, the sixth of nine NFL international games this season. The game went ahead after more than 400,000 people protested across France on Saturday, and President Trump said the NFL "could have probably postponed" it. Commissioner <strong>Roger Goodell</strong> and both team owners met French President <strong>Emmanuel Macron</strong> at the Élysée Palace before the game.',
+            whyItMatters: 'Playing as scheduled in Paris, with a near-full stadium and security assurances from both governments, shows the NFL treating its international expansion as a fixed commitment.',
+            signalText: 'The NFL played its first Paris game before 78,488 fans at Stade de France.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/nfl-paris-game-steelers-saints-trump-protests/',
+            publishedDate: '2026-10-25'
+          },
+          {
+            order: 10,
+            tag: 'Geopolitics',
+            section: 'sports',
+            headline: 'Dakar Rally Leaves Saudi Arabia As Attacks Disrupt Sports Calendar',
+            emailSummary: 'Organizer <strong>Amaury Sport Organisation</strong> said the <strong>Dakar Rally 2027</strong>, scheduled for January 1–15, will not be held in Saudi Arabia "following recent developments in the region," calling the decision "exceptional and one-off"; the race returns for its 50th edition in 2028. Earlier in October, the Asian Tour postponed the <strong>$5 million PIF Saudi International</strong> and the UCI cancelled the <strong>Urban Cycling World Championships</strong> in Riyadh. The Saudi Pro League postponed three fixtures, FIFA postponed the FIFAe Finals, and the World Rally Championship dropped Saudi Arabia from its calendar.',
+            whyItMatters: 'Saudi Arabia\'s strategy of buying a place on the global sports calendar now carries a security risk that organizers are pricing in by moving or postponing events.',
+            signalText: 'The Dakar Rally 2027 will not be held in Saudi Arabia.',
+            sources: [
+              { sourceName: 'Reuters', sourceUrl: 'https://www.reuters.com/sports/dakar-rally-2027-will-not-be-held-saudi-arabia-organisers-say-2026-10-25/' },
+              { sourceName: 'Yeni Şafak', sourceUrl: 'https://en.yenisafak.com/sports/saudi-arabia-cancels-cycling-championships-golf-event-amid-attacks-3724534' }
+            ],
+            publishedDate: '2026-10-25'
+          },
+          {
+            order: 11,
+            tag: 'Fan Experience',
+            section: 'sports',
+            accentText: '$5,904',
+            headline: 'Jaguars Sell Memorial Spaces For Fans Outside New Stadium',
+            emailSummary: 'The <strong>Jacksonville Jaguars</strong> named <strong>Eternal Fan</strong> their "official fan memories partner" for the <strong>904Ever Club</strong>, a roughly 14-by-14-foot memorial on the plaza of the team\'s new stadium, slated to open before the 2028 season. Fans can store memorabilia and sealed cremains, with tiers at <strong>$904</strong>, $2,904 and <strong>$5,904</strong>. Eternal Fan sets the prices, keeps the revenue, covers construction and operating costs, and pays the Jaguars annual fees for their brand marks.',
+            whyItMatters: 'The team collects licensing fees from a brand-new revenue category without carrying the cost, and Eternal Fan is already pitching other NFL and college programs.',
+            signalText: 'The Jaguars licensed their brand for a fan memorial selling spaces up to $5,904.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/jacksonville-jaguars-eternal-fan-memorial/',
+            publishedDate: '2026-10-21'
+          },
+          {
+            order: 12,
+            tag: 'Sports Tech',
+            section: 'sports',
+            accentText: '9.39s',
+            headline: 'Sportico Asks Whether Robot Athletes Could Become A Sports Business',
+            emailSummary: 'A Sportico column argues robot athletes could become a real sports business, pointing to August\'s <strong>World Humanoid Robot Games</strong> in Beijing, where an <strong>X-Humanoid</strong> robot ran 100 meters in <strong>9.39 seconds</strong>, faster than Usain Bolt\'s 9.58 world record, before crashing into a wall. The authors cite a 2025 study of <strong>272</strong> tennis fans in China linking AI-enhanced viewing to stronger intentions to watch and recommend events. They conclude the opportunity lies less in building the machines than in turning them into heroes with fans, rivals and commercial appeal.',
+            whyItMatters: 'If robots can build fan attachment, they could create new ticketing, sponsorship, merchandise and betting inventory without athlete labor costs.',
+            signalText: 'An X-Humanoid robot ran 100 meters in 9.39 seconds at Beijing\'s Robot Games.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/business/tech/2026/robot-athletes-are-here-now-1234952476/',
+            publishedDate: '2026-10-19'
+          },
+          {
+            order: 13,
+            tag: 'Emerging Leagues',
+            section: 'sports',
+            accentText: '$15M',
+            headline: 'International Dance League Raises $15M After Sold-Out First Season',
+            emailSummary: 'The <strong>International Dance League</strong> raised a <strong>$15 million</strong> Series A led by <strong>Elysian Park Ventures</strong>, with new investors <strong>Sony</strong>, Yamaha Music Innovation Fund and October Ventures, bringing its total raised to <strong>$22 million</strong>. Its six founding teams competed in New York, Vancouver, Sydney and Seoul before a finale in Los Angeles, under a media rights deal with <strong>ESPN2</strong> and with partners including Honda and e.l.f. Cosmetics. The league reported <strong>2 billion</strong> social views in its first season.',
+            whyItMatters: 'Investors are treating dance as a new sports category, and a first season with an ESPN2 deal and major brand partners gave the league the proof points to raise.',
+            signalText: 'The International Dance League raised a $15 million Series A led by Elysian Park Ventures.',
+            sourceName: 'Axios',
+            sourceUrl: 'https://www.axios.com/2026/10/21/idl-international-dance-league-series-a',
+            publishedDate: '2026-10-21'
+          },
+          {
+            order: 14,
+            tag: 'Earnings',
+            section: 'entertainment',
+            accentText: '$12.9B',
+            headline: 'Netflix, Peacock And Spotify Grow Profits In Q3 Earnings',
+            emailSummary: '<strong>Netflix</strong> grew Q3 revenue 12% to <strong>$12.9 billion</strong> with a 34.6% operating margin, but cut its 2026 ad revenue forecast to about $2.7 billion from roughly $3 billion. <strong>Comcast</strong> said <strong>Peacock</strong> posted its second straight profitable quarter, with <strong>$261 million</strong> in adjusted EBITDA on $1.8 billion of revenue and 48 million paid subscribers, while Universal passed $5 billion at the global box office. <strong>Spotify</strong> reached <strong>788 million</strong> monthly users and 306 million subscribers, with revenue up 16% to €5.0 billion and operating income of €672 million.',
+            whyItMatters: 'All three are now turning scale into profit, driven by pricing and subscriber growth, while advertising remains the slower lever, as Netflix\'s lowered ad forecast showed.',
+            signalText: 'Netflix\'s Q3 revenue grew 12% to $12.9 billion.',
+            sources: [
+              { sourceName: 'Netflix', sourceUrl: 'https://s22.q4cdn.com/959853165/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf' },
+              { sourceName: 'Comcast', sourceUrl: 'https://www.cmcsa.com/news-releases/news-release-details/comcast-reports-3rd-quarter-2026-results' },
+              { sourceName: 'Spotify', sourceUrl: 'https://newsroom.spotify.com/2026-10-22/spotify-q3-2026-earnings/' }
+            ],
+            publishedDate: '2026-10-22'
+          },
+          {
+            order: 15,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$1B',
+            headline: 'Musk Invests $1B In Skydance As Bose Buys Skullcandy',
+            emailSummary: '<strong>Elon Musk</strong> invested roughly <strong>$1 billion</strong> in <strong>Skydance</strong>, the company formed when Paramount closed its acquisition of Warner Bros. Discovery on October 6, as part of a wider equity raise, according to a person familiar with the matter cited by CNBC. Skydance expects <strong>$6 billion</strong> in cost savings over three years against nearly <strong>$80 billion</strong> of debt. Separately, <strong>Bose</strong> acquired headphone brand <strong>Skullcandy</strong> from a Mill Road Capital fund for undisclosed terms and will keep it as a separate brand based in Park City, Utah.',
+            whyItMatters: 'Skydance is turning to outside equity to carry the debt from its Warner Bros. Discovery deal, while Bose is buying a brand it already powered with its own technology to reach new audiences.',
+            signalText: 'Elon Musk invested roughly $1 billion in Skydance.',
+            sources: [
+              { sourceName: 'CNBC', sourceUrl: 'https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html' },
+              { sourceName: 'Bose', sourceUrl: 'https://www.bose.com/pressroom/bose-acquires-skullcandy-announcement' }
+            ],
+            publishedDate: '2026-10-22'
+          },
+          {
+            order: 16,
+            tag: 'Creator Economy',
+            section: 'entertainment',
+            accentText: '90%',
+            headline: 'Spotify Launches Paid Podcast Memberships With 90% Creator Revenue Share',
+            emailSummary: '<strong>Spotify</strong> launched paid podcast memberships in <strong>34 markets</strong>, letting creators offer tiers with bonus audio or video, fewer ads and early access. Creators keep <strong>90%</strong> of membership revenue, and fans pay on the web rather than through in-app purchases. Launch shows include <strong>Making Sense with Sam Harris</strong>, the Shawn Ryan Show and The Adam Friedland Show, while <strong>YMH Studios</strong> is bringing memberships to 12 shows.',
+            whyItMatters: 'Spotify is adding direct fan payments to podcasting, giving creators a subscription income stream inside the platform rather than relying only on advertising.',
+            signalText: 'Spotify launched paid podcast memberships in 34 markets, with creators keeping 90%.',
+            sourceName: 'TechCrunch',
+            sourceUrl: 'https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/',
+            publishedDate: '2026-10-20'
+          },
+          {
+            order: 17,
+            tag: 'Music IP',
+            section: 'entertainment',
+            accentText: '5.8% CAGR',
+            headline: 'Goldman Sachs Sees Music Revenue Nearly Doubling By 2035',
+            emailSummary: 'Goldman Sachs\' tenth-anniversary <strong>Music in the Air</strong> report forecasts global music industry revenue growing <strong>5.8%</strong> a year from 2025 to 2035, and 6.7% in 2026, its first upward revision since 2022. It expects recorded music revenue to rise from <strong>$31.7 billion</strong> to <strong>$56.1 billion</strong> by 2035, driven by streaming price increases, emerging markets and AI-related licensing, with live music growing at a mid-single-digit pace. Goldman named <strong>Spotify, Tencent Music, Google, Sony, Live Nation, HYBE</strong> and NetEase as best positioned.',
+            whyItMatters: 'Goldman sees the industry shifting from consumption growth to monetization growth, with value accruing to whoever controls pricing, distribution and the consumer relationship.',
+            signalText: 'Goldman Sachs forecasts 5.8% annual music industry revenue growth through 2035.',
+            sourceName: 'Goldman Sachs Research',
+            sourceUrl: 'https://hitsdd.co/gs-music-in-the-air-2026',
+            publishedDate: '2026-10-15'
+          },
+          {
+            order: 18,
+            tag: 'Box Office',
+            section: 'entertainment',
+            accentText: '$15M',
+            headline: 'Elizabeth Holmes Documentary Becomes Box Office Hit On 855 Screens',
+            emailSummary: 'A24\'s <strong>You Can See Everything</strong>, Nathan Fielder and Lance Oppenheim\'s nearly three-hour Elizabeth Holmes documentary, made <strong>$15 million</strong> from only <strong>855 screens</strong> with more than 2,000 sellouts, the biggest opening for a film on under 1,000 screens since Borat in 2006. The film reportedly cost under <strong>$7 million</strong> to make, and over 70% of its audience was under 35. Paramount\'s <strong>Street Fighter</strong> led the weekend with $31 million domestically, as total ticket sales rose 45% year-over-year.',
+            whyItMatters: 'A low-budget documentary drawing a young audience at near-blockbuster levels shows a filmmaker\'s built-in social following can now open a film almost on its own.',
+            signalText: 'You Can See Everything grossed $15 million from 855 screens.',
+            sourceName: 'AP News',
+            sourceUrl: 'https://apnews.com/article/you-can-see-everything-box-office-da45be8bcac5ac0a9ee98efd1bbbef1d',
+            publishedDate: '2026-10-19'
+          },
+          {
+            order: 19,
+            tag: 'Live Experiences',
+            section: 'entertainment',
+            headline: 'Justin Bieber\'s SKYLRK Opens Immersive Audio Pop-Up In Seoul',
+            emailSummary: 'Justin Bieber\'s brand <strong>SKYLRK</strong> opened its first immersive audio experience at a pop-up in Seoul\'s <strong>Seongsu-dong</strong> neighborhood, running <strong>October 23–25</strong> with a listening space built around bespoke SKYLRK AUDIO speakers. The space also previews a collaboration with <strong>STIGA Table Tennis</strong> on custom ping pong tables and gear. It is SKYLRK\'s <strong>fourth</strong> physical activation, after Tokyo, Indio and New York.',
+            whyItMatters: 'Bieber is building SKYLRK into a lifestyle brand through recurring physical activations, extending his IP into audio hardware and product collaborations.',
+            signalText: 'SKYLRK opened an immersive audio pop-up in Seoul from October 23 to 25.',
+            sourceName: 'Hypebeast',
+            sourceUrl: 'https://hypebeast.com/2026/10/justin-bieber-immersive-audio-experience-skylrk-seoul-pop-up',
+            publishedDate: '2026-10-23'
+          }
+        ]
+      },
 
       // WEEK 3
       {
