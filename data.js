@@ -22,10 +22,234 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'October 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-10-25',
-    dateRange: 'September 28 – October 25, 2026',
-    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX. Week three brought court approval for LIV Golf\'s restructuring as Jon Rahm walked away with nothing more, Las Vegas NBA expansion bids near $12 billion alongside a record $14 million Jordan jersey, a WNBA Finals ticket surge, F1\'s 10-year Rwanda deal, record $65.8 billion global sports media rights, and the ATP\'s $350 million player-pay plan, while Netflix and Universal Music cut staff, Getty Images moved to go private through bankruptcy, and the Kings Cup México finals and AAA\'s Héroes Inmortales were both set for October 24. Week four brought Arctos into the Falcons as the NFL partnered with General Atlantic and opened talks with Blackstone and Apollo, Apollo\'s path to 16% of the Yankees as Hal Steinbrenner ruled out a sale, a KKR founder-backed group buying 42% of Valencia at €1.25 billion, FIFA\'s tender for 2030 World Cup U.S. rights, the first Women\'s Club World Cup set for the U.S. in 2028, a Ticketmaster deal opening NFL resale to rivals, Hearst refusing to sell its ESPN stake, rising NFL viewership and a smooth Paris game, the Dakar Rally leaving Saudi Arabia, a Jaguars fan memorial, robot athletes and a $15 million International Dance League round, while Netflix, Peacock and Spotify posted strong third quarters, Elon Musk put $1 billion into Skydance as Bose bought Skullcandy, Spotify launched paid podcast memberships, Goldman Sachs forecast music revenue nearly doubling by 2035, the Elizabeth Holmes documentary became a box office hit, Justin Bieber\'s SKYLRK opened in Seoul, Atlético Parceros and Peluche Caligari won the Kings and Queens Cup México, and every AAA champion retained on night one of Héroes Inmortales.',
+    publishedDate: '2026-11-01',
+    dateRange: 'September 28 – November 1, 2026',
+    introLine: 'Week one of October: NHL valuations climbed as the Islanders sold a stake at $3 billion and Rogers completed its C$4.35 billion buyout of MLSE, Fanatics beat back three antitrust lawsuits, Brazil banned sports betting and hit Flutter\'s stock, Michael Jordan memorabilia set back-to-back records at Joopiter, the Senate passed the Protect College Sports Act, and Paramount\'s Warner Bros. Discovery merger closed as Paramount Skydance, while Mattel changed CEOs amid takeover buzz, Nike deepened its restructuring, and AAA brought a TV taping to León, Guanajuato. Week two brought a $300 million lifeline for bankrupt LIV Golf as Jon Rahm walked away, record WNBA attendance and the Valkyries\' $100 million revenue milestone, climbing NBA valuations alongside its European league push, Crystal Palace seeking fresh investment, RedBird adding another $4 billion to the Paramount-Skydance bet, and Prime Video locking up exclusive global Emmy Awards streaming rights, while Lucha Libre AAA announced Héroes Inmortales for October 24 in Mexico City and the Hello Kitty & Friends Fun Run took place in CDMX. Week three brought court approval for LIV Golf\'s restructuring as Jon Rahm walked away with nothing more, Las Vegas NBA expansion bids near $12 billion alongside a record $14 million Jordan jersey, a WNBA Finals ticket surge, F1\'s 10-year Rwanda deal, record $65.8 billion global sports media rights, and the ATP\'s $350 million player-pay plan, while Netflix and Universal Music cut staff, Getty Images moved to go private through bankruptcy, and the Kings Cup México finals and AAA\'s Héroes Inmortales were both set for October 24. Week four brought Arctos into the Falcons as the NFL partnered with General Atlantic and opened talks with Blackstone and Apollo, Apollo\'s path to 16% of the Yankees as Hal Steinbrenner ruled out a sale, a KKR founder-backed group buying 42% of Valencia at €1.25 billion, FIFA\'s tender for 2030 World Cup U.S. rights, the first Women\'s Club World Cup set for the U.S. in 2028, a Ticketmaster deal opening NFL resale to rivals, Hearst refusing to sell its ESPN stake, rising NFL viewership and a smooth Paris game, the Dakar Rally leaving Saudi Arabia, a Jaguars fan memorial, robot athletes and a $15 million International Dance League round, while Netflix, Peacock and Spotify posted strong third quarters, Elon Musk put $1 billion into Skydance as Bose bought Skullcandy, Spotify launched paid podcast memberships, Goldman Sachs forecast music revenue nearly doubling by 2035, the Elizabeth Holmes documentary became a box office hit, Justin Bieber\'s SKYLRK opened in Seoul, Atlético Parceros and Peluche Caligari won the Kings and Queens Cup México, and every AAA champion retained on night one of Héroes Inmortales. Week five brought Lakers minority stakes starting at $250 million as Mark Walter sought more than $700 million for the Sparks, the NBA\'s prediction-market deals with Kalshi and Polymarket, the Brewers\' first World Series title amid a 25% viewership drop, Viessmann\'s stake in FC Bayern, Generali\'s record $725 million San Siro naming rights deal, a record $2.2 million Kobe Bryant high school jersey, UNA\'s curling investment and Flash Sports\' Lanka Premier League revenue, the Women\'s Final Four\'s $71.5 million impact on Phoenix, Kane and Putellas winning the Ballon d\'Or with Camberos and Quiñones in the rankings, and Gen Z\'s shift to run clubs, while Skydance opened buyouts and was paid by Texas Tech to film its docuseries, RedBird and Sound Ventures formed a $1 billion partnership, UMG grew Q3 revenue 12%, Prime Video released an AI-made series, and Yeti launched performance apparel.',
     issues: [
+
+      // WEEK 5
+      {
+        slug: 'week-5-october-2026',
+        issueNumber: '5',
+        weekLabel: 'Week 5',
+        dateRange: 'October 26 – November 1, 2026',
+        publishedDate: '2026-11-01',
+        issueTitle: 'Week 5 — October 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Buyers paid record prices to attach themselves to sports properties — Generali\'s $725 million for the new San Siro\'s name, Lakers minority stakes starting at $250 million, Mark Walter asking more than double the WNBA record for the Sparks — while Skydance opened buyouts, World Series viewership fell 25% and the NBA brought prediction markets inside the league.',
+        shareText: 'Lakers stakes from $250M, the Sparks at $700M+, the NBA\'s Kalshi and Polymarket deals, the Brewers\' first title, a record $725M for San Siro naming rights, Viessmann into FC Bayern, Kane and Putellas win the Ballon d\'Or, Skydance buyouts, UMG\'s Q3 and Prime Video\'s AI-made series — Week 5 October · Fillip.',
+        coreSignal: 'This week, money ran toward association. Generali paid a record $725 million to put its name on Milan\'s new stadium, Texas Tech paid Skydance $999,999 to be filmed, investors lined up at $250 million apiece for slivers of the Lakers, and a 1995 high school jersey sold for $2.2 million. None of it waited for audiences to grow: World Series viewership fell 25% and Skydance opened staff buyouts. Being attached to a proven sports property is something buyers now pay a premium for, and the owners of those properties hold the leverage.',
+        latamAngle: 'Mexico\'s footprint at this year\'s Ballon d\'Or came from two very different places. Scarlett Camberos finished 21st in the women\'s ranking, the first Mexican player ever to appear on that list, while playing for Club América after a season of 27 goals, a Clausura title and MVP honors at the first W Concacaf Champions Cup. Julián Quiñones finished 28th, the first Mexican in the men\'s top 30 since Guillermo Ochoa, on the strength of 33 goals in 31 Saudi league matches. One built her case inside Mexico\'s domestic league after leaving it in 2023; the other built his abroad. Both put Mexican players on football\'s biggest individual stage in the same year.',
+        ecosystemNews: [],
+        stories: [
+          {
+            order: 1,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$250M',
+            headline: 'Lakers Minority Stakes Start At $250M As Walter Shops Sparks',
+            emailSummary: '<strong>Josh Kushner</strong> and <strong>Bob Iger</strong> are offering minority stakes in the Los Angeles Lakers starting at <strong>$250 million</strong> apiece, with sources putting the range at $250 million to $300 million, after agreeing over the summer to buy the team from Mark Walter at a record <strong>$12.5 billion</strong> valuation. Kushner would be majority owner, with Iger running day-to-day operations, while the Buss family fights in court over its 17.8% stake. Separately, <strong>Walter</strong> is reportedly seeking more than <strong>$700 million</strong> for the WNBA\'s Los Angeles Sparks and their new practice facility, more than double the league\'s record franchise sale of $300 million.',
+            whyItMatters: 'Selling minority slices quickly after a record purchase is how buyers fund trophy deals, and the NBA recently revised its private equity rules so a firm and its executives can invest at the same time.',
+            signalText: 'Josh Kushner and Bob Iger are selling Lakers minority stakes starting at $250 million each.',
+            sources: [
+              { sourceName: 'Front Office Sports', sourceUrl: 'https://frontofficesports.com/article/josh-kushner-bob-iger-shopping-lakers-stakes-starting-at-250-million/' },
+              { sourceName: 'Bloomberg', sourceUrl: 'https://www.bloomberg.com/news/articles/2026-10-23/mark-walter-is-seeking-to-sell-the-wnba-s-los-angeles-sparks' }
+            ],
+            publishedDate: '2026-10-30'
+          },
+          {
+            order: 2,
+            tag: 'Betting',
+            section: 'sports',
+            headline: 'NBA Names Kalshi And Polymarket Its Preferred Prediction Market Platforms',
+            emailSummary: 'The <strong>NBA</strong> partnered with <strong>Kalshi</strong> and <strong>Polymarket</strong>, making them its preferred prediction market platforms with access to official league data and the right to use league marks. The deals give the league more influence over which markets are offered, information sharing and a memorandum of understanding with the <strong>CFTC</strong>, and the NBA also expanded its existing <strong>DraftKings</strong> agreement to cover DraftKings\' prediction-market product. The NBA follows the <strong>NHL</strong> and <strong>MLB</strong>, which already partner with both platforms, even as New York, where the league is headquartered, sues prediction markets over alleged illegal sports betting.',
+            whyItMatters: 'With three of the four major U.S. leagues now licensing data and marks to prediction markets, these platforms are becoming an official league revenue line while their legality is still being fought in court.',
+            signalText: 'The NBA signed partnerships with prediction markets Kalshi and Polymarket.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/nba/story/_/id/50280364/nba-prediction-markets-kalshi-polymarket-partnership',
+            publishedDate: '2026-10-26'
+          },
+          {
+            order: 3,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '11.83M',
+            headline: 'Brewers Win First Title As World Series Viewership Falls 25%',
+            emailSummary: 'The <strong>Milwaukee Brewers</strong> beat the Tampa Bay Rays 4–1 to win the first World Series in franchise history, the first Series since 1991 between two bottom-half payroll teams, with a management lockout likely to start December 2. The Series averaged <strong>11.83 million</strong> viewers, nearly <strong>25%</strong> below 2025 and 2024, and Game 3 drew 8.33 million, the lowest in Nielsen\'s current measurement era. Under the collective bargaining agreement, the Brewers take <strong>36%</strong> of the postseason players\' pool and the Rays 24%, a pool funded by 60% of gate receipts from a set number of games per round.',
+            whyItMatters: 'A small-market final drew far fewer viewers than the Dodgers-led Series before it, a weaker audience number to carry into labor talks over a salary cap.',
+            signalText: 'The 2026 World Series averaged 11.83 million viewers, down nearly 25% from 2025.',
+            sources: [
+              { sourceName: 'CBS News', sourceUrl: 'https://www.cbsnews.com/news/world-series-milwaukee-brewers-defeat-tampa-bay-rays/' },
+              { sourceName: 'Yahoo Sports', sourceUrl: 'https://sports.yahoo.com/articles/mlb-world-series-viewership-dropped-210952641.html' },
+              { sourceName: 'The Sporting Page', sourceUrl: 'https://thesportingpage.com/how-mlb-playoff-shares-work-who-gets-paid-after-the-world-series/' }
+            ],
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 4,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '6.7%',
+            headline: 'Viessmann Takes Final Outside Stake In FC Bayern München AG',
+            emailSummary: '<strong>Viessmann Generations Group</strong> will become a shareholder of <strong>FC Bayern München AG</strong>, acquiring the last available equity stake, originally 5%, through a capital increase that leaves it with just under <strong>6.7%</strong>. The club association, FC Bayern München eV, keeps <strong>70%</strong> as its statutes require, and the three other minority shareholders will each hold just under 7.8%. CEO <strong>Max Viessmann</strong> is expected to join an expanded ten-member supervisory board, building on a brand partnership that began in 2018.',
+            whyItMatters: 'Bayern raised new equity without giving up control, using a long-time sponsor as the investor rather than outside financial capital.',
+            signalText: 'Viessmann Generations Group is acquiring just under 6.7% of FC Bayern München AG.',
+            sourceName: 'FC Bayern',
+            sourceUrl: 'https://fcbayern.com/en/news/2026/10/viessmann-generations-group-to-become-a-shareholder-in-fc-bayern-muenchen-ag',
+            publishedDate: '2026-10-26'
+          },
+          {
+            order: 5,
+            tag: 'Sponsorship',
+            section: 'sports',
+            accentText: '$725M',
+            headline: 'Generali Pays Record $725M For New San Siro Naming Rights',
+            emailSummary: 'Insurer <strong>Generali Group</strong> signed a 20-year naming rights deal worth <strong>$725 million</strong> (€650 million) for the stadium AC Milan and Inter are building to replace San Siro. That beats the two previous records, both also 20-year deals: SoFi\'s <strong>$625 million</strong> for Stan Kroenke\'s Los Angeles stadium and Crypto.com\'s <strong>$700 million</strong> for the Lakers\' and Kings\' arena. Generali Stadium is expected to open in 2031 with 71,500 seats, including 13,000 premium seats.',
+            whyItMatters: 'A European football venue now holds the naming rights record outright, in a league where more than half of Serie A clubs play in stadiums at least 90 years old.',
+            signalText: 'Generali agreed to pay $725 million over 20 years to name Milan\'s new stadium.',
+            sourceName: 'Sportico',
+            sourceUrl: 'https://www.sportico.com/business/sponsorship/2026/milan-soccer-stadium-generali-san-siro-1234956937/',
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 6,
+            tag: 'Memorabilia',
+            section: 'sports',
+            accentText: '$2.2M',
+            headline: 'Kobe Bryant\'s High School Jersey Sells For Record $2.2M',
+            emailSummary: '<strong>Sotheby\'s</strong> sold <strong>Kobe Bryant\'s</strong> game-worn Lower Merion High School uniform for <strong>$2.2 million</strong>, a world record for a high school basketball jersey at auction. It beats the <strong>$1.3 million</strong> paid in 2024 for LeBron James\' St. Vincent-St. Mary jersey. The lot drew 26 bids from seven bidders, and the same uniform sold for <strong>$51,400</strong> in 2013.',
+            whyItMatters: 'A jersey that sold for $51,400 in 2013 is now a $2.2 million asset, showing how fast top-end sports memorabilia has appreciated.',
+            signalText: 'Kobe Bryant\'s high school jersey sold for $2.2 million at Sotheby\'s.',
+            sourceName: 'Hypebeast',
+            sourceUrl: 'https://hypebeast.com/2026/10/kobe-bryant-game-worn-lower-merion-high-school-jersey-record-2-2-million-usd-sale-sothebys-news',
+            publishedDate: '2026-10-30'
+          },
+          {
+            order: 7,
+            tag: 'Emerging Leagues',
+            section: 'sports',
+            accentText: '25%',
+            headline: 'UNA Buys Into Curling As Lanka Premier League Lifts Flash',
+            emailSummary: '<strong>UNA Sports Group</strong> led an eight-figure round in <strong>The Curling Group</strong>, owner of the franchise-based Rock League, taking roughly <strong>25%</strong> and a board seat, after earlier buying both New York franchises in the X Games League. The Curling Group, which signed media deals with CBC and ESPN after its April launch, had been looking to raise up to $25 million. Separately, <strong>Flash Sports & Media</strong> reported preliminary third-quarter revenue of about <strong>$6.2 million</strong>, driven by Lanka Premier League Season 6, against $44,318 in the second quarter.',
+            whyItMatters: 'Investors are targeting startup leagues where they can get board seats or control, with UNA saying upside is compressed in the big five U.S. leagues.',
+            signalText: 'UNA Sports Group took a roughly 25% stake in The Curling Group.',
+            sources: [
+              { sourceName: 'Sportico', sourceUrl: 'https://www.sportico.com/business/finance/2026/una-sports-curling-group-rock-league-investment-1234956792/' },
+              { sourceName: 'Yahoo Finance', sourceUrl: 'https://finance.yahoo.com/media-advertising/articles/flash-sports-media-holdings-reports-120500959.html' }
+            ],
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 8,
+            tag: 'Women\'s Sports',
+            section: 'sports',
+            accentText: '$71.5M',
+            headline: 'Phoenix Women\'s Final Four Generated $71.5M In Economic Impact',
+            emailSummary: 'The 2026 NCAA <strong>Women\'s Final Four</strong> in Phoenix generated <strong>$71.5 million</strong> in economic impact, according to an Arizona State University study. It added $42.2 million to Arizona\'s GDP and $4 million in tax revenue, and brought more than 27,000 out-of-state visitors. The figure is well below the <strong>$429 million</strong> from the Men\'s Final Four the year before, held at a much larger venue, and less than half the $149 million Implan forecast right after the event.',
+            whyItMatters: 'Host cities use studies like this to justify bidding for women\'s events, and Phoenix was just named one of seven finalists to host again between 2032 and 2036.',
+            signalText: 'The 2026 Women\'s Final Four generated $71.5 million in economic impact for Phoenix.',
+            sourceName: 'Axios',
+            sourceUrl: 'https://www.axios.com/local/phoenix/2026/10/29/phoenix-womens-final-four-economic-impact',
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 9,
+            tag: 'Football',
+            section: 'sports',
+            accentText: '28 points',
+            headline: 'Kane, Putellas Win Ballon d\'Or; Two Mexicans Crack Top 30',
+            emailSummary: '<strong>Harry Kane</strong> won the men\'s Ballon d\'Or with 1,055 points to Kylian Mbappé\'s 1,027, a <strong>28-point</strong> margin and the first win by an English player since Michael Owen in 2001. <strong>Alexia Putellas</strong> won the women\'s award for a record-equalling third time, keeping it with Spanish players for a sixth straight year. Mexico\'s <strong>Scarlett Camberos</strong> of Club América finished 21st, the first Mexican on the women\'s list, and <strong>Julián Quiñones</strong> finished 28th, the first Mexican in the men\'s top 30 since Guillermo Ochoa.',
+            whyItMatters: 'Ballon d\'Or recognition raises a player\'s commercial profile, and this year it reached two Mexican players, one of them playing in Mexico\'s domestic league.',
+            signalText: 'Harry Kane won the 2026 Ballon d\'Or by 28 points over Kylian Mbappé.',
+            sources: [
+              { sourceName: 'BBC Sport', sourceUrl: 'https://www.bbc.com/sport/football/articles/cqp9gky38lj3o' },
+              { sourceName: 'BBC Sport', sourceUrl: 'https://www.bbc.com/sport/football/articles/c6073yeg52xeo' },
+              { sourceName: 'El Informador', sourceUrl: 'https://www.informador.mx/deportes/scarlett-camberos-se-ubica-en-el-lugar-21-del-balon-de-oro-femenino-2026-20261026-0076.html' },
+              { sourceName: 'Récord', sourceUrl: 'https://www.record.com.mx/historia/julian-quinones-termina-lugar-28-balon-oro-2026-2026102616584391654' }
+            ],
+            publishedDate: '2026-10-26'
+          },
+          {
+            order: 10,
+            tag: 'Participation',
+            section: 'sports',
+            accentText: '950,000',
+            headline: 'Gen Z Shifts Spending From Bars To Run Clubs And Leagues',
+            emailSummary: 'About <strong>12,000</strong> people paid entry fees of roughly $70 to $250 to run a <strong>Diplo\'s Run Club</strong> 5K in Queens. Recreational league operator <strong>Volo Sports</strong> is on track for <strong>950,000</strong> player registrations this year, up about 34% from 2025 and almost 500% from 2019. A Bank of America report found Gen Z and millennial fitness spending rose faster than bar spending in early 2026.',
+            whyItMatters: 'Paid participation events are taking spending that used to go to nightlife, creating a business built on young people playing sports rather than watching them.',
+            signalText: 'Volo Sports is on track for 950,000 player registrations in 2026.',
+            sourceName: 'CNBC',
+            sourceUrl: 'https://www.cnbc.com/2026/10/30/gen-z-diplo-run-club.html',
+            publishedDate: '2026-10-30'
+          },
+          {
+            order: 11,
+            tag: 'Entertainment & IP',
+            section: 'entertainment',
+            accentText: '$6B',
+            headline: 'Skydance Offers Buyouts As Texas Tech Pays It To Film',
+            emailSummary: '<strong>David Ellison</strong> and <strong>Ynon Kreiz</strong> told Skydance staff the company will move to a five-day office policy and offer a <strong>voluntary buyout program</strong>, an early step toward its targeted <strong>$6 billion</strong> in operational efficiencies. Separately, Sportico reported that <strong>Texas Tech</strong> agreed to pay Skydance Sports <strong>$999,999</strong> to produce <em>The Program</em>, a Paramount+ docuseries about its football team, staying just under the $1 million threshold that would have required Board of Regents approval. That reverses the usual arrangement: Campfire paid LSU $1 million for <em>The Money Game</em>, and Michigan reportedly received $2.25 million for <em>All or Nothing</em>.',
+            whyItMatters: 'Skydance is cutting costs inside the merged company while getting schools to pay for the sports content it owns and distributes.',
+            signalText: 'Skydance launched a voluntary employee buyout program.',
+            sources: [
+              { sourceName: 'The Hollywood Reporter', sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/skydance-employee-buyout-program-cost-savings-begin-1236740140/' },
+              { sourceName: 'Sportico', sourceUrl: 'https://www.sportico.com/leagues/college-sports/2026/texas-tech-football-documentary-series-agreement-skydance-1234956850/' }
+            ],
+            publishedDate: '2026-10-26'
+          },
+          {
+            order: 12,
+            tag: 'Investment',
+            section: 'entertainment',
+            accentText: '$1B',
+            headline: 'RedBird And Sound Ventures Form $1B Tech And Media Partnership',
+            emailSummary: 'Gerry Cardinale\'s <strong>RedBird Capital Partners</strong> and Guy Oseary\'s <strong>Sound Ventures</strong> will invest <strong>$1 billion</strong> together in emerging platforms where tech, media and culture meet. RedBird, which manages over $21 billion and is a large Skydance investor, will also draw on RedBird X, its AI investment platform. Sound Ventures, with over $2 billion in assets, was an early investor in Anthropic and OpenAI.',
+            whyItMatters: 'A sports-and-media investor is teaming up with a music manager\'s venture firm to back tech companies, giving entertainment capital a direct path into AI.',
+            signalText: 'RedBird and Sound Ventures formed a $1 billion investment partnership.',
+            sourceName: 'Deadline',
+            sourceUrl: 'https://deadline.com/2026/10/redbird-capital-guy-oseary-sound-ventures-investment-partnership-1237208067/',
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 13,
+            tag: 'Earnings',
+            section: 'entertainment',
+            accentText: '$3.78B',
+            headline: 'UMG Q3 Revenue Rises 12% As Grainge Targets AI Slop',
+            emailSummary: '<strong>Universal Music Group</strong> posted third-quarter revenue of <strong>€3.39 billion</strong> (about $3.78 billion), up nearly 12%, helped by its acquisition of <strong>Downtown Music</strong>. Subscription revenue grew 18% to about $2 billion, while merchandise fell 4.6% on fewer major tours. CEO <strong>Lucian Grainge</strong> said AI slop "degrades the fan experience" and argued it should be paid out less than music by real artists, two weeks after layoffs that included Def Jam CEO Tunji Balogun.',
+            whyItMatters: 'The largest record company is pushing streaming platforms to pay AI-generated music less, which would change how royalty pools are split.',
+            signalText: 'Universal Music Group\'s third-quarter revenue rose nearly 12% to €3.39 billion.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/music/music-industry-news/universal-music-group-q3-earnings-1236742726/',
+            publishedDate: '2026-10-29'
+          },
+          {
+            order: 14,
+            tag: 'Streaming',
+            section: 'entertainment',
+            headline: 'Prime Video Releases Castle Walls, An AI-Made Turkish Series',
+            emailSummary: '<strong>Prime Video</strong> released <em>Castle Walls</em>, a two-episode melodrama from Turkish producer <strong>Ay Yapım</strong> with much of the visual work done by AI, globally alongside its conventional series and films. Amazon has also acquired an AI-generated spinoff film of Ay Yapım\'s crime series <em>Çukur</em>. Antonio Banderas\' upcoming film <em>Cortés</em> is betting AI can make an expensive-looking production affordable.',
+            whyItMatters: 'A major streamer is now putting AI-made content in front of a global audience under its own brand, not only using AI behind the scenes.',
+            signalText: 'Prime Video released an AI-made series globally.',
+            sourceName: 'The Ankler',
+            sourceUrl: 'https://theankler.com/amazon-has-tvs-first-fully-ai-made-series-theres-no-going-back/',
+            publishedDate: '2026-10-27'
+          },
+          {
+            order: 15,
+            tag: 'Brand Extension',
+            section: 'entertainment',
+            accentText: '$180–$400',
+            headline: 'Yeti Expands Beyond Coolers With $180–$400 Performance Apparel Line',
+            emailSummary: '<strong>Yeti</strong> launched its first technical apparel capsule, with men\'s and women\'s outerwear and layering pieces priced from <strong>$180 to $400</strong>. VP of Product Creation <strong>Trent Bush</strong> said the idea came from the branded caps Yeti gave customers who bought coolers. The company plans to add more styles and colorways.',
+            whyItMatters: 'Durable-goods brands struggle with repeat purchases, and apparel gives Yeti a category its community buys again and again.',
+            signalText: 'Yeti launched a performance apparel line priced from $180 to $400.',
+            sourceName: 'WWD',
+            sourceUrl: 'https://wwd.com/fashion-news/activewear/yeti-performance-apparel-trent-bush-1239393972/',
+            publishedDate: '2026-10-30'
+          }
+        ]
+      },
 
       // WEEK 4
       {
