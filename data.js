@@ -16,10 +16,266 @@ const PUBLICATION_CONFIG = {
 
 const MONTHLY_GROUPS = [
 
+  // NOVEMBER 2026
+  {
+    slug: 'november-2026',
+    isCurrent: true,
+    monthLabel: 'November 2026',
+    editionTag: 'Sports · Entertainment · IP · Capital',
+    publishedDate: '2026-11-08',
+    dateRange: 'November 2 – 8, 2026',
+    introLine: 'Week one of November: Mark Walter shopped his Cadillac F1 team for about $3 billion as Fenway Sports Group circled, a Bezos-backed group gained a path to full control of Liverpool and the Dumonts took 69% of the Mavericks, while Team USA sought outside investors for its commercial arm, Gotham FC raised $100 million at a record $350 million valuation, the NFL and TMRW Sports unveiled Premier Flag, LIV Golf began winding down, The CW targeted TNT Sports rights, MLB raised its salary cap offer, American Express took its NBA and WNBA deal global, WNBA Finals Game 7 set a playoff viewership record, Sportfive bought 4sports Hockey, Eternal Fan pitched stadium memorials as a sponsorship category and Cristiano Ronaldo retired from Portugal duty, while Fox closed its $22 billion Roku deal, touring lifted third-quarter results at Live Nation, Hybe and MSG Entertainment, Disney planned several thousand layoffs and expanded its WWE partnership, and Justin Timberlake set a docuseries at Apple TV.',
+    issues: [
+
+      // WEEK 1
+      {
+        slug: 'week-1-november-2026',
+        issueNumber: '1',
+        weekLabel: 'Week 1',
+        dateRange: 'November 2 – 8, 2026',
+        publishedDate: '2026-11-08',
+        issueTitle: 'Week 1 — November 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Owners moved capital between leagues — Mark Walter shopping a $3 billion F1 team, a Bezos-backed group eyeing all of Liverpool, the Dumonts taking 69% of the Mavericks — as Gotham FC set a women\'s soccer valuation record, Team USA opened its commercial arm to investors and LIV Golf ran out of rescuers, while Fox closed its $22 billion Roku deal and touring lifted Live Nation, Hybe and MSG.',
+        shareText: 'Walter\'s $3B F1 sale, Liverpool\'s takeover path, the Dumonts take the Mavs, Gotham FC at $350M, Team USA seeks investors, the NFL\'s Premier Flag, LIV Golf winds down, The CW eyes TNT rights, MLB\'s cap offer, Fox closes Roku, Live Nation\'s $10.1B quarter, Disney layoffs and the Disney–WWE takeover — Week 1 November · Fillip.',
+        coreSignal: 'This week, capital went to whoever controls the point of access. Fox paid $22 billion for the screen millions of homes use to reach every other streamer. Live Nation, Hybe and MSG grew on tickets, tours and residencies. Gotham FC\'s value jumped on a Queens stadium move rather than revenue, and Team USA put its commercial rights in front of outside money. Where no platform existed, the money left: LIV Golf burned through billions and folded once its backer stopped paying. Owning the access point, physical or digital, is what investors are paying for.',
+        ecosystemNews: [],
+        stories: [
+          {
+            order: 1,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$3B',
+            headline: 'Walter Shops $3B F1 Team As Liverpool, Mavericks Control Shifts',
+            emailSummary: 'Dodgers chairman <strong>Mark Walter</strong> is reportedly seeking about <strong>$3 billion</strong> for his Cadillac Formula 1 team, with at least seven interested parties including <strong>Fenway Sports Group</strong>, owner of the Red Sox and Penguins. FSG has cash after selling 38% of Liverpool for just over $2.6 billion to <strong>1892 Holdings</strong>, a Jeff Bezos-backed group that, per The Athletic, could raise its stake to 69% or reach 100% within 12 months. In Dallas, <strong>Sivan and Patrick Dumont</strong> bought Miriam Adelson\'s shares to become controlling owners of the Mavericks with 69%, and can buy another 20% from Mark Cuban at the original $3.5 billion valuation.',
+            whyItMatters: 'Owners are recycling capital across leagues, with proceeds from one sale funding the next bid, while staged deals let new buyers move from minority stakes to control without a fresh auction.',
+            signalText: 'Mark Walter is seeking about $3 billion for his Cadillac Formula 1 team.',
+            sources: [
+              { sourceName: 'Yahoo Sports', sourceUrl: 'https://sports.yahoo.com/articles/dodgers-owner-mark-walter-potential-201546352.html' },
+              { sourceName: 'Sports Illustrated', sourceUrl: 'https://www.si.com/soccer/jeff-bezos-surprise-route-full-liverpool-takeover' },
+              { sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/nba/story/_/id/50371176/dumonts-take-controlling-owners-mavericks' }
+            ],
+            publishedDate: '2026-11-04'
+          },
+          {
+            order: 2,
+            tag: 'Investment',
+            section: 'sports',
+            accentText: '$264M',
+            headline: 'Team USA Seeks Outside Investors For New Commercial Rights Venture',
+            emailSummary: 'The U.S. Olympic & Paralympic Committee is seeking outside financing for <strong>U.S. Olympic and Paralympic Ventures</strong>, a new entity covering sponsorship, licensing, content distribution and direct-to-consumer sales, CEO <strong>Sarah Hirshland</strong> told Sportico. Sky News reported the USOPC hired the <strong>Raine Group</strong> to explore a stake sale or debt raise. Team USA\'s revenue was <strong>$264 million</strong> in 2025, versus $496 million in the 2024 Paris year.',
+            whyItMatters: 'Commercial-rights renewals for 2029 and beyond begin in January and the LA 2028 partnership dissolves after the Games, so outside investors could end up owning part of Team USA\'s commercial engine.',
+            signalText: 'Team USA is seeking outside investment for a new commercial rights venture.',
+            sourceName: 'Yahoo Sports',
+            sourceUrl: 'https://sports.yahoo.com/articles/team-usa-seeks-private-investment-195448390.html',
+            publishedDate: '2026-11-03'
+          },
+          {
+            order: 3,
+            tag: 'Valuation',
+            section: 'sports',
+            accentText: '$350M',
+            headline: 'Gotham FC Raises $100M At Record $350M Women\'s Soccer Valuation',
+            emailSummary: '<strong>Gotham FC</strong> announced a <strong>$100 million</strong> capital raise led by the <strong>Moelis family</strong>, adding seven new minority investors alongside the Tisch family and Next 3 Ventures. Yahoo Sports reported the deal values the two-time NWSL champion at <strong>$350 million</strong>, a record for a women\'s soccer team and an 84% premium over Forbes\' $190 million estimate in April. The club moves its matches to Etihad Park in Queens in 2028.',
+            whyItMatters: 'Gotham\'s estimated 2025 revenue was $11 million, against $38 million at Angel City and the Kansas City Current, so investors are pricing the New York market and the stadium move rather than current earnings.',
+            signalText: 'Gotham FC raised $100 million at a reported $350 million valuation.',
+            sourceName: 'Hoodline',
+            sourceUrl: 'https://hoodline.com/2026/11/gotham-fc-lands-100m-raise-valuation-reportedly-hits-record-350m/',
+            publishedDate: '2026-11-06'
+          },
+          {
+            order: 4,
+            tag: 'Emerging Leagues',
+            section: 'sports',
+            accentText: '32 NFL owners',
+            headline: 'NFL And TMRW Sports Unveil Premier Flag, Launching Summer 2027',
+            emailSummary: 'The NFL and <strong>TMRW Sports</strong> unveiled <strong>Premier Flag</strong>, a professional flag football league for women and men launching in summer 2027 from a U.S. host city to be named in the coming weeks. Its investor group includes <strong>all 32 NFL club owners</strong>, institutional and strategic investors, current and former NFL players and women athletes. Populous is designing what the league calls the first purpose-built flag football stadium, and a Mexico City talent event is set for Nov. 22-23.',
+            whyItMatters: 'NFL owners take an equity position in flag football\'s commercial rights ahead of the sport\'s Olympic debut at LA 2028, rather than leaving that ground to independent leagues.',
+            signalText: 'All 32 NFL club owners invested in Premier Flag, a pro flag football league launching in 2027.',
+            sourceName: 'NFL.com',
+            sourceUrl: 'https://www.nfl.com/news/nfl-tmrw-sports-unveil-premier-flag-new-professional-flag-football-league-launching-summer-2027',
+            publishedDate: '2026-11-02'
+          },
+          {
+            order: 5,
+            tag: 'Leagues',
+            section: 'sports',
+            accentText: '$300M',
+            headline: 'LIV Golf Winds Down After Investors Pull Final $300M Rescue',
+            emailSummary: '<strong>LIV Golf</strong> told a New Jersey bankruptcy court it will wind down after investors abandoned the "LIV 2.0" restructuring, which needed about <strong>$300 million</strong> from <strong>BC Partners Credit</strong>. A new Chapter 11 plan is to be filed, with a liquidation plan to follow, and there will be no LIV season in 2027. Saudi Arabia\'s PIF stopped funding in April after an estimated $5-6 billion.',
+            whyItMatters: 'The collapse ends the most expensive attempt to build a rival men\'s golf tour and returns bargaining power over elite players to the PGA Tour and DP World Tour.',
+            signalText: 'LIV Golf is winding down after investors pulled a $300 million rescue.',
+            sourceName: 'Yahoo Sports',
+            sourceUrl: 'https://sports.yahoo.com/articles/liv-golf-winds-down-investors-190217002.html',
+            publishedDate: '2026-11-06'
+          },
+          {
+            order: 6,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '100M homes',
+            headline: 'The CW Targets TNT Sports Rights And More CFP Games',
+            emailSummary: 'Nexstar-owned <strong>The CW</strong> is pursuing live sports rights held by WBD\'s <strong>TNT Sports</strong>, as Skydance carries nearly $80 billion in debt and may shed some properties, SVP of sports <strong>Michael Perman</strong> confirmed. TNT\'s $1.575 billion NHL deal expires after 2027-28 and its $3.75 billion MLB deal after 2028. The CW, which reaches about 100 million U.S. homes, also wants more College Football Playoff games if the field expands to 24 teams.',
+            whyItMatters: 'A broadcast network bidding for cable rights gives leagues another buyer if Skydance\'s debt load pushes TNT properties back onto the market.',
+            signalText: 'The CW confirmed it is pursuing sports rights currently held by TNT Sports.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/the-cw-eyes-tnt-sports-rights-more-cfp-games/',
+            publishedDate: '2026-11-03'
+          },
+          {
+            order: 7,
+            tag: 'League Economics',
+            section: 'sports',
+            accentText: '$258.2M',
+            headline: 'MLB Raises Salary Cap Offer To $258.2M, Delays Start To 2028',
+            emailSummary: 'MLB proposed delaying a hard salary cap and floor by one year to <strong>2028</strong>, raising the cap from $245.3 million to <strong>$258.2 million</strong> and the floor from $171.2 million to $180.2 million. On 2026 payrolls, 12 clubs would need to add a combined $636 million and eight would need to cut $528 million, led by the <strong>Dodgers</strong>\' $433 million payroll. A lockout is expected when the labor deal expires Dec. 1.',
+            whyItMatters: 'A cap and floor would limit what the richest clubs can spend and force low-payroll teams to spend more, changing the economics of owning an MLB franchise.',
+            signalText: 'MLB proposed a $258.2 million salary cap starting in 2028.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/mlb-raises-salary-cap-offer-pushes-start-back-to-2028/',
+            publishedDate: '2026-11-03'
+          },
+          {
+            order: 8,
+            tag: 'Sponsorship',
+            section: 'sports',
+            headline: 'American Express Expands NBA And WNBA Deal Into Global Partnership',
+            emailSummary: 'The NBA, WNBA and <strong>American Express</strong> expanded their partnership globally in a multiyear deal naming Amex <strong>Official Payments Partner</strong> of both leagues, also covering the NBA G League and NBA Take-Two Media. Amex is associate partner of the NBA Global Games in <strong>Mexico City</strong> (Nov. 7), Paris and Manchester, presenting partner of select NBA Houses and a new partner of USA Basketball\'s showcase and 3x3 national teams.',
+            whyItMatters: 'The NBA is packaging its international games and USA Basketball into single sponsor deals, giving one brand reach across every market where the league plays.',
+            signalText: 'American Express became Official Payments Partner of the NBA and WNBA worldwide.',
+            sourceName: 'NBA',
+            sourceUrl: 'https://pr.nba.com/american-express-nba-wnba-partnership/',
+            publishedDate: '2026-11-02'
+          },
+          {
+            order: 9,
+            tag: 'Viewership',
+            section: 'sports',
+            accentText: '3.3M',
+            headline: 'WNBA Finals Game 7 Draws 3.3M, A League Playoff Record',
+            emailSummary: 'The <strong>Golden State Valkyries</strong> beat the Atlanta Dream 68-63 in the first Game 7 in WNBA Finals history, drawing <strong>3.3 million</strong> viewers across USA, CNBC and Peacock. It was the most-watched playoff game in league history, and the series averaged <strong>1.89 million</strong> viewers, a Finals record, above the 1.5 million average in 2024. The numbers came without Caitlin Clark or the Indiana Fever.',
+            whyItMatters: 'Record audiences without Caitlin Clark show WNBA viewership no longer depends on one player, which supports pricing for sponsors and broadcasters.',
+            signalText: 'WNBA Finals Game 7 drew 3.3 million viewers, a league playoff record.',
+            sourceName: 'Yahoo Sports',
+            sourceUrl: 'https://sports.yahoo.com/articles/wnba-finals-game-7-becomes-121000843.html',
+            publishedDate: '2026-11-04'
+          },
+          {
+            order: 10,
+            tag: 'M&A',
+            section: 'sports',
+            accentText: '300 clients',
+            headline: 'Sportfive Acquires 4sports Hockey, Adding About 300 Hockey Clients',
+            emailSummary: '<strong>Sportfive</strong> agreed to acquire <strong>4sports Hockey</strong>, a Zug, Switzerland-based ice hockey agency with offices in Germany, Sweden, Finland and the U.S. and around 300 clients, including NHL players such as Rasmus Andersson of the Vegas Golden Knights. Founder <strong>Daniel Giger</strong> will keep leading the business alongside Peter Forsberg and others. Financial terms were not disclosed.',
+            whyItMatters: 'The deal adds ice hockey to Sportfive\'s athlete management business in golf, soccer and tennis, as agencies grow by buying specialist firms with existing client lists.',
+            signalText: 'Sportfive acquired ice hockey agency 4sports Hockey.',
+            sourceName: 'Sportcal',
+            sourceUrl: 'https://www.sportcal.com/news/sportfive-acquires-4sports-hockey-to-expand-athlete-management-business/',
+            publishedDate: '2026-11-02'
+          },
+          {
+            order: 11,
+            tag: 'Sponsorship',
+            section: 'sports',
+            accentText: '$904–$5,904',
+            headline: 'Eternal Fan Pitches Stadium Memorials As A New Sponsorship Category',
+            emailSummary: '<strong>Eternal Fan</strong>, founded by Iowa funeral home owner <strong>Matt Linn</strong> and incorporated in 2013, places "fan memorials" at sports venues and sells storage spaces inside them for personal keepsakes. After a 2018 memorial at Richmond Raceway with spaces at $250 to $300, its <strong>Jacksonville Jaguars</strong> deal sells spaces from $904 to $5,904 at the renovated EverBank Stadium. Linn says a Power Four school is close to signing.',
+            whyItMatters: 'Teams get a new licensing category with no build cost, and Linn is pitching colleges facing NIL costs on tying memorial spaces to donor giving.',
+            signalText: 'Eternal Fan sells memorial spaces at the Jaguars\' stadium for $904 to $5,904.',
+            sourceName: 'Sports Business Journal',
+            sourceUrl: 'https://www.sportsbusinessjournal.com/Articles/2026/11/02/a-fan-forever-eternal-fan-sells-afterlife-experience-category/',
+            publishedDate: '2026-11-02'
+          },
+          {
+            order: 12,
+            tag: 'Football',
+            section: 'sports',
+            accentText: '146 goals',
+            headline: 'Cristiano Ronaldo Retires From Portugal After 23 Years, 146 Goals',
+            emailSummary: '<strong>Cristiano Ronaldo</strong>, 41, retired from international football after 23 years with Portugal, following a fallout with coach <strong>Jorge Jesus</strong> and a 30-day federation suspension for walking out of the national team. He leaves with the men\'s international records of <strong>146 goals</strong> in <strong>234 games</strong>. He will keep playing for <strong>Al Nassr</strong>, sitting on 985 career goals as he chases 1,000.',
+            whyItMatters: 'Coming less than a month after Lionel Messi\'s last game for Argentina, Ronaldo\'s exit removes the two biggest draws of the past two decades from international football.',
+            signalText: 'Cristiano Ronaldo retired from international football with Portugal.',
+            sourceName: 'ESPN',
+            sourceUrl: 'https://www.espn.com/soccer/story/_/id/49266866/cristiano-ronaldo-portugal-jorge-jesus-retires-international',
+            publishedDate: '2026-11-05'
+          },
+          {
+            order: 13,
+            tag: 'M&A',
+            section: 'entertainment',
+            accentText: '$22B',
+            headline: 'Fox Closes $22B Roku Deal, Reaching Over 100M Households',
+            emailSummary: '<strong>Fox Corp.</strong> completed its <strong>$22 billion</strong> acquisition of <strong>Roku</strong>, closing in less than five months after a Justice Department review. Roku founder <strong>Anthony Wood</strong> joins Fox\'s board and becomes co-chair of Fox Digital Platforms, which will house Roku, Tubi, Fox One and Red Seat Ventures. Roku brings an install base of more than 100 million households worldwide.',
+            whyItMatters: 'Fox now owns the gateway many U.S. homes use to reach Netflix, YouTube and Disney+, and can sell its advertising across that platform alongside Tubi and the Roku Channel.',
+            signalText: 'Fox completed its $22 billion acquisition of Roku.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/digital/fox-closes-roku-deal-creating-new-streaming-power-player-1236749375/',
+            publishedDate: '2026-11-06'
+          },
+          {
+            order: 14,
+            tag: 'Earnings',
+            section: 'entertainment',
+            accentText: '$10.1B',
+            headline: 'Touring Lifts Q3 At Live Nation, Hybe And MSG Entertainment',
+            emailSummary: '<strong>Live Nation</strong> posted record Q3 revenue of <strong>$10.1 billion</strong>, up 19%, as attendance grew 19% to 61 million and international fans drove 60% of the growth. <strong>Hybe</strong> more than doubled revenue to a record 1.53 trillion won as the BTS world tour generated 726.8 billion won in concert sales. <strong>MSG Entertainment</strong> grew revenue 37% to $217.1 million on residencies from Harry Styles, Bon Jovi and Phish, the most concerts ever held at Madison Square Garden in a quarter.',
+            whyItMatters: 'All three grew on ticketed attendance, and owning the venue, tour or ticketing let each add food, merchandise and fees on top of the ticket.',
+            signalText: 'Live Nation reported record third-quarter revenue of $10.1 billion.',
+            sources: [
+              { sourceName: 'The Hollywood Reporter', sourceUrl: 'https://www.hollywoodreporter.com/music/music-industry-news/live-nation-reports-10b-in-revenue-in-q3-2026-1236748784/' },
+              { sourceName: 'UPI', sourceUrl: 'https://www.upi.com/Top_News/World-News/2026/11/03/korea-HYBE-BTS-record-revenue-3Q-world-tour/5901793696176/' },
+              { sourceName: 'IQ Magazine', sourceUrl: 'https://www.iqmagazine.com/2026/11/residencies-lift-msg-ent-q3-revenue-37-to-217m/' }
+            ],
+            publishedDate: '2026-11-05'
+          },
+          {
+            order: 15,
+            tag: 'Restructuring',
+            section: 'entertainment',
+            accentText: '20%',
+            headline: 'Disney Plans Several Thousand Layoffs, Seeks Cost Cuts Up To 20%',
+            emailSummary: '<strong>Disney</strong> plans to cut several thousand jobs, and some managers have been asked to reduce costs by up to <strong>20%</strong>, people familiar with the matter told CNBC. It is the latest round under CEO <strong>Josh D\'Amaro</strong>, after up to 1,000 cuts in April, about 300 in September and an early retirement program in August. Disney had about 231,000 employees at the end of fiscal 2025 and reports fiscal Q4 earnings Nov. 17.',
+            whyItMatters: 'Disney joins Netflix and Skydance in cutting staff, as the largest studios prioritize margins over headcount.',
+            signalText: 'Disney plans to cut several thousand jobs.',
+            sourceName: 'CNBC',
+            sourceUrl: 'https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html',
+            publishedDate: '2026-11-03'
+          },
+          {
+            order: 16,
+            tag: 'IP Partnership',
+            section: 'entertainment',
+            accentText: 'Dec. 14–15',
+            headline: 'Disney And WWE Expand Partnership With Two-Day Orlando Takeover',
+            emailSummary: '<strong>WWE</strong> and <strong>Disney</strong> expanded their partnership with a two-day takeover of ESPN Wide World of Sports Complex near Orlando on Dec. 14-15: the first <strong>John Cena Classic</strong>, streaming on Netflix as a special Raw, and an <strong>"Avengers: Doomsday"</strong>-themed Worlds Collide with stars from WWE, NXT and AAA ahead of the film\'s Dec. 18 release. WWE will also sell Avengers co-branded title belts at select Disney stores.',
+            whyItMatters: 'A relationship that began in 2025 with WWE Premium Live Events on the ESPN App now covers IP co-branding, merchandise and live events tied to a Marvel release.',
+            signalText: 'WWE will stage an Avengers: Doomsday-themed event at Disney\'s ESPN Wide World of Sports Complex.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/disney-wwe-expanded-partnership-john-cena-classic-doomsday-1236746586/',
+            publishedDate: '2026-11-03'
+          },
+          {
+            order: 17,
+            tag: 'Streaming',
+            section: 'entertainment',
+            accentText: '4 parts',
+            headline: 'Justin Timberlake Sets Four-Part Tell-All Docuseries On Apple TV',
+            emailSummary: '<strong>Justin Timberlake</strong> will release a four-part docuseries on <strong>Apple TV</strong> in December, described as a "tell-all" and directed by <strong>Fisher Stevens</strong>, three sources told Variety. One source said it features <strong>Janet Jackson</strong> discussing the 2004 Super Bowl "wardrobe malfunction." Timberlake\'s relationship with Apple dates to the 2021 film "Palmer."',
+            whyItMatters: 'Streamers keep commissioning artist-access documentaries, which draw music audiences to the platform and can revive interest in an artist\'s catalog during a quiet period.',
+            signalText: 'Apple TV will release a four-part Justin Timberlake docuseries in December.',
+            sourceName: 'Variety',
+            sourceUrl: 'https://variety.com/2026/music/news/justin-timberlake-apple-docuseries-janet-jackson-1236937847/',
+            publishedDate: '2026-11-02'
+          }
+        ]
+      }
+    ]
+  },
+
   // OCTOBER 2026
   {
     slug: 'october-2026',
-    isCurrent: true,
+    isCurrent: false,
     monthLabel: 'October 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
     publishedDate: '2026-11-01',
