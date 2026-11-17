@@ -22,10 +22,196 @@ const MONTHLY_GROUPS = [
     isCurrent: true,
     monthLabel: 'November 2026',
     editionTag: 'Sports · Entertainment · IP · Capital',
-    publishedDate: '2026-11-08',
-    dateRange: 'November 2 – 8, 2026',
-    introLine: 'Week one of November: Mark Walter shopped his Cadillac F1 team for about $3 billion as Fenway Sports Group circled, a Bezos-backed group gained a path to full control of Liverpool and the Dumonts took 69% of the Mavericks, while Team USA sought outside investors for its commercial arm, Gotham FC raised $100 million at a record $350 million valuation, the NFL and TMRW Sports unveiled Premier Flag, LIV Golf began winding down, The CW targeted TNT Sports rights, MLB raised its salary cap offer, American Express took its NBA and WNBA deal global, WNBA Finals Game 7 set a playoff viewership record, Sportfive bought 4sports Hockey, Eternal Fan pitched stadium memorials as a sponsorship category and Cristiano Ronaldo retired from Portugal duty, while Fox closed its $22 billion Roku deal, touring lifted third-quarter results at Live Nation, Hybe and MSG Entertainment, Disney planned several thousand layoffs and expanded its WWE partnership, and Justin Timberlake set a docuseries at Apple TV.',
+    publishedDate: '2026-11-15',
+    dateRange: 'November 2 – 15, 2026',
+    introLine: 'Week one of November: Mark Walter shopped his Cadillac F1 team for about $3 billion as Fenway Sports Group circled, a Bezos-backed group gained a path to full control of Liverpool and the Dumonts took 69% of the Mavericks, while Team USA sought outside investors for its commercial arm, Gotham FC raised $100 million at a record $350 million valuation, the NFL and TMRW Sports unveiled Premier Flag, LIV Golf began winding down, The CW targeted TNT Sports rights, MLB raised its salary cap offer, American Express took its NBA and WNBA deal global, WNBA Finals Game 7 set a playoff viewership record, Sportfive bought 4sports Hockey, Eternal Fan pitched stadium memorials as a sponsorship category and Cristiano Ronaldo retired from Portugal duty, while Fox closed its $22 billion Roku deal, touring lifted third-quarter results at Live Nation, Hybe and MSG Entertainment, Disney planned several thousand layoffs and expanded its WWE partnership, and Justin Timberlake set a docuseries at Apple TV. Week two brought a 24-team College Football Playoff backed by a reported $1.7 billion ESPN deal, MotoGP\'s move to ESPN, Disney and Skydance weighing Ligue 1 bids and the WTA taking its media rights in-house, PGA Tour sponsorships above $1 billion as LIV Golf filed to liquidate, a 23% jump in NHL team values, RedBird\'s Milan Sports & Entertainment under Brett Yormark alongside Antoine Arnault at Paris FC and Josh Hart at Napoli Basket, CF Montréal and Otro\'s Alpine stake up for sale as Tom Brady left Birmingham City, Polymarket\'s $1.8 billion run rate and a $2 billion digital pack-rip market, flat MLS attendance and $19.2 million in Canadian sport-integrity funding, while Skydance set out its savings plan and an HBO Max-Paramount+ bundle, NFL teams bet on covered stadiums for year-round events, and Darth Vader\'s lightsaber sold for a record $4.875 million.',
     issues: [
+
+      // WEEK 2
+      {
+        slug: 'week-2-november-2026',
+        issueNumber: '2',
+        weekLabel: 'Week 2',
+        dateRange: 'November 9 – 15, 2026',
+        publishedDate: '2026-11-15',
+        issueTitle: 'Week 2 — November 2026',
+        editionTag: 'Sports · Entertainment · IP · Capital',
+        introLine: 'Rights holders made more to sell — the College Football Playoff doubled to 24 teams with ESPN, MotoGP, Ligue 1 and the WTA reworked their media rights, and RedBird turned AC Milan into a citywide platform — as early owners in CF Montréal, Alpine and Birmingham City headed for the exit, PGA Tour sponsorships passed $1 billion while LIV filed to liquidate, and Skydance set out billions in savings alongside an HBO Max-Paramount+ bundle.',
+        shareText: 'The CFP goes to 24 teams, MotoGP picks ESPN, Ligue 1 draws Disney and Skydance, PGA Tour sponsorships top $1B as LIV liquidates, NHL values jump 23%, RedBird\'s Milan platform, CF Montréal and Alpine stakes for sale, Polymarket at $1.8B, Skydance\'s bundle and Vader\'s $4.875M lightsaber — Week 2 November · Fillip.',
+        coreSignal: 'This week, value went to whoever could create more to sell. The College Football Playoff doubled its field and ESPN paid for the extra games. NFL owners are putting roofs on stadiums to host concerts and private events year-round. RedBird is building a holding company around AC Milan to add venues, an NBA Europe team and tennis, and Polymarket and digital pack rips are turning sports interest into transactions. Owners who could not grow what they sell sold out instead: the Saputos, Otro and Tom Brady all moved toward the exit.',
+        ecosystemNews: [],
+        stories: [
+          {
+            order: 1,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '$1.7B',
+            headline: 'College Football Playoff Expands To 24 Teams In ESPN Deal',
+            emailSummary: 'The <strong>College Football Playoff</strong> will expand from 12 to <strong>24 teams</strong> starting with the 2027 season under an agreement with <strong>ESPN</strong>. ESPN reported a five-year deal worth nearly <strong>$1.7 billion</strong> for the expanded format, on top of the existing $7.8 billion package that runs through 2032. The field will have five automatic qualifiers and 19 at-large bids, and all four power conferences said this season\'s conference title games will be their last.',
+            whyItMatters: 'Doubling the field creates new playoff inventory for ESPN to sell and replaces the conferences\' own championship games with CFP games.',
+            signalText: 'The College Football Playoff will expand to 24 teams starting in 2027.',
+            sourceName: 'Front Office Sports',
+            sourceUrl: 'https://frontofficesports.com/article/college-football-playoff-to-expand-to-24-teams-beginning-in-2027-season/',
+            publishedDate: '2026-11-09'
+          },
+          {
+            order: 2,
+            tag: 'Media Rights',
+            section: 'sports',
+            accentText: '18 countries',
+            headline: 'MotoGP Picks ESPN, Ligue 1 Draws Bidders, WTA Takes Rights In-House',
+            emailSummary: '<strong>MotoGP</strong> signed a two-year deal making <strong>ESPN</strong> its exclusive U.S. rights holder for 2027 and 2028, while ESPN networks and Disney+ keep coverage across Latin America, where the partnership dates to 2002 and spans 18 countries; select races in Argentina and Brazil can be sublicensed to free-to-air broadcasters. <strong>Disney</strong> and <strong>Skydance</strong> are considering bids for French <strong>Ligue 1</strong> domestic rights for 2027-2032, offered as full broadcast rights or exclusive streaming distribution. The <strong>WTA</strong> declined a merger with the ATP and is taking direct control of major events and broadcast deals, targeting about <strong>$400 million</strong> in tour revenue by 2029.',
+            whyItMatters: 'Rights holders are choosing how their packages are cut and sold, from short terms to streaming-only tenders to in-house control, instead of handing one long bundle to a single partner.',
+            signalText: 'MotoGP signed a two-year deal making ESPN its exclusive U.S. rights holder.',
+            sources: [
+              { sourceName: 'MotoGP', sourceUrl: 'https://www.motogp.com/en/news/2026/11/12/motogp-and-espn-announce-multi-year-broadcast-agreement-across-the-united-states-and-latin-america/1185285' },
+              { sourceName: 'MarketScale', sourceUrl: 'https://www.marketscale.com/industries/business-services/the-early-scale-2026-11-14' },
+              { sourceName: 'Sports Business Journal', sourceUrl: 'https://www.sportsbusinessjournal.com/Articles/2026/11/09/wta-finals-control-media-rights-fuel-wtas-growth-strategy/' }
+            ],
+            publishedDate: '2026-11-12'
+          },
+          {
+            order: 3,
+            tag: 'Sponsorship',
+            section: 'sports',
+            accentText: '$1B',
+            headline: 'PGA Tour Sponsorships Top $1B As LIV Files Liquidation Plan',
+            emailSummary: 'The <strong>PGA Tour</strong> said sponsorship revenue rose <strong>14%</strong> this year to more than <strong>$1 billion</strong>, led by a <strong>Rolex</strong> renewal, with Amazon Web Services, Raymond James and AbbVie among its sponsors. Sponsors are signed for almost every event of the Championship Series launching in 2028. <strong>LIV Golf</strong> filed a Chapter 11 plan to begin liquidation as early as January, under which more than $100 million in unsecured claims would share a <strong>$2 million</strong> pot funded by PIF, which has spent over $5 billion on LIV since 2022.',
+            whyItMatters: 'Sponsor money is concentrating on the surviving tour while LIV\'s players, contractors and vendors stand to recover a small fraction of what they are owed.',
+            signalText: 'PGA Tour sponsorship revenue rose 14% to more than $1 billion this year.',
+            sources: [
+              { sourceName: 'Bloomberg via Yahoo Finance', sourceUrl: 'https://finance.yahoo.com/media-advertising/articles/pga-tour-taps-rolex-amazon-150000026.html' },
+              { sourceName: 'Front Office Sports', sourceUrl: 'https://frontofficesports.com/article/liv-golf-seeks-to-begin-liquidation-in-early-2027/' }
+            ],
+            publishedDate: '2026-11-11'
+          },
+          {
+            order: 4,
+            tag: 'Valuation',
+            section: 'sports',
+            accentText: '$2.71B',
+            headline: 'NHL Team Values Rise 23% As Maple Leafs Top $5.4B',
+            emailSummary: 'CNBC valued the average <strong>NHL</strong> team at <strong>$2.71 billion</strong>, up 23% in a year, with the <strong>Toronto Maple Leafs</strong> ($5.4 billion), New York Rangers ($4.7 billion) and Montreal Canadiens ($4.1 billion) the first hockey teams above $4 billion. Teams averaged $257 million in revenue, up 6%, but EBITDA fell 11% to $48 million on arena costs. Minority deals, including a 12.5% Hurricanes stake at a $2.66 billion valuation, are setting prices.',
+            whyItMatters: 'Values are rising faster than profits, with minority stake sales rather than control deals setting the market price for NHL teams.',
+            signalText: 'CNBC valued the average NHL team at $2.71 billion, up 23%.',
+            sourceName: 'CNBC',
+            sourceUrl: 'https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html',
+            publishedDate: '2026-11-13'
+          },
+          {
+            order: 5,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '71,500 seats',
+            headline: 'RedBird Builds Milan Platform As Arnault, Hart Step Into European Clubs',
+            emailSummary: '<strong>RedBird Capital</strong> launched <strong>Milan Sports & Entertainment</strong>, a holding company for its Milan assets anchored by AC Milan and the planned 71,500-seat Generali Stadium, with plans for a venue management business, a possible NBA Europe franchise and a San Donato entertainment site. Big 12 commissioner <strong>Brett Yormark</strong> becomes CEO, leaving the conference at the end of January 2027. In Paris, <strong>Antoine Arnault</strong> was elected Paris FC president, succeeding Pierre Ferracci, and Knicks star <strong>Josh Hart</strong> bought a minority stake in Napoli Basket.',
+            whyItMatters: 'U.S.-style multi-asset ownership is reaching European clubs, with owners building venues, leagues and executive teams around a club rather than holding it alone.',
+            signalText: 'RedBird launched Milan Sports & Entertainment and named Brett Yormark CEO.',
+            sources: [
+              { sourceName: 'Business Wire', sourceUrl: 'https://www.businesswire.com/news/home/20261113332795/en/RedBird-Capital-Partners-Launches-Milan-Sports-Entertainment-MSE-Appoints-Brett-Yormark-as-Chief-Executive-Officer' },
+              { sourceName: 'Paris FC', sourceUrl: 'https://parisfc.fr/en/club-en/antoine-arnault-nomme-president-du-paris-fc/' },
+              { sourceName: '2Playbook', sourceUrl: 'https://www.2playbook.com/clubes/estrella-knicks-josh-hart-invierte-en-americanizado-napoli-basket_24300_102.html' }
+            ],
+            publishedDate: '2026-11-13'
+          },
+          {
+            order: 6,
+            tag: 'Ownership',
+            section: 'sports',
+            accentText: '$750M',
+            headline: 'CF Montréal, Alpine Stake For Sale As Brady Exits Birmingham',
+            emailSummary: 'The <strong>Saputo family</strong> put MLS club <strong>CF Montréal</strong> up for sale after more than three decades, hiring BMO Capital Markets, and said it prefers a local buyer but may accept relocation. <strong>Otro Capital</strong> hired BDT & MSD Partners to sell its <strong>24%</strong> stake in Alpine\'s F1 team at a reported <strong>$750 million</strong> asking price, after buying in at a roughly $900 million team valuation in 2023. <strong>Tom Brady</strong> left Birmingham City, where he held 3.3% since 2023, with the club top of the Championship.',
+            whyItMatters: 'Early investors are cashing out at higher prices, putting more minority stakes and a full MLS club on the market at once.',
+            signalText: 'The Saputo family put MLS club CF Montréal up for sale.',
+            sources: [
+              { sourceName: 'ESPN', sourceUrl: 'https://www.espn.com/soccer/story/_/id/50436119/cf-montreal-owner-joey-saputo-announces-club-sale' },
+              { sourceName: 'Grandprix.com', sourceUrl: 'https://www.grandprix.com/news/otro-hires-advisers-to-explore-sale-of-alpine-stake.html' },
+              { sourceName: 'Sportsnet', sourceUrl: 'https://www.sportsnet.ca/soccer/article/tom-brady-exits-birmingham-city-stake-as-soccer-club-tops-english-second-tier/' }
+            ],
+            publishedDate: '2026-11-09'
+          },
+          {
+            order: 7,
+            tag: 'Betting',
+            section: 'sports',
+            accentText: '$1.8B',
+            headline: 'Polymarket Hits $1.8B Run Rate As Digital Pack Rips Reach $2B',
+            emailSummary: '<strong>Polymarket</strong> said annualized revenue topped <strong>$1.8 billion</strong>, up from $1 billion in June, as its U.S. exchange handled $14.5 billion in October volume; a new $1 billion round values it at <strong>$21 billion</strong> amid a CFTC investigation. Bank of America estimates <strong>digital pack rips</strong>, online openings of virtual sports card packs, at about <strong>$2 billion</strong> in annualized revenue, with weekly users up from about 50,000 to 1.7 million in a year. Fanatics, FanDuel, PrizePicks, Underdog and Crypto.com are in the space.',
+            whyItMatters: 'Sports wagering is spreading through new products, event contracts and digital card packs, that draw large volumes while facing growing regulatory scrutiny.',
+            signalText: 'Polymarket said its annualized revenue has topped $1.8 billion.',
+            sources: [
+              { sourceName: 'CNBC', sourceUrl: 'https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html' },
+              { sourceName: 'Casino.org', sourceUrl: 'https://www.casino.org/news/digital-pack-rips-a-2b-industry-with-opportunity-for-sportsbooks/' }
+            ],
+            publishedDate: '2026-11-10'
+          },
+          {
+            order: 8,
+            tag: 'Attendance',
+            section: 'sports',
+            accentText: '0.3%',
+            headline: 'MLS Attendance Grows Just 0.3% Despite World Cup Summer',
+            emailSummary: '<strong>MLS</strong> average attendance rose 0.3% to <strong>22,063</strong> in 2026, with 11.25 million in total, its second-best season after 2024, per Sports Business Journal. Much of the gain came from <strong>Inter Miami</strong>, up 27.7% after opening Nu Stadium and featured in all five of the best-attended games. Inter Miami\'s revenue has grown from $56 million to about $200 million since <strong>Lionel Messi</strong> arrived in 2023, and he earns $28 million a year.',
+            whyItMatters: 'A home World Cup did not lift league-wide attendance, and the growth that did come depended on one club and one player.',
+            signalText: 'MLS average attendance rose 0.3% in 2026 to 22,063.',
+            sourceName: 'Mundo Deportivo',
+            sourceUrl: 'https://www.mundodeportivo.com/en/20261112/1004250300/mls-fails-to-capitalize-on-world-cup-buzz-as-attendance-grows-just-0-3-in-2026.html',
+            publishedDate: '2026-11-12'
+          },
+          {
+            order: 9,
+            tag: 'Governance',
+            section: 'sports',
+            accentText: '$19.2M',
+            headline: 'Canada Commits $19.2M To Safe Sport And Anti-Doping',
+            emailSummary: 'Canada\'s federal government announced <strong>$19.2 million</strong> to restore trust in Canadian sport, through Secretary of State for Sport <strong>Adam van Koeverden</strong>. The funding includes <strong>$7.1 million</strong> for safe sport and an additional <strong>$11.75 million</strong> for anti-doping, with Sport Integrity Canada and the Sport Dispute Resolution Centre of Canada among recipients. Canada won 21 medals at Milano-Cortina 2026, its second-lowest total.',
+            whyItMatters: 'Public money is going into the integrity systems that athletes and sponsors rely on, after years of underinvestment flagged by researchers.',
+            signalText: 'Canada announced $19.2 million in federal funding for safe sport and anti-doping.',
+            sourceName: 'The Link',
+            sourceUrl: 'https://thelinknewspaper.ca/article/federal-government-launches-new-funding-for-safer-more-trusted-canadian-sports-system',
+            publishedDate: '2026-11-10'
+          },
+          {
+            order: 10,
+            tag: 'Earnings',
+            section: 'entertainment',
+            accentText: '$7B',
+            headline: 'Skydance Targets Billions In Savings, Plans HBO Max-Paramount+ Bundle',
+            emailSummary: '<strong>Skydance</strong> reported third-quarter revenue of <strong>$7 billion</strong>, net earnings of $73 million and adjusted EBITDA of $1 billion, excluding Warner Bros. Discovery, whose deal closed after the quarter. It expects savings of at least $2.2 billion from overhead and real estate, $1 billion from marketing, $1.2 billion from technology and $1.4 billion from procurement, while still spending <strong>$30 billion</strong> a year on content. An <strong>HBO Max-Paramount+ bundle</strong> is due in early 2027.',
+            whyItMatters: 'Bundling the two services ahead of a likely merger follows Disney\'s approach with Hulu and lets Skydance cut costs without shrinking its content budget.',
+            signalText: 'Skydance plans an HBO Max and Paramount+ bundle for early 2027.',
+            sourceName: 'The Hollywood Reporter',
+            sourceUrl: 'https://www.hollywoodreporter.com/business/business-news/skydance-first-earnings-q3-post-wb-deal-1236751164/',
+            publishedDate: '2026-11-09'
+          },
+          {
+            order: 11,
+            tag: 'Live Events',
+            section: 'entertainment',
+            accentText: '$269.3M',
+            headline: 'NFL Teams Bet On Covered Stadiums For Year-Round Event Revenue',
+            emailSummary: 'NFL teams are investing billions in covered stadiums to host concerts and private events, with Nashville\'s <strong>$2.1 billion</strong> Nissan Stadium opening in April 2027 and covered venues coming in Cleveland, Washington, Kansas City and Denver. Covered stadiums could outnumber open-air NFL venues 16-14 by 2031, per Sports Business Journal. The Raiders\' <strong>Allegiant Stadium</strong> earned <strong>$269.3 million</strong> from 13 concerts in 2025, and the Titans aim to host more than 300 private events a year.',
+            whyItMatters: 'A roof turns a building used for about ten NFL games a year into a year-round venue that competes for tours and events.',
+            signalText: 'Allegiant Stadium earned $269.3 million from 13 concerts in 2025.',
+            sourceName: 'EssentiallySports',
+            sourceUrl: 'https://www.newsbreak.com/essentially-sports-363861119/4997603712402-nfl-teams-bet-on-covered-stadiums-to-unlock-new-revenue-streams',
+            publishedDate: '2026-11-10'
+          },
+          {
+            order: 12,
+            tag: 'Collectibles',
+            section: 'entertainment',
+            accentText: '$4.875M',
+            headline: 'Darth Vader\'s Lightsaber Sells For $4.875M, A Star Wars Record',
+            emailSummary: 'A screen-used <strong>Darth Vader</strong> lightsaber from "The Empire Strikes Back" and "Return of the Jedi" sold for <strong>$4.875 million</strong> at <strong>Heritage Auctions</strong>, the most ever paid for a Star Wars item. It beat Heritage\'s $3.875 million sale of Tom Jung\'s original poster painting and the $3.75 million paid for Luke Skywalker\'s lightsaber in July. Disney is marking the franchise\'s 50th anniversary with a theatrical re-release of the 1977 film on Feb. 19 and a Disney+ documentary on May 4.',
+            whyItMatters: 'Prices for original-trilogy memorabilia keep climbing as Disney builds anniversary programming around the same IP.',
+            signalText: 'Darth Vader\'s screen-used lightsaber sold for $4.875 million at Heritage Auctions.',
+            sourceName: 'IGN',
+            sourceUrl: 'https://me.ign.com/en/star-wars-episode-vi-return-of-the-jedi/249753/darth-vaders-actual-lightsaber-just-sold-for-4875-million-breaking-star-wars-auction-records',
+            publishedDate: '2026-11-13'
+          }
+        ]
+      },
 
       // WEEK 1
       {
